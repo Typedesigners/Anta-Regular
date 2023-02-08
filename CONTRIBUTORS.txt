@@ -6,5 +6,5 @@
 # When adding J Random Contributor's name to this file, either J's
 # name or J's organization's name should be added to AUTHORS.txt
 #
-# Names should be added to this file as: Sergej Lebedev
-# Name <info@typedesigner.de>
+# Names should be added to this file as:
+# Name
