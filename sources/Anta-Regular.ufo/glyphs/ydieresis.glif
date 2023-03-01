@@ -3,44 +3,8 @@
   <advance width="1121"/>
   <unicode hex="00FF"/>
   <outline>
-    <contour>
-      <point x="280" y="1268" type="curve" smooth="yes"/>
-      <point x="280" y="1330"/>
-      <point x="329" y="1379"/>
-      <point x="390" y="1379" type="curve" smooth="yes"/>
-      <point x="452" y="1379"/>
-      <point x="501" y="1330"/>
-      <point x="501" y="1268" type="curve" smooth="yes"/>
-      <point x="501" y="1207"/>
-      <point x="452" y="1158"/>
-      <point x="390" y="1158" type="curve" smooth="yes"/>
-      <point x="329" y="1158"/>
-      <point x="280" y="1207"/>
-    </contour>
-    <contour>
-      <point x="620" y="1268" type="curve" smooth="yes"/>
-      <point x="620" y="1330"/>
-      <point x="669" y="1379"/>
-      <point x="730" y="1379" type="curve" smooth="yes"/>
-      <point x="792" y="1379"/>
-      <point x="841" y="1330"/>
-      <point x="841" y="1268" type="curve" smooth="yes"/>
-      <point x="841" y="1207"/>
-      <point x="792" y="1158"/>
-      <point x="730" y="1158" type="curve" smooth="yes"/>
-      <point x="669" y="1158"/>
-      <point x="620" y="1207"/>
-    </contour>
-    <contour>
-      <point x="60" y="1036" type="line"/>
-      <point x="284" y="1036" type="line"/>
-      <point x="553" y="318" type="line"/>
-      <point x="828" y="1036" type="line"/>
-      <point x="1061" y="1036" type="line"/>
-      <point x="511" y="-390" type="line"/>
-      <point x="280" y="-390" type="line"/>
-      <point x="441" y="34" type="line"/>
-    </contour>
+    <component base="dieresis" xOffset="160" yOffset="-43"/>
+    <component base="y"/>
   </outline>
   <lib>
     <dict>

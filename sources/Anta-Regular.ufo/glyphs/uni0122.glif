@@ -3,44 +3,8 @@
   <advance width="1421"/>
   <unicode hex="0122"/>
   <outline>
-    <contour>
-      <point x="598" y="-536" type="line"/>
-      <point x="673" y="-122" type="line"/>
-      <point x="885" y="-122" type="line"/>
-      <point x="756" y="-536" type="line"/>
-    </contour>
-    <contour>
-      <point x="120" y="400" type="curve" smooth="yes"/>
-      <point x="120" y="1022" type="line" smooth="yes"/>
-      <point x="120" y="1243"/>
-      <point x="310" y="1422"/>
-      <point x="544" y="1422" type="curve" smooth="yes"/>
-      <point x="1217" y="1422" type="line"/>
-      <point x="1217" y="1212" type="line"/>
-      <point x="544" y="1212" type="line" smooth="yes"/>
-      <point x="426" y="1212"/>
-      <point x="331" y="1127"/>
-      <point x="331" y="1023" type="curve" smooth="yes"/>
-      <point x="331" y="399" type="line" smooth="yes"/>
-      <point x="331" y="295"/>
-      <point x="426" y="210"/>
-      <point x="544" y="210" type="curve" smooth="yes"/>
-      <point x="877" y="210" type="line" smooth="yes"/>
-      <point x="995" y="210"/>
-      <point x="1090" y="295"/>
-      <point x="1090" y="399" type="curve" smooth="yes"/>
-      <point x="1090" y="585" type="line"/>
-      <point x="704" y="585" type="line"/>
-      <point x="704" y="795" type="line"/>
-      <point x="1301" y="795" type="line"/>
-      <point x="1301" y="400" type="line" smooth="yes"/>
-      <point x="1301" y="179"/>
-      <point x="1111" y="0"/>
-      <point x="877" y="0" type="curve" smooth="yes"/>
-      <point x="544" y="0" type="line" smooth="yes"/>
-      <point x="310" y="0"/>
-      <point x="120" y="179"/>
-    </contour>
+    <component base="uni0326" xOffset="467" yOffset="-334"/>
+    <component base="G"/>
   </outline>
   <lib>
     <dict>
@@ -83,7 +47,7 @@
           </dict>
           <dict>
             <key>position</key>
-            <integer>598</integer>
+            <integer>567</integer>
             <key>width</key>
             <integer>287</integer>
           </dict>
