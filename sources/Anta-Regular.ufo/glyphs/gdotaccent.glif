@@ -3,55 +3,8 @@
   <advance width="1182"/>
   <unicode hex="0121"/>
   <outline>
-    <contour>
-      <point x="475" y="1268" type="curve" smooth="yes"/>
-      <point x="475" y="1330"/>
-      <point x="524" y="1379"/>
-      <point x="586" y="1379" type="curve" smooth="yes"/>
-      <point x="647" y="1379"/>
-      <point x="696" y="1330"/>
-      <point x="696" y="1268" type="curve" smooth="yes"/>
-      <point x="696" y="1207"/>
-      <point x="647" y="1158"/>
-      <point x="586" y="1158" type="curve" smooth="yes"/>
-      <point x="525" y="1158"/>
-      <point x="475" y="1207"/>
-    </contour>
-    <contour>
-      <point x="110" y="373" type="curve" smooth="yes"/>
-      <point x="110" y="663" type="line" smooth="yes"/>
-      <point x="110" y="868"/>
-      <point x="278" y="1035"/>
-      <point x="484" y="1035" type="curve" smooth="yes"/>
-      <point x="851" y="1035" type="line" smooth="yes"/>
-      <point x="967" y="1035"/>
-      <point x="1062" y="940"/>
-      <point x="1062" y="824" type="curve" smooth="yes"/>
-      <point x="1062" y="-14" type="line" smooth="yes"/>
-      <point x="1062" y="-220"/>
-      <point x="894" y="-388"/>
-      <point x="688" y="-388" type="curve" smooth="yes"/>
-      <point x="177" y="-388" type="line"/>
-      <point x="177" y="-182" type="line"/>
-      <point x="690" y="-182" type="line" smooth="yes"/>
-      <point x="779" y="-182"/>
-      <point x="851" y="-107"/>
-      <point x="851" y="-15" type="curve" smooth="yes"/>
-      <point x="851" y="824" type="line"/>
-      <point x="484" y="824" type="line" smooth="yes"/>
-      <point x="394" y="824"/>
-      <point x="321" y="751"/>
-      <point x="321" y="661" type="curve" smooth="yes"/>
-      <point x="321" y="375" type="line" smooth="yes"/>
-      <point x="321" y="284"/>
-      <point x="394" y="210"/>
-      <point x="484" y="210" type="curve" smooth="yes"/>
-      <point x="731" y="210" type="line"/>
-      <point x="731" y="0" type="line"/>
-      <point x="484" y="0" type="line" smooth="yes"/>
-      <point x="278" y="0"/>
-      <point x="110" y="167"/>
-    </contour>
+    <component base="dotaccent" xOffset="380.5" yOffset="-54"/>
+    <component base="g"/>
   </outline>
   <lib>
     <dict>
@@ -94,7 +47,7 @@
           </dict>
           <dict>
             <key>position</key>
-            <integer>475</integer>
+            <integer>476</integer>
             <key>width</key>
             <integer>221</integer>
           </dict>

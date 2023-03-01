@@ -3,27 +3,8 @@
   <advance width="1384"/>
   <unicode hex="0147"/>
   <outline>
-    <contour>
-      <point x="380" y="1853" type="line"/>
-      <point x="521" y="1853" type="line"/>
-      <point x="691" y="1681" type="line"/>
-      <point x="862" y="1853" type="line"/>
-      <point x="1003" y="1853" type="line"/>
-      <point x="769" y="1544" type="line"/>
-      <point x="614" y="1544" type="line"/>
-    </contour>
-    <contour>
-      <point x="140" y="0" type="line"/>
-      <point x="140" y="1422" type="line"/>
-      <point x="414" y="1422" type="line"/>
-      <point x="1033" y="305" type="line"/>
-      <point x="1033" y="1422" type="line"/>
-      <point x="1244" y="1422" type="line"/>
-      <point x="1244" y="0" type="line"/>
-      <point x="970" y="0" type="line"/>
-      <point x="351" y="1102" type="line"/>
-      <point x="351" y="0" type="line"/>
-    </contour>
+    <component base="caron" xOffset="280.5" yOffset="431"/>
+    <component base="N"/>
   </outline>
   <lib>
     <dict>

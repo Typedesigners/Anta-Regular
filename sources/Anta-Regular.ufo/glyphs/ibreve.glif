@@ -3,28 +3,8 @@
   <advance width="465"/>
   <unicode hex="012D"/>
   <outline>
-    <contour>
-      <point x="-66" y="1456" type="curve"/>
-      <point x="68" y="1456" type="line"/>
-      <point x="68" y="1366"/>
-      <point x="142" y="1292"/>
-      <point x="232" y="1292" type="curve" smooth="yes"/>
-      <point x="322" y="1292"/>
-      <point x="396" y="1366"/>
-      <point x="396" y="1456" type="curve"/>
-      <point x="530" y="1456" type="line"/>
-      <point x="530" y="1292"/>
-      <point x="396" y="1158"/>
-      <point x="232" y="1158" type="curve" smooth="yes"/>
-      <point x="68" y="1158"/>
-      <point x="-66" y="1292"/>
-    </contour>
-    <contour>
-      <point x="127" y="0" type="line"/>
-      <point x="127" y="1036" type="line"/>
-      <point x="338" y="1036" type="line"/>
-      <point x="338" y="0" type="line"/>
-    </contour>
+    <component base="breve" xOffset="-165.5" yOffset="36"/>
+    <component base="dotlessi"/>
   </outline>
   <lib>
     <dict>

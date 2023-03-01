@@ -3,53 +3,8 @@
   <advance width="1192"/>
   <unicode hex="00F1"/>
   <outline>
-    <contour>
-      <point x="267" y="1166" type="line"/>
-      <point x="268" y="1294"/>
-      <point x="349" y="1387"/>
-      <point x="461" y="1387" type="curve" smooth="yes"/>
-      <point x="492" y="1387"/>
-      <point x="524" y="1378"/>
-      <point x="592" y="1350" type="curve" smooth="yes"/>
-      <point x="665" y="1320"/>
-      <point x="692" y="1312"/>
-      <point x="723" y="1312" type="curve" smooth="yes"/>
-      <point x="754" y="1312"/>
-      <point x="768" y="1334"/>
-      <point x="768" y="1382" type="curve"/>
-      <point x="925" y="1382" type="line"/>
-      <point x="925" y="1258"/>
-      <point x="840" y="1158"/>
-      <point x="733" y="1158" type="curve" smooth="yes"/>
-      <point x="702" y="1158"/>
-      <point x="670" y="1168"/>
-      <point x="600" y="1198" type="curve" smooth="yes"/>
-      <point x="525" y="1230"/>
-      <point x="498" y="1239"/>
-      <point x="467" y="1239" type="curve" smooth="yes"/>
-      <point x="436" y="1239"/>
-      <point x="422" y="1216"/>
-      <point x="422" y="1166" type="curve"/>
-    </contour>
-    <contour>
-      <point x="120" y="0" type="line"/>
-      <point x="120" y="826" type="line" smooth="yes"/>
-      <point x="120" y="942"/>
-      <point x="215" y="1036"/>
-      <point x="333" y="1036" type="curve" smooth="yes"/>
-      <point x="698" y="1036" type="line" smooth="yes"/>
-      <point x="904" y="1036"/>
-      <point x="1072" y="868"/>
-      <point x="1072" y="662" type="curve" smooth="yes"/>
-      <point x="1072" y="0" type="line"/>
-      <point x="861" y="0" type="line"/>
-      <point x="861" y="659" type="line" smooth="yes"/>
-      <point x="861" y="752"/>
-      <point x="788" y="827"/>
-      <point x="698" y="827" type="curve" smooth="yes"/>
-      <point x="331" y="827" type="line"/>
-      <point x="331" y="0" type="line"/>
-    </contour>
+    <component base="tilde" xOffset="147" yOffset="-40"/>
+    <component base="n"/>
   </outline>
   <lib>
     <dict>
