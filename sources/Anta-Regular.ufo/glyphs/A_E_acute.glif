@@ -3,36 +3,8 @@
   <advance width="2044"/>
   <unicode hex="01FC"/>
   <outline>
-    <contour>
-      <point x="796" y="1597" type="line"/>
-      <point x="925" y="1966" type="line"/>
-      <point x="1108" y="1878" type="line"/>
-      <point x="910" y="1544" type="line"/>
-    </contour>
-    <contour>
-      <point x="40" y="0" type="line"/>
-      <point x="533" y="1422" type="line"/>
-      <point x="1924" y="1422" type="line"/>
-      <point x="1924" y="1212" type="line"/>
-      <point x="1029" y="1212" type="line"/>
-      <point x="1029" y="211" type="line"/>
-      <point x="1924" y="211" type="line"/>
-      <point x="1924" y="0" type="line"/>
-      <point x="819" y="0" type="line"/>
-      <point x="819" y="428" type="line"/>
-      <point x="533" y="428" type="line"/>
-      <point x="606" y="638" type="line"/>
-      <point x="819" y="638" type="line"/>
-      <point x="819" y="1212" type="line"/>
-      <point x="685" y="1212" type="line"/>
-      <point x="264" y="0" type="line"/>
-    </contour>
-    <contour>
-      <point x="1151" y="635" type="line"/>
-      <point x="1151" y="845" type="line"/>
-      <point x="1923" y="845" type="line"/>
-      <point x="1923" y="635" type="line"/>
-    </contour>
+    <component base="acute" xOffset="768" yOffset="374"/>
+    <component base="AE"/>
   </outline>
   <lib>
     <dict>
@@ -75,15 +47,15 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>796</integer>
-            <key>width</key>
-            <integer>312</integer>
-          </dict>
-          <dict>
-            <key>position</key>
             <integer>819</integer>
             <key>width</key>
             <integer>210</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>868</integer>
+            <key>width</key>
+            <integer>312</integer>
           </dict>
         </array>
       </dict>
