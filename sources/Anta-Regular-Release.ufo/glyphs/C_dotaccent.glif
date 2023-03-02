@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Cdotaccent" format="2">
+  <advance width="1381"/>
+  <unicode hex="010A"/>
+  <outline>
+    <component base="dotaccent" xOffset="484" yOffset="332"/>
+    <component base="C"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>211</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>1212</integer>
+            <key>width</key>
+            <integer>210</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>1544</integer>
+            <key>width</key>
+            <integer>221</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>120</integer>
+            <key>width</key>
+            <integer>211</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>579</integer>
+            <key>width</key>
+            <integer>221</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
