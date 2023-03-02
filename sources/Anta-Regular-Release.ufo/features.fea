@@ -1,0 +1,506 @@
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+
+
+# GSUB 
+
+
+lookup aaltZugriffaufalleAlternativeninLateinischNachschlagetabelle0 {
+  lookupflag 0;
+    sub \one by \onesuperior ;
+    sub \two by \twosuperior ;
+    sub \three by \threesuperior ;
+    sub \a by \ordfeminine ;
+    sub \o by \ordmasculine ;
+} aaltZugriffaufalleAlternativeninLateinischNachschlagetabelle0;
+
+lookup supsHochgestelltinLateinischNachschlagetabelle4 {
+  lookupflag 0;
+    sub \one by \onesuperior ;
+    sub \two by \twosuperior ;
+    sub \three by \threesuperior ;
+} supsHochgestelltinLateinischNachschlagetabelle4;
+
+lookup ligaStandardLigatureninLateinischNachschlagetabelle5 {
+  lookupflag 0;
+    sub \f \i  by \fi;
+    sub \f \l  by \fl;
+} ligaStandardLigatureninLateinischNachschlagetabelle5;
+
+lookup ordnOrdnungszahleninLateinischNachschlagetabelle6 {
+  lookupflag 0;
+    sub [\zero \one \two \three \four \five \six \seven \eight \nine ] [\a \o ]'  by [\ordfeminine \ordmasculine ];
+} ordnOrdnungszahleninLateinischNachschlagetabelle6;
+
+lookup LigaturenSubstitutionNachschlagetabelle2 {
+  lookupflag 0;
+    sub \onesuperior \fraction \four  by \onequarter;
+    sub \onesuperior \slash \four  by \onequarter;
+    sub \one \fraction \four  by \onequarter;
+    sub \one \slash \four  by \onequarter;
+    sub \onesuperior \fraction \twosuperior  by \onehalf;
+    sub \onesuperior \slash \twosuperior  by \onehalf;
+    sub \one \fraction \twosuperior  by \onehalf;
+    sub \one \fraction \two  by \onehalf;
+    sub \one \slash \twosuperior  by \onehalf;
+    sub \one \slash \two  by \onehalf;
+    sub \threesuperior \fraction \four  by \threequarters;
+    sub \threesuperior \slash \four  by \threequarters;
+    sub \three \fraction \four  by \threequarters;
+    sub \three \slash \four  by \threequarters;
+    sub \zero \fraction \zero \zero  by \perthousand;
+    sub \zero \slash \zero \zero  by \perthousand;
+} LigaturenSubstitutionNachschlagetabelle2;
+
+lookup fracDiagonaleBrcheinLateinischNachschlagetabelle7 {
+  lookupflag 0;
+    sub [\zero ]'lookup LigaturenSubstitutionNachschlagetabelle2  [\slash \fraction ]'lookup LigaturenSubstitutionNachschlagetabelle2  [\zero ]'lookup LigaturenSubstitutionNachschlagetabelle2  [\zero ]'lookup LigaturenSubstitutionNachschlagetabelle2  ;
+    sub [\zero ]' [\slash \fraction ]' [\zero ]'  by ;
+    sub [\one ]'lookup LigaturenSubstitutionNachschlagetabelle2  [\slash \fraction ]'lookup LigaturenSubstitutionNachschlagetabelle2  [\four ]'lookup LigaturenSubstitutionNachschlagetabelle2  ;
+    sub [\onesuperior ]'lookup LigaturenSubstitutionNachschlagetabelle2  [\slash \fraction ]'lookup LigaturenSubstitutionNachschlagetabelle2  [\four ]'lookup LigaturenSubstitutionNachschlagetabelle2  ;
+    sub [\one ]'lookup LigaturenSubstitutionNachschlagetabelle2  [\slash \fraction ]'lookup LigaturenSubstitutionNachschlagetabelle2  [\two ]'lookup LigaturenSubstitutionNachschlagetabelle2  ;
+    sub [\onesuperior ]'lookup LigaturenSubstitutionNachschlagetabelle2  [\slash \fraction ]'lookup LigaturenSubstitutionNachschlagetabelle2  [\twosuperior ]'lookup LigaturenSubstitutionNachschlagetabelle2  ;
+    sub [\one ]'lookup LigaturenSubstitutionNachschlagetabelle2  [\slash \fraction ]'lookup LigaturenSubstitutionNachschlagetabelle2  [\twosuperior ]'lookup LigaturenSubstitutionNachschlagetabelle2  ;
+    sub [\three ]'lookup LigaturenSubstitutionNachschlagetabelle2  [\slash \fraction ]'lookup LigaturenSubstitutionNachschlagetabelle2  [\four ]'lookup LigaturenSubstitutionNachschlagetabelle2  ;
+    sub [\threesuperior ]'lookup LigaturenSubstitutionNachschlagetabelle2  [\slash \fraction ]'lookup LigaturenSubstitutionNachschlagetabelle2  [\four ]'lookup LigaturenSubstitutionNachschlagetabelle2  ;
+} fracDiagonaleBrcheinLateinischNachschlagetabelle7;
+
+feature aalt {
+
+ script DFLT;
+     language dflt ;
+      lookup aaltZugriffaufalleAlternativeninLateinischNachschlagetabelle0;
+
+ script latn;
+     language dflt ;
+      lookup aaltZugriffaufalleAlternativeninLateinischNachschlagetabelle0;
+} aalt;
+
+feature sups {
+
+ script latn;
+     language dflt ;
+      lookup supsHochgestelltinLateinischNachschlagetabelle4;
+} sups;
+
+feature liga {
+
+ script latn;
+     language dflt ;
+      lookup ligaStandardLigatureninLateinischNachschlagetabelle5;
+} liga;
+
+feature ordn {
+
+ script latn;
+     language dflt ;
+      lookup ordnOrdnungszahleninLateinischNachschlagetabelle6;
+} ordn;
+
+feature frac {
+
+ script latn;
+     language dflt ;
+      lookup fracDiagonaleBrcheinLateinischNachschlagetabelle7;
+} frac;
+
+# GPOS 
+
+
+lookup markAkzentPositionierunginLateinischNachschlagetabelle1 {
+  lookupflag 0;
+  markClass [\cedilla ] <anchor 287 0> @botton;
+  markClass [\ogonek ] <anchor 242 0> @botton;
+  markClass [\uni0326 ] <anchor 244 212> @botton;
+  markClass [\grave ] <anchor 298 1170> @top;
+  markClass [\dieresis ] <anchor 400 1200> @top;
+  markClass [\macron ] <anchor 419 1275> @top;
+  markClass [\acute \quoteright ] <anchor 214 1170> @top;
+  markClass [\circumflex ] <anchor 411 1114> @top;
+  markClass [\caron ] <anchor 412 1113> @top;
+  markClass [\breve ] <anchor 398 1122> @top;
+  markClass [\dotaccent ] <anchor 206 1212> @top;
+  markClass [\ring ] <anchor 290 1041> @top;
+  markClass [\tilde ] <anchor 450 1198> @top;
+  markClass [\hungarumlaut ] <anchor 321 1151> @top;
+  pos base [\A ] <anchor 681 1544> mark @top
+	<anchor 1204 6> mark @botton;
+  pos base [\C ] <anchor 690 6> mark @botton
+	<anchor 690 1544> mark @top;
+  pos base [\D ] <anchor 709 1544> mark @top;
+  pos base [\E ] <anchor 678 1544> mark @top
+	<anchor 678 6> mark @botton;
+  pos base [\G ] <anchor 710 -120> mark @botton
+	<anchor 710 1544> mark @top;
+  pos base [\H ] <anchor 719 1544> mark @top;
+  pos base [\I ] <anchor 245 1544> mark @top
+	<anchor 246 6> mark @botton;
+  pos base [\J ] <anchor 590 1544> mark @botton;
+  pos base [\K ] <anchor 697 -120> mark @botton;
+  pos base [\L ] <anchor 245 1544> mark @top
+	<anchor 641 -120> mark @botton;
+  pos base [\N ] <anchor 692 -120> mark @botton
+	<anchor 692 1544> mark @top;
+  pos base [\O \Oslash ] <anchor 731 1544> mark @top;
+  pos base [\R ] <anchor 687 1544> mark @top
+	<anchor 687 -120> mark @botton;
+  pos base [\S ] <anchor 700 1544> mark @top
+	<anchor 700 6> mark @botton;
+  pos base [\T ] <anchor 619 1544> mark @top
+	<anchor 619 6> mark @botton;
+  pos base [\U ] <anchor 718 6> mark @botton
+	<anchor 718 1544> mark @top;
+  pos base [\W ] <anchor 823 1544> mark @top;
+  pos base [\Y ] <anchor 686 1544> mark @top;
+  pos base [\Z ] <anchor 674 6> mark @botton
+	<anchor 674 1544> mark @top;
+  pos base [\a ] <anchor 591 1158> mark @top
+	<anchor 958 6> mark @botton;
+  pos base [\c ] <anchor 648 1158> mark @top
+	<anchor 648 5> mark @botton;
+  pos base [\e ] <anchor 591 1158> mark @top
+	<anchor 591 6> mark @botton;
+  pos base [\g ] <anchor 591 1158> mark @top;
+  pos base [\h ] <anchor 225 1544> mark @top;
+  pos base [\i ] <anchor 226 6> mark @botton;
+  pos base [\k ] <anchor 562 -120> mark @botton;
+  pos base [\l ] <anchor 225 -120> mark @botton
+	<anchor 225 1544> mark @top;
+  pos base [\n ] <anchor 596 -120> mark @botton
+	<anchor 596 1158> mark @top;
+  pos base [\o \oslash ] <anchor 597 1158> mark @top;
+  pos base [\r ] <anchor 360 1158> mark @top
+	<anchor 226 -120> mark @botton;
+  pos base [\s ] <anchor 596 6> mark @botton
+	<anchor 596 1158> mark @top;
+  pos base [\t ] <anchor 554 6> mark @botton;
+  pos base [\u ] <anchor 824 6> mark @botton
+	<anchor 596 1158> mark @top;
+  pos base [\w ] <anchor 746 1158> mark @top;
+  pos base [\y ] <anchor 560 1158> mark @top;
+  pos base [\z ] <anchor 587 1158> mark @top;
+  pos base [\AE ] <anchor 1022 1544> mark @top;
+  pos base [\ae ] <anchor 956 1158> mark @top;
+  pos base [\dotlessi ] <anchor 232 1158> mark @top;
+  pos base [\OE ] <anchor 1166 1544> mark @top;
+  pos base [\oe ] <anchor 968 1158> mark @top;
+  pos base [\uni0237 ] <anchor 304 1158> mark @top;
+  pos base [\quotesinglbase ] <anchor 279 212> mark @botton;
+} markAkzentPositionierunginLateinischNachschlagetabelle1;
+
+lookup kernHorizontaleUnterschneidunginLateinischNachschlagetabelle0 {
+  lookupflag 0;
+    pos \seven \eight -60;
+    pos \K \s -60;
+    pos \k \s -20;
+    pos \t \t -20;
+    pos \t \s -20;
+  subtable;
+    @kc18_first_1 = [\P ];
+    @kc18_first_2 = [\F ];
+    @kc18_first_3 = [\K ];
+    @kc18_first_4 = [\V ];
+    @kc18_first_5 = [\T \Tcaron ];
+    @kc18_first_6 = [\seven ];
+    @kc18_first_7 = [\k ];
+    @kc18_first_8 = [\f ];
+    @kc18_first_9 = [\six \G \S ];
+    @kc18_first_10 = [\L \Lacute \Ldot ];
+    @kc18_first_11 = [\R \Rcaron ];
+    @kc18_first_12 = [\v \y \ygrave ];
+    @kc18_first_13 = [\dcaron \Lcaron \tcaron ];
+    @kc18_first_14 = [\s \sacute \scircumflex \scedilla \scaron ];
+    @kc18_first_15 = [\Y \Yacute \Ycircumflex \Ydieresis \Ygrave ];
+    @kc18_first_16 = [\three \eight \B \germandbls ];
+    @kc18_first_17 = [\w \wcircumflex \wgrave \wacute \wdieresis ];
+    @kc18_first_18 = [\c \ccedilla \cacute \ccircumflex \cdotaccent \ccaron ];
+    @kc18_first_19 = [\o \p \ograve \oacute \ocircumflex \otilde \odieresis \omacron \obreve ];
+    @kc18_first_20 = [\a \agrave \aacute \acircumflex \atilde \adieresis \aring \amacron \aogonek ];
+    @kc18_first_21 = [\zero \nine \D \O \Q \Ograve \Oacute \Ocircumflex \Otilde \Odieresis ];
+    @kc18_first_22 = [\x ];
+    @kc18_first_23 = [\A \Agrave \Aacute \Acircumflex \Atilde \Adieresis \Aring \Amacron \Abreve 
+	\Aogonek ];
+    @kc18_first_24 = [\e \egrave \eacute \ecircumflex \edieresis \emacron \ebreve \edotaccent \eogonek 
+	\ecaron \oe ];
+    @kc18_first_25 = [\one \H \I \M \N \i \j \l \Igrave \Ntilde ];
+    @kc18_first_26 = [\question \questiondown ];
+    @kc18_first_27 = [\r \racute ];
+    @kc18_first_28 = [\X ];
+    @kc18_first_29 = [\J \U \d \Ugrave \Uacute \Ucircumflex \Udieresis \Utilde \Umacron \Ubreve \Uring 
+	\Uhungarumlaut \Uogonek ];
+    @kc18_first_30 = [\W \Wcircumflex \Wgrave \Wacute \Wdieresis ];
+    @kc18_first_31 = [\z \zacute \zdotaccent \zcaron ];
+    @kc18_first_32 = [\C \Ccedilla \Cacute \Ccircumflex \Cdotaccent \Ccaron ];
+    @kc18_first_33 = [\g \m \n \q \u \ntilde \ugrave \uacute \ucircumflex \udieresis \nacute \ncaron 
+	\utilde \umacron \ubreve \uring \uhungarumlaut \uogonek ];
+    @kc18_second_1 = [\J \Jcircumflex ];
+    @kc18_second_2 = [\j \uni0237 ];
+    @kc18_second_3 = [\s ];
+    @kc18_second_4 = [\seven ];
+    @kc18_second_5 = [\V ];
+    @kc18_second_6 = [\t ];
+    @kc18_second_7 = [\v \y \ycircumflex \ygrave ];
+    @kc18_second_8 = [\T \Tcaron \trademark ];
+    @kc18_second_9 = [\Y \Yacute \Ycircumflex \Ydieresis ];
+    @kc18_second_10 = [\w \wcircumflex \wgrave \wacute \wdieresis ];
+    @kc18_second_11 = [\m \n \p \r \ntilde \racute \rcaron ];
+    @kc18_second_12 = [\x ];
+    @kc18_second_13 = [\X ];
+    @kc18_second_14 = [\e \egrave \eacute \ecircumflex \edieresis \emacron \ebreve \edotaccent \eogonek 
+	\ecaron ];
+    @kc18_second_15 = [\A \Agrave \Aacute \Acircumflex \Atilde \Adieresis \Aring \Amacron \Abreve 
+	\Aogonek \AEacute ];
+    @kc18_second_16 = [\zero \six \C \G \O \Q \Ograve \Oacute \Ocircumflex \Otilde \Odieresis \Oslash ];
+    @kc18_second_17 = [\a \d \agrave \aacute \acircumflex \atilde \adieresis \aring \amacron \abreve 
+	\aogonek \aeacute ];
+    @kc18_second_18 = [\z \zacute \zdotaccent \zcaron ];
+    @kc18_second_19 = [\c \g \o \q \ograve \oacute \ocircumflex \otilde \odieresis \oslash \omacron 
+	\obreve \ohungarumlaut \oslashacute ];
+    @kc18_second_20 = [\W \Wcircumflex \Wgrave \Wacute \Wdieresis ];
+    @kc18_second_21 = [\B \D \E \F \H \I \K \L \M \N \P \R \h \i \k \l \Egrave \Ecircumflex \Edieresis \Iacute 
+	\Ntilde ];
+    @kc18_second_22 = [\.notdef \space \quotedbl \numbersign \dollar \percent \ampersand \quotesingle 
+	\parenleft \parenright \asterisk \plus \comma \hyphen \period \slash 
+	\colon \semicolon \less \equal \greater \question \at \bracketleft 
+	\backslash \bracketright \asciicircum \underscore \grave \braceleft 
+	\bar \braceright \asciitilde \uni00A0 \exclamdown \cent \sterling 
+	\currency \brokenbar \section \dieresis \copyright \ordfeminine 
+	\guillemotleft \logicalnot \uni00AD \registered \macron \degree 
+	\plusminus \twosuperior \threesuperior \acute \uni00B5 \paragraph 
+	\periodcentered \cedilla \onesuperior \ordmasculine \guillemotright 
+	\onequarter \onehalf \threequarters \questiondown \AE \Ccedilla 
+	\Eacute \Eth \multiply \Thorn \ae \ccedilla \igrave \iacute \icircumflex 
+	\idieresis \eth \divide \yacute \thorn \ydieresis \Cacute \cacute 
+	\Ccircumflex \ccircumflex \Cdotaccent \cdotaccent \Ccaron \ccaron 
+	\Dcaron \dcaron \Dcroat \dcroat \Emacron \Ebreve \Edotaccent \Eogonek 
+	\Ecaron \Gcircumflex \gcircumflex \Gbreve \gbreve \Gdotaccent 
+	\gdotaccent \uni0122 \uni0123 \Hcircumflex \hcircumflex \Hbar \hbar 
+	\Itilde \itilde \Imacron \imacron \Ibreve \ibreve \Iogonek \iogonek 
+	\Idotaccent \dotlessi \IJ \ij \jcircumflex \uni0136 \uni0137 
+	\kgreenlandic \Lacute \lacute \uni013B \uni013C \Lcaron \lcaron \Ldot 
+	\ldot \Lslash \lslash \Nacute \nacute \uni0145 \uni0146 \Ncaron \ncaron 
+	\napostrophe \Eng \eng \Omacron \Obreve \Ohungarumlaut \OE \oe \Racute 
+	\uni0156 \uni0157 \Rcaron \Sacute \sacute \Scircumflex \scircumflex 
+	\Scedilla \scedilla \Scaron \scaron \uni0162 \uni0163 \tcaron \Tbar 
+	\tbar \Utilde \utilde \Umacron \umacron \Ubreve \ubreve \Uring \uring 
+	\Uhungarumlaut \uhungarumlaut \Uogonek \uogonek \florin \Oslashacute 
+	\circumflex \caron \breve \dotaccent \ring \ogonek \tilde \hungarumlaut 
+	\uni0312 \uni0315 \uni0326 \Ygrave \endash \emdash \quoteleft 
+	\quoteright \quotesinglbase \quotedblleft \quotedblright 
+	\quotedblbase \dagger \daggerdbl \bullet \ellipsis \perthousand 
+	\guilsinglleft \guilsinglright \fraction \Euro \partialdiff \minus 
+	\approxequal \fi \fl ];
+    pos @kc18_first_1 @kc18_second_1 -220;
+    pos @kc18_first_1 @kc18_second_2 -60;
+    pos @kc18_first_1 @kc18_second_15 -100;
+    pos @kc18_first_1 @kc18_second_17 -20;
+    pos @kc18_first_1 @kc18_second_19 -40;
+    pos @kc18_first_2 @kc18_second_1 -180;
+    pos @kc18_first_2 @kc18_second_15 -80;
+    pos @kc18_first_2 @kc18_second_19 -10;
+    pos @kc18_first_3 @kc18_second_2 -100;
+    pos @kc18_first_3 @kc18_second_14 -80;
+    pos @kc18_first_3 @kc18_second_17 -80;
+    pos @kc18_first_3 @kc18_second_19 -80;
+    pos @kc18_first_4 @kc18_second_1 -180;
+    pos @kc18_first_4 @kc18_second_2 -60;
+    pos @kc18_first_4 @kc18_second_3 -50;
+    pos @kc18_first_4 @kc18_second_7 -40;
+    pos @kc18_first_4 @kc18_second_14 -70;
+    pos @kc18_first_4 @kc18_second_15 -190;
+    pos @kc18_first_4 @kc18_second_16 -40;
+    pos @kc18_first_4 @kc18_second_17 -80;
+    pos @kc18_first_4 @kc18_second_19 -100;
+    pos @kc18_first_4 @kc18_second_22 -80;
+    pos @kc18_first_5 @kc18_second_1 -180;
+    pos @kc18_first_5 @kc18_second_3 -100;
+    pos @kc18_first_5 @kc18_second_7 -100;
+    pos @kc18_first_5 @kc18_second_10 -100;
+    pos @kc18_first_5 @kc18_second_11 -60;
+    pos @kc18_first_5 @kc18_second_14 -100;
+    pos @kc18_first_5 @kc18_second_15 -160;
+    pos @kc18_first_5 @kc18_second_17 -140;
+    pos @kc18_first_5 @kc18_second_19 -160;
+    pos @kc18_first_6 @kc18_second_1 -180;
+    pos @kc18_first_6 @kc18_second_17 -100;
+    pos @kc18_first_6 @kc18_second_19 -100;
+    pos @kc18_first_6 @kc18_second_21 -40;
+    pos @kc18_first_6 @kc18_second_22 -60;
+    pos @kc18_first_7 @kc18_second_2 -60;
+    pos @kc18_first_7 @kc18_second_14 -40;
+    pos @kc18_first_7 @kc18_second_17 -40;
+    pos @kc18_first_7 @kc18_second_19 -60;
+    pos @kc18_first_8 @kc18_second_2 -100;
+    pos @kc18_first_8 @kc18_second_11 -40;
+    pos @kc18_first_8 @kc18_second_14 -20;
+    pos @kc18_first_8 @kc18_second_17 -80;
+    pos @kc18_first_8 @kc18_second_19 -80;
+    pos @kc18_first_9 @kc18_second_4 -40;
+    pos @kc18_first_9 @kc18_second_6 20;
+    pos @kc18_first_9 @kc18_second_9 -40;
+    pos @kc18_first_10 @kc18_second_5 -160;
+    pos @kc18_first_10 @kc18_second_7 -80;
+    pos @kc18_first_10 @kc18_second_8 -200;
+    pos @kc18_first_10 @kc18_second_9 -240;
+    pos @kc18_first_10 @kc18_second_16 -40;
+    pos @kc18_first_10 @kc18_second_19 -40;
+    pos @kc18_first_11 @kc18_second_2 -40;
+    pos @kc18_first_12 @kc18_second_1 -80;
+    pos @kc18_first_12 @kc18_second_2 -20;
+    pos @kc18_first_12 @kc18_second_3 -20;
+    pos @kc18_first_12 @kc18_second_5 -40;
+    pos @kc18_first_12 @kc18_second_11 -40;
+    pos @kc18_first_12 @kc18_second_14 -20;
+    pos @kc18_first_12 @kc18_second_15 -120;
+    pos @kc18_first_12 @kc18_second_17 -30;
+    pos @kc18_first_12 @kc18_second_19 -30;
+    pos @kc18_first_12 @kc18_second_22 -60;
+    pos @kc18_first_13 @kc18_second_1 -180;
+    pos @kc18_first_13 @kc18_second_2 -60;
+    pos @kc18_first_13 @kc18_second_17 -100;
+    pos @kc18_first_13 @kc18_second_19 -100;
+    pos @kc18_first_14 @kc18_second_3 -10;
+    pos @kc18_first_14 @kc18_second_6 -10;
+    pos @kc18_first_14 @kc18_second_8 -100;
+    pos @kc18_first_14 @kc18_second_9 -140;
+    pos @kc18_first_15 @kc18_second_1 -220;
+    pos @kc18_first_15 @kc18_second_3 -140;
+    pos @kc18_first_15 @kc18_second_7 -40;
+    pos @kc18_first_15 @kc18_second_10 -60;
+    pos @kc18_first_15 @kc18_second_14 -200;
+    pos @kc18_first_15 @kc18_second_15 -200;
+    pos @kc18_first_15 @kc18_second_16 -80;
+    pos @kc18_first_15 @kc18_second_17 -120;
+    pos @kc18_first_15 @kc18_second_19 -160;
+    pos @kc18_first_15 @kc18_second_22 -60;
+    pos @kc18_first_16 @kc18_second_2 -40;
+    pos @kc18_first_16 @kc18_second_9 -100;
+    pos @kc18_first_17 @kc18_second_1 -20;
+    pos @kc18_first_17 @kc18_second_2 -20;
+    pos @kc18_first_17 @kc18_second_8 -100;
+    pos @kc18_first_17 @kc18_second_9 -60;
+    pos @kc18_first_18 @kc18_second_8 -100;
+    pos @kc18_first_19 @kc18_second_2 -40;
+    pos @kc18_first_19 @kc18_second_5 -100;
+    pos @kc18_first_19 @kc18_second_7 -30;
+    pos @kc18_first_19 @kc18_second_8 -160;
+    pos @kc18_first_19 @kc18_second_9 -160;
+    pos @kc18_first_19 @kc18_second_12 -50;
+    pos @kc18_first_19 @kc18_second_13 -60;
+    pos @kc18_first_19 @kc18_second_15 -20;
+    pos @kc18_first_19 @kc18_second_18 -20;
+    pos @kc18_first_20 @kc18_second_2 -40;
+    pos @kc18_first_20 @kc18_second_5 -40;
+    pos @kc18_first_20 @kc18_second_7 -20;
+    pos @kc18_first_20 @kc18_second_8 -140;
+    pos @kc18_first_20 @kc18_second_9 -100;
+    pos @kc18_first_20 @kc18_second_12 -20;
+    pos @kc18_first_21 @kc18_second_5 -40;
+    pos @kc18_first_21 @kc18_second_9 -80;
+    pos @kc18_first_21 @kc18_second_20 -20;
+    pos @kc18_first_22 @kc18_second_14 -10;
+    pos @kc18_first_22 @kc18_second_17 -20;
+    pos @kc18_first_22 @kc18_second_19 -50;
+    pos @kc18_first_23 @kc18_second_2 -40;
+    pos @kc18_first_23 @kc18_second_5 -190;
+    pos @kc18_first_23 @kc18_second_7 -120;
+    pos @kc18_first_23 @kc18_second_8 -160;
+    pos @kc18_first_23 @kc18_second_9 -200;
+    pos @kc18_first_23 @kc18_second_19 -20;
+    pos @kc18_first_23 @kc18_second_20 -140;
+    pos @kc18_first_24 @kc18_second_2 -20;
+    pos @kc18_first_24 @kc18_second_3 -10;
+    pos @kc18_first_24 @kc18_second_7 -20;
+    pos @kc18_first_24 @kc18_second_8 -100;
+    pos @kc18_first_24 @kc18_second_9 -120;
+    pos @kc18_first_24 @kc18_second_12 -10;
+    pos @kc18_first_24 @kc18_second_17 -10;
+    pos @kc18_first_25 @kc18_second_2 -60;
+    pos @kc18_first_26 @kc18_second_17 -40;
+    pos @kc18_first_26 @kc18_second_19 -40;
+    pos @kc18_first_26 @kc18_second_22 -20;
+    pos @kc18_first_27 @kc18_second_17 -20;
+    pos @kc18_first_27 @kc18_second_19 -20;
+    pos @kc18_first_28 @kc18_second_19 -60;
+    pos @kc18_first_29 @kc18_second_2 -60;
+    pos @kc18_first_30 @kc18_second_15 -140;
+    pos @kc18_first_30 @kc18_second_16 -20;
+    pos @kc18_first_31 @kc18_second_19 -20;
+    pos @kc18_first_32 @kc18_second_19 -20;
+    pos @kc18_first_33 @kc18_second_2 -60;
+    pos @kc18_first_33 @kc18_second_7 -20;
+    pos @kc18_first_33 @kc18_second_9 -40;
+    pos @kc18_first_33 @kc18_second_18 -10;
+} kernHorizontaleUnterschneidunginLateinischNachschlagetabelle0;
+
+feature mark {
+
+ script DFLT;
+     language dflt ;
+      lookup markAkzentPositionierunginLateinischNachschlagetabelle1;
+
+ script latn;
+     language dflt ;
+      lookup markAkzentPositionierunginLateinischNachschlagetabelle1;
+} mark;
+
+feature kern {
+
+ script DFLT;
+     language dflt ;
+      lookup kernHorizontaleUnterschneidunginLateinischNachschlagetabelle0;
+
+ script latn;
+     language dflt ;
+      lookup kernHorizontaleUnterschneidunginLateinischNachschlagetabelle0;
+} kern;
+#Mark attachment classes (defined in GDEF, used in lookupflags)
+
+@GDEF_Simple = [\space \exclam \quotedbl \numbersign \dollar \percent \ampersand 
+	\quotesingle \parenleft \parenright \asterisk \plus \comma \hyphen \period 
+	\slash \zero \one \two \three \four \five \six \seven \eight \nine \colon \semicolon 
+	\less \equal \greater \question \at \A \B \C \D \E \F \G \H \I \J \K \L \M \N \O \P \Q \R \S \T 
+	\U \V \W \X \Y \Z \bracketleft \backslash \bracketright \asciicircum \underscore 
+	\grave \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z \braceleft \bar 
+	\braceright \asciitilde \uni00A0 \exclamdown \cent \sterling \currency \yen 
+	\brokenbar \section \dieresis \copyright \ordfeminine \guillemotleft 
+	\logicalnot \uni00AD \registered \macron \degree \plusminus \twosuperior 
+	\threesuperior \acute \uni00B5 \paragraph \periodcentered \cedilla 
+	\onesuperior \ordmasculine \guillemotright \questiondown \Agrave \Aacute 
+	\Acircumflex \Atilde \Adieresis \Aring \Ccedilla \Egrave \Eacute \Ecircumflex 
+	\Edieresis \Igrave \Iacute \Icircumflex \Idieresis \Eth \Ntilde \Ograve \Oacute 
+	\Ocircumflex \Otilde \Odieresis \multiply \Oslash \Ugrave \Uacute \Ucircumflex 
+	\Udieresis \Yacute \Thorn \germandbls \agrave \aacute \acircumflex \atilde 
+	\adieresis \aring \ccedilla \egrave \eacute \ecircumflex \edieresis \igrave 
+	\iacute \icircumflex \idieresis \eth \ntilde \ograve \oacute \ocircumflex 
+	\otilde \odieresis \divide \oslash \ugrave \uacute \ucircumflex \udieresis 
+	\yacute \thorn \ydieresis \Amacron \amacron \Abreve \abreve \Aogonek \aogonek 
+	\Cacute \cacute \Ccircumflex \ccircumflex \Cdotaccent \cdotaccent \Ccaron 
+	\ccaron \Dcaron \dcaron \Dcroat \dcroat \Emacron \emacron \Ebreve \ebreve 
+	\Edotaccent \edotaccent \Eogonek \eogonek \Ecaron \ecaron \Gcircumflex 
+	\gcircumflex \Gbreve \gbreve \Gdotaccent \gdotaccent \uni0122 \uni0123 
+	\Hcircumflex \hcircumflex \Hbar \hbar \Itilde \itilde \Imacron \imacron \Ibreve 
+	\ibreve \Iogonek \iogonek \Idotaccent \dotlessi \IJ \ij \Jcircumflex 
+	\jcircumflex \uni0136 \uni0137 \kgreenlandic \Lacute \lacute \uni013B \uni013C 
+	\Lcaron \lcaron \Lslash \lslash \Nacute \nacute \uni0145 \uni0146 \Ncaron \ncaron 
+	\napostrophe \Eng \eng \Omacron \omacron \Obreve \obreve \Ohungarumlaut 
+	\ohungarumlaut \Racute \racute \uni0156 \uni0157 \Rcaron \rcaron \Sacute \sacute 
+	\Scircumflex \scircumflex \Scedilla \scedilla \Scaron \scaron \uni0162 \uni0163 
+	\Tcaron \tcaron \Tbar \tbar \Utilde \utilde \Umacron \umacron \Ubreve \ubreve 
+	\Uring \uring \Uhungarumlaut \uhungarumlaut \Uogonek \uogonek \Wcircumflex 
+	\wcircumflex \Ycircumflex \ycircumflex \Ydieresis \Zacute \zacute \Zdotaccent 
+	\zdotaccent \Zcaron \zcaron \florin \AEacute \aeacute \Oslashacute \oslashacute 
+	\uni0237 \circumflex \caron \breve \dotaccent \ring \ogonek \tilde \hungarumlaut 
+	\uni0312 \uni0315 \uni0326 \Wgrave \wgrave \Wacute \wacute \Wdieresis \wdieresis 
+	\Ygrave \ygrave \endash \emdash \quoteleft \quoteright \quotesinglbase 
+	\quotedblleft \quotedblright \quotedblbase \dagger \daggerdbl \bullet 
+	\ellipsis \perthousand \guilsinglleft \guilsinglright \fraction \Euro 
+	\trademark \partialdiff \minus \approxequal ];
+@GDEF_Ligature = [\onequarter \onehalf \threequarters \AE \ae \Ldot \ldot \OE \oe \fi 
+	\fl ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, @GDEF_Ligature, , ;
+
+} GDEF;
+
