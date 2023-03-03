@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1676747234
-ModificationTime: 1677234172
+ModificationTime: 1677862462
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -65,6 +65,7 @@ Lookup: 1 0 0 "'sups' Hochgestellt in Lateinisch Nachschlagetabelle 4" { "'sups'
 Lookup: 4 0 1 "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 5" { "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 5 Subtabelle"  } ['liga' ('latn' <'dflt' > ) ]
 Lookup: 6 0 0 "'ordn' Ordnungszahlen in Lateinisch Nachschlagetabelle 6" { "'ordn' Ordnungszahlen in Lateinisch Nachschlagetabelle 6 Subtabelle"  } ['ordn' ('latn' <'dflt' > ) ]
 Lookup: 6 0 0 "'frac' Diagonale Br+APwA-che in Lateinisch Nachschlagetabelle 7" { "'frac' Diagonale Br+APwA-che in Lateinisch Nachschlagetabelle 7 kontextuelle 0"  "'frac' Diagonale Br+APwA-che in Lateinisch Nachschlagetabelle 7 kontextuelle 1"  "'frac' Diagonale Br+APwA-che in Lateinisch Nachschlagetabelle 7 kontextuelle 2"  "'frac' Diagonale Br+APwA-che in Lateinisch Nachschlagetabelle 7 kontextuelle 3"  "'frac' Diagonale Br+APwA-che in Lateinisch Nachschlagetabelle 7 kontextuelle 4"  "'frac' Diagonale Br+APwA-che in Lateinisch Nachschlagetabelle 7 kontextuelle 5"  "'frac' Diagonale Br+APwA-che in Lateinisch Nachschlagetabelle 7 kontextuelle 6"  "'frac' Diagonale Br+APwA-che in Lateinisch Nachschlagetabelle 7 kontextuelle 7"  "'frac' Diagonale Br+APwA-che in Lateinisch Nachschlagetabelle 7 kontextuelle 8"  } ['frac' ('latn' <'dflt' > ) ]
+Lookup: 260 0 0 "'mark' Akzent-Positionierung in Lateinisch Nachschlagetabelle 1" { "'mark' Akzent-Positionierung in Lateinisch Nachschlagetabelle 1-1"  } ['mark' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontale Unterschneidung in Lateinisch Nachschlagetabelle 0" { "'kern' Horizontale Unterschneidung in Lateinisch Nachschlagetabelle 0 Glyphen-Daten 0"  "'kern' Horizontale Unterschneidung in Lateinisch Nachschlagetabelle 0 Unterschneidungs-Klasse 1"  } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
@@ -224,6 +225,7 @@ StemSnapH 9 [147 210]
 StemSnapV 9 [153 211]
 EndPrivate
 TeXData: 1 0 0 307200 153600 102400 530432 -1048576 102400 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
+AnchorClass2: "botton" "'mark' Akzent-Positionierung in Lateinisch Nachschlagetabelle 1-1" "top" "'mark' Akzent-Positionierung in Lateinisch Nachschlagetabelle 1-1"
 BeginChars: 65537 369
 
 StartChar: .notdef
@@ -1289,6 +1291,8 @@ Width: 1361
 GlyphClass: 2
 Flags: W
 HStem: 0 21G<40 272.26 1088.76 1321> 428 210<620 865> 1402 20G<541.841 819.159>
+AnchorPoint: "top" 681 1544 basechar 0
+AnchorPoint: "botton" 1204 6 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1354,6 +1358,8 @@ GlyphClass: 2
 Flags: W
 HStem: 0 211<405.353 1271> 1212 210<405.353 1271>
 VStem: 120 211<285.428 1140.98>
+AnchorPoint: "botton" 690 6 basechar 0
+AnchorPoint: "top" 690 1544 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1382,6 +1388,7 @@ GlyphClass: 2
 Flags: W
 HStem: 0 211<351 1015.54> 1212 210<351 1015.54>
 VStem: 140 211<211 1212> 1088 210<279.344 1140.98>
+AnchorPoint: "top" 709 1544 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1411,6 +1418,8 @@ GlyphClass: 2
 Flags: W
 HStem: 0 211<351 1243> 635 210<471 1243> 1212 210<351 1243>
 VStem: 140 211<211 1212>
+AnchorPoint: "top" 678 1544 basechar 0
+AnchorPoint: "botton" 678 6 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1467,6 +1476,8 @@ GlyphClass: 2
 Flags: W
 HStem: 0 210<408.361 1012.64> 585 210<704 1090> 1212 210<408.361 1217>
 VStem: 120 211<290.465 1131.54> 1090 211<290.465 585>
+AnchorPoint: "botton" 710 -120 basechar 0
+AnchorPoint: "top" 710 1544 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1501,6 +1512,7 @@ GlyphClass: 2
 Flags: W
 HStem: 0 21G<140 351 1088 1298> 635 210<351 1088> 1402 20G<140 351 1088 1298>
 VStem: 140 211<0 635 845 1422> 1088 210<0 635 845 1422>
+AnchorPoint: "top" 719 1544 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1529,6 +1541,8 @@ GlyphClass: 2
 Flags: W
 HStem: 0 21G<140 351> 1402 20G<140 351>
 VStem: 140 211<0 1422>
+AnchorPoint: "top" 245 1544 basechar 0
+AnchorPoint: "botton" 246 6 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1549,6 +1563,7 @@ GlyphClass: 2
 Flags: W
 HStem: 0 210<40 413.072> 1402 20G<485 695>
 VStem: 485 210<278.344 1422>
+AnchorPoint: "botton" 590 1544 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1573,6 +1588,7 @@ GlyphClass: 2
 Flags: W
 HStem: 0 21G<140 351 1038.65 1354> 1402 20G<140 351 1000.42 1311>
 VStem: 140 211<0 635 846 1422>
+AnchorPoint: "botton" 697 -120 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1603,6 +1619,8 @@ GlyphClass: 2
 Flags: W
 HStem: 0 210<419.04 1242> 1402 20G<140 350>
 VStem: 140 210<279.576 1422>
+AnchorPoint: "top" 245 1544 basechar 0
+AnchorPoint: "botton" 641 -120 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1656,6 +1674,8 @@ GlyphClass: 2
 Flags: W
 HStem: 0 21G<140 351 958.766 1244> 1402 20G<140 425.083 1033 1244>
 VStem: 140 211<0 1102> 1033 211<305 1422>
+AnchorPoint: "botton" 692 -120 basechar 0
+AnchorPoint: "top" 692 1544 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1682,6 +1702,7 @@ GlyphClass: 2
 Flags: W
 HStem: 0 210<428.361 1032.64> 1212 210<428.361 1032.64>
 VStem: 140 211<290.465 1131.54> 1110 211<290.465 1131.54>
+AnchorPoint: "top" 731 1544 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1778,9 +1799,11 @@ Encoding: 82 82 53
 GlifName: R_
 Width: 1375
 GlyphClass: 2
-Flags: W
+Flags: WO
 HStem: 0 21G<140 351 1043.5 1315> 585 210<471 634 891 988.636> 1212 210<351 987.789>
 VStem: 140 211<0 1212> 1033 210<834.328 1167.71>
+AnchorPoint: "top" 687 1544 basechar 0
+AnchorPoint: "botton" 687 -120 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1814,6 +1837,8 @@ GlyphClass: 2
 Flags: W
 HStem: 0 211<121 1030.96> 635 210<368.012 1030.96> 1212 210<376.347 1209>
 VStem: 120 211<880.71 1172.18> 1068 211<250.742 594.258>
+AnchorPoint: "top" 700 1544 basechar 0
+AnchorPoint: "botton" 700 6 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1850,6 +1875,8 @@ GlyphClass: 2
 Flags: W
 HStem: 0 21G<513 725> 1212 210<40 513 725 1198>
 VStem: 513 212<0 1212>
+AnchorPoint: "top" 619 1544 basechar 0
+AnchorPoint: "botton" 619 6 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1874,6 +1901,8 @@ GlyphClass: 2
 Flags: W
 HStem: 0 211<424.445 1014.09> 1402 20G<140 351 1088 1298>
 VStem: 140 211<279.344 1422> 1088 210<279.344 1422>
+AnchorPoint: "botton" 718 6 basechar 0
+AnchorPoint: "top" 718 1544 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1923,6 +1952,7 @@ Width: 1646
 GlyphClass: 2
 Flags: W
 HStem: 0 21G<313.526 519.014 1127.95 1332.47> 1402 20G<70 285.47 1361.53 1576>
+AnchorPoint: "top" 823 1544 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1979,6 +2009,7 @@ GlyphClass: 2
 Flags: W
 HStem: 0 21G<579 795> 1402 20G<40 311.471 1060.6 1331>
 VStem: 579 216<0 679>
+AnchorPoint: "top" 686 1544 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2003,6 +2034,8 @@ Width: 1347
 GlyphClass: 2
 Flags: W
 HStem: 0 208<422 1223> 1212 210<120 927>
+AnchorPoint: "botton" 674 6 basechar 0
+AnchorPoint: "top" 674 1544 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2137,6 +2170,7 @@ GlyphClass: 2
 Flags: W
 HStem: 1170 422
 VStem: 100 312
+AnchorPoint: "top" 298 1170 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2157,6 +2191,8 @@ GlyphClass: 2
 Flags: W
 HStem: 0 211<374.411 731> 825 211<372.99 851>
 VStem: 110 211<262.99 774.452> 851 211<0 825>
+AnchorPoint: "top" 591 1158 basechar 0
+AnchorPoint: "botton" 958 6 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2220,6 +2256,8 @@ GlyphClass: 2
 Flags: W
 HStem: 0 211<379.839 1077> 825 211<379.839 1077>
 VStem: 110 211<273.298 764.191>
+AnchorPoint: "top" 648 1158 basechar 0
+AnchorPoint: "botton" 648 5 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2279,6 +2317,8 @@ GlyphClass: 2
 Flags: W
 HStem: 0 211<344.558 999> 408 210<451 847.68> 825 211<335.298 847.68>
 VStem: 120 211<219.135 825> 862 210<631.719 810.145>
+AnchorPoint: "top" 591 1158 basechar 0
+AnchorPoint: "botton" 591 6 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2342,6 +2382,7 @@ GlyphClass: 2
 Flags: W
 HStem: -388 206<177 798.285> 0 210<374.411 731> 824 211<372.99 851>
 VStem: 110 211<262.082 773.452> 851 211<-125.01 824>
+AnchorPoint: "top" 591 1158 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2377,6 +2418,7 @@ GlyphClass: 2
 Flags: W
 HStem: 0 21G<120 331 836 1047> 825 211<331 772.829> 1402 20G<120 331>
 VStem: 120 211<0 825 1036 1422> 836 211<0 765.113>
+AnchorPoint: "top" 225 1544 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2405,6 +2447,7 @@ GlyphClass: 2
 Flags: W
 HStem: 0 21G<120 332> 1016 20G<120 332> 1188 260<127.632 324.368>
 VStem: 96 260<1219.63 1416.37> 120 212<0 1036>
+AnchorPoint: "botton" 226 6 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2433,13 +2476,13 @@ VStem: 171 260<1221.25 1413.85> 199 211<-166.146 1036>
 LayerCount: 2
 Fore
 SplineSet
-40 -180 m 1xe8
- 187 -180 199 -171 199 -60 c 2
- 199 1036 l 1
- 410 1036 l 1
- 410 -60 l 2
- 410 -313 323 -391 40 -391 c 1
- 40 -180 l 1xe8
+40 -180 m 5xe8
+ 187 -180 199 -171 199 -60 c 6
+ 199 1036 l 5
+ 410 1036 l 5
+ 410 -60 l 6
+ 410 -313 323 -391 40 -391 c 5
+ 40 -180 l 5xe8
 171 1317 m 0xf0
  171 1389 230 1448 302 1448 c 0
  373 1448 431 1390 431 1317 c 0
@@ -2457,6 +2500,7 @@ GlyphClass: 2
 Flags: W
 HStem: 0 21G<120 331 778.607 1093> 1016 20G<758.108 1051> 1402 20G<120 331>
 VStem: 120 211<0 428 639 1422>
+AnchorPoint: "botton" 562 -120 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2487,6 +2531,8 @@ GlyphClass: 2
 Flags: W
 HStem: 0 21G<120 331> 1402 20G<120 331>
 VStem: 120 211<0 1422>
+AnchorPoint: "botton" 225 -120 basechar 0
+AnchorPoint: "top" 225 1544 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2543,6 +2589,8 @@ GlyphClass: 2
 Flags: W
 HStem: 0 21G<120 331 861 1072> 827 209<331 807.589>
 VStem: 120 211<0 827> 861 211<0 773.01>
+AnchorPoint: "botton" 596 -120 basechar 0
+AnchorPoint: "top" 596 1158 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2570,6 +2618,7 @@ GlyphClass: 2
 Flags: W
 HStem: 0 211<374.411 819.589> 825 211<374.411 819.589>
 VStem: 110 211<262.99 773.01> 873 211<262.99 773.01>
+AnchorPoint: "top" 597 1158 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2667,6 +2716,8 @@ GlyphClass: 2
 Flags: W
 HStem: 0 21G<120 331> 826 210<343.719 649>
 VStem: 120 211<0 811.442>
+AnchorPoint: "top" 360 1158 basechar 0
+AnchorPoint: "botton" 226 -120 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2691,6 +2742,8 @@ GlyphClass: 2
 Flags: W
 HStem: 0 211<157 860.215> 428 210<333.719 860.215> 825 211<333.719 1016>
 VStem: 110 211<654.139 810.807> 873 210<226.139 411.861>
+AnchorPoint: "botton" 596 6 basechar 0
+AnchorPoint: "top" 596 1158 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2727,6 +2780,7 @@ GlyphClass: 2
 Flags: W
 HStem: 0 211<428.719 735> 825 211<70 205 416 735> 1402 20G<205 416>
 VStem: 205 211<226.773 825 1036 1422>
+AnchorPoint: "botton" 554 6 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2760,6 +2814,8 @@ GlyphClass: 2
 Flags: W
 HStem: 0 209<384.411 861> 1016 20G<120 331 861 1072>
 VStem: 120 211<262.99 1036> 861 211<209 1036>
+AnchorPoint: "botton" 824 6 basechar 0
+AnchorPoint: "top" 596 1158 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2808,6 +2864,7 @@ Width: 1492
 GlyphClass: 2
 Flags: W
 HStem: 0 21G<236.525 436.86 1056.18 1256.46> 1016 20G<60 275.469 1217.53 1432>
+AnchorPoint: "top" 746 1158 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2863,6 +2920,7 @@ Width: 1121
 GlyphClass: 2
 Flags: W
 HStem: -390 21G<280 518.714> 1016 20G<60 291.493 820.34 1061>
+AnchorPoint: "top" 560 1158 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2886,6 +2944,7 @@ Width: 1175
 GlyphClass: 2
 Flags: W
 HStem: 0 210<439 1065> 826 210<110 733>
+AnchorPoint: "top" 587 1158 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3289,6 +3348,7 @@ GlyphClass: 2
 Flags: W
 HStem: 1201 221<141.78 319.153 481.78 659.153>
 VStem: 120 221<1222.78 1400.15> 460 221<1222.78 1400.15>
+AnchorPoint: "top" 400 1200 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3512,6 +3572,7 @@ GlyphClass: 2
 Flags: W
 HStem: 1275 147<120 717>
 VStem: 120 597<1275 1422>
+AnchorPoint: "top" 419 1275 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3669,6 +3730,7 @@ GlyphClass: 2
 Flags: W
 HStem: 1170 422
 VStem: 100 312
+AnchorPoint: "top" 214 1170 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3765,6 +3827,7 @@ GlyphClass: 2
 Flags: W
 HStem: -313 150<103.937 302.496>
 VStem: 251 151<-227.5 -3.81457>
+AnchorPoint: "botton" 287 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4064,10 +4127,10 @@ Width: 1361
 GlyphClass: 2
 Flags: W
 HStem: 0 21G<40 272.26 1088.76 1321> 428 210<620 865> 1402 20G<541.841 819.159> 1544 422
-VStem: 482.5 312
+VStem: 483 312
 LayerCount: 2
 Fore
-Refer: 67 96 N 1 0 0 1 382.5 374 2
+Refer: 67 96 N 1 0 0 1 383 374 2
 Refer: 36 65 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4079,10 +4142,10 @@ Width: 1361
 GlyphClass: 2
 Flags: W
 HStem: 0 21G<40 272.26 1088.76 1321> 428 210<620 865> 1402 20G<541.841 819.159> 1544 422
-VStem: 566.5 312
+VStem: 567 312
 LayerCount: 2
 Fore
-Refer: 118 180 N 1 0 0 1 466.5 374 2
+Refer: 118 180 N 1 0 0 1 467 374 2
 Refer: 36 65 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4093,11 +4156,11 @@ GlifName: A_circumflex
 Width: 1361
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<40 272.26 1088.76 1321> 428 210<620 865> 1402 20G<541.841 819.159> 1544 309
-VStem: 369 623
+HStem: 0 21G<40 272.26 1088.76 1321> 428 210<620 865> 1402 20G<541.841 819.159> 1543 309
+VStem: 370 623
 LayerCount: 2
 Fore
-Refer: 327 710 N 1 0 0 1 269 431 2
+Refer: 327 710 N 1 0 0 1 270 430 2
 Refer: 36 65 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4108,11 +4171,11 @@ GlifName: A_tilde
 Width: 1361
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<40 272.26 1088.76 1321> 428 210<620 865> 1402 20G<541.841 819.159> 1544 154<673.801 848.852> 1625 148<509.234 691.872>
-VStem: 351.5 155<1552 1619.93> 852.5 157<1701.28 1768>
+HStem: 0 21G<40 272.26 1088.76 1321> 428 210<620 865> 1402 20G<541.841 819.159> 1544 154<673.301 848.352> 1625 148<508.734 691.372>
+VStem: 351 155<1552 1619.93> 852 157<1701.28 1768>
 LayerCount: 2
 Fore
-Refer: 333 732 N 1 0 0 1 231.5 346 2
+Refer: 333 732 N 1 0 0 1 231 346 2
 Refer: 36 65 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4123,11 +4186,11 @@ GlifName: A_dieresis
 Width: 1361
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<40 272.26 1088.76 1321> 428 210<620 865> 1402 20G<541.841 819.159> 1544 221<421.78 599.153 761.78 939.153>
-VStem: 400 221<1565.78 1743.15> 740 221<1565.78 1743.15>
+HStem: 0 21G<40 272.26 1088.76 1321> 428 210<620 865> 1402 20G<541.841 819.159> 1545 221<422.78 600.153 762.78 940.153>
+VStem: 401 221<1566.78 1744.15> 741 221<1566.78 1744.15>
 LayerCount: 2
 Fore
-Refer: 106 168 N 1 0 0 1 280 343 2
+Refer: 106 168 N 1 0 0 1 281 344 2
 Refer: 36 65 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4138,13 +4201,13 @@ GlifName: A_ring
 Width: 1361
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<40 272.26 1088.76 1321> 428 210<620 865> 1402 20G<541.841 819.159> 1409.3 118<609.906 751.094> 1672.3 118<609.906 751.094>
-VStem: 490.5 118<1527.89 1671.71> 752.5 118<1527.89 1671.71>
+HStem: 0 21G<40 272.26 1088.76 1321> 428 210<620 865> 1402 20G<541.841 819.159> 1544 118<610.406 751.594> 1807 118<610.406 751.594>
+VStem: 491 118<1662.59 1806.41> 753 118<1662.59 1806.41>
 LayerCount: 2
 Fore
-Refer: 331 730 N 1 0 0 1 390.5 368.3 2
+Refer: 331 730 N 1 0 0 1 391 503 2
 Refer: 36 65 N 1 0 0 1 0 0 3
-Validated: 5
+Validated: 1
 EndChar
 
 StartChar: AE
@@ -4155,6 +4218,7 @@ GlyphClass: 3
 Flags: W
 HStem: 0 211<1029 1924> 428 210<606 819> 635 210<1151 1923> 1212 210<685 819 1029 1924>
 VStem: 819 210<211 428 638 1212>
+AnchorPoint: "top" 1022 1544 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4190,34 +4254,13 @@ GlifName: C_cedilla
 Width: 1381
 GlyphClass: 2
 Flags: W
-HStem: -303 150<513.937 712> 0 211<405.353 639.967 773 1271> 1212 210<405.353 1271>
-VStem: 120 211<285.428 1140.98> 660 152<-217.5 -3.62744>
+HStem: -307 150<506.937 705.496> 0 211<405.353 1271> 1212 210<405.353 1271>
+VStem: 120 211<285.428 1140.98> 654 151<-221.5 2.18543>
 LayerCount: 2
 Fore
-SplineSet
-120 393 m 2
- 120 1022 l 2
- 120 1243 302 1422 526 1422 c 2
- 1271 1422 l 1
- 1271 1212 l 1
- 526 1212 l 2
- 418 1212 331 1127 331 1022 c 2
- 331 396 l 2
- 331 294 418 211 526 211 c 2
- 1271 211 l 1
- 1271 0 l 1
- 773 0 l 1
- 799 -74 812 -130 812 -173 c 0
- 812 -262 764 -303 660 -303 c 0
- 627 -303 598 -300 510 -287 c 1
- 510 -139 l 1
- 592 -152 603 -153 620 -153 c 0
- 649 -153 660 -145 660 -122 c 0
- 660 -103 654 -82 625 0 c 1
- 526 0 l 2
- 302 0 120 176 120 393 c 2
-EndSplineSet
-Validated: 1
+Refer: 122 184 N 1 0 0 1 403 6 2
+Refer: 38 67 N 1 0 0 1 0 0 3
+Validated: 5
 EndChar
 
 StartChar: Egrave
@@ -4227,10 +4270,10 @@ Width: 1363
 GlyphClass: 2
 Flags: W
 HStem: 0 211<351 1243> 635 210<471 1243> 1212 210<351 1243> 1544 422
-VStem: 140 211<211 1212> 493.5 312
+VStem: 140 211<211 1212> 480 312
 LayerCount: 2
 Fore
-Refer: 67 96 N 1 0 0 1 393.5 374 2
+Refer: 67 96 N 1 0 0 1 380 374 2
 Refer: 40 69 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4242,10 +4285,10 @@ Width: 1363
 GlyphClass: 2
 Flags: W
 HStem: 0 211<351 1243> 635 210<471 1243> 1212 210<351 1243> 1544 422
-VStem: 140 211<211 1212> 577.5 312
+VStem: 140 211<211 1212> 564 312
 LayerCount: 2
 Fore
-Refer: 118 180 N 1 0 0 1 477.5 374 2
+Refer: 118 180 N 1 0 0 1 464 374 2
 Refer: 40 69 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4256,11 +4299,11 @@ GlifName: E_circumflex
 Width: 1363
 GlyphClass: 2
 Flags: W
-HStem: 0 211<351 1243> 635 210<471 1243> 1212 210<351 1243> 1544 309
-VStem: 140 211<211 1212> 380 623
+HStem: 0 211<351 1243> 635 210<471 1243> 1212 210<351 1243> 1543 309
+VStem: 140 211<211 1212> 367 623
 LayerCount: 2
 Fore
-Refer: 327 710 N 1 0 0 1 280 431 2
+Refer: 327 710 N 1 0 0 1 267 430 2
 Refer: 40 69 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4271,11 +4314,11 @@ GlifName: E_dieresis
 Width: 1363
 GlyphClass: 2
 Flags: W
-HStem: 0 211<351 1243> 635 210<471 1243> 1212 210<351 1243> 1544 221<432.78 610.153 772.78 950.153>
-VStem: 140 211<211 1212> 411 221<1565.78 1743.15> 751 221<1565.78 1743.15>
+HStem: 0 211<351 1243> 635 210<471 1243> 1212 210<351 1243> 1545 221<419.78 597.153 759.78 937.153>
+VStem: 140 211<211 1212> 398 221<1566.78 1744.15> 738 221<1566.78 1744.15>
 LayerCount: 2
 Fore
-Refer: 106 168 N 1 0 0 1 291 343 2
+Refer: 106 168 N 1 0 0 1 278 344 2
 Refer: 40 69 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4287,10 +4330,10 @@ Width: 491
 GlyphClass: 2
 Flags: W
 HStem: 0 21G<140 351> 1402 20G<140 351> 1544 422
-VStem: 47.5 312 140 211<0 1422>
+VStem: 47 312 140 211<0 1422>
 LayerCount: 2
 Fore
-Refer: 67 96 N 1 0 0 1 -52.5 374 2
+Refer: 67 96 N 1 0 0 1 -53 374 2
 Refer: 44 73 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4302,10 +4345,10 @@ Width: 491
 GlyphClass: 2
 Flags: W
 HStem: 0 21G<140 351> 1402 20G<140 351> 1544 422
-VStem: 131.5 312 140 211<0 1422>
+VStem: 131 312 140 211<0 1422>
 LayerCount: 2
 Fore
-Refer: 118 180 N 1 0 0 1 31.5 374 2
+Refer: 118 180 N 1 0 0 1 31 374 2
 Refer: 44 73 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4316,11 +4359,11 @@ GlifName: I_circumflex
 Width: 491
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<140 351> 1402 20G<140 351> 1544 309
+HStem: 0 21G<140 351> 1402 20G<140 351> 1543 309
 VStem: -66 623 140 211<0 1422>
 LayerCount: 2
 Fore
-Refer: 327 710 N 1 0 0 1 -166 431 2
+Refer: 327 710 N 1 0 0 1 -166 430 2
 Refer: 44 73 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4331,11 +4374,11 @@ GlifName: I_dieresis
 Width: 491
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<140 351> 1402 20G<140 351> 1544 221<-13.22 164.153 326.78 504.153>
-VStem: -35 221<1565.78 1743.15> 140 211<0 1422> 305 221<1565.78 1743.15>
+HStem: 0 21G<140 351> 1402 20G<140 351> 1545 221<-13.22 164.153 326.78 504.153>
+VStem: -35 221<1566.78 1744.15> 140 211<0 1422> 305 221<1566.78 1744.15>
 LayerCount: 2
 Fore
-Refer: 106 168 N 1 0 0 1 -155 343 2
+Refer: 106 168 N 1 0 0 1 -155 344 2
 Refer: 44 73 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4383,11 +4426,11 @@ GlifName: N_tilde
 Width: 1384
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<140 351 958.766 1244> 1402 20G<140 425.083 1033 1244> 1544 154<685.301 860.352> 1625 148<520.734 703.372>
-VStem: 140 211<0 1102> 363 155<1552 1619.93> 864 157<1701.28 1768> 1033 211<305 1422>
+HStem: 0 21G<140 351 958.766 1244> 1402 20G<140 425.083 1033 1244> 1544 154<684.301 859.352> 1625 148<519.734 702.372>
+VStem: 140 211<0 1102> 362 155<1552 1619.93> 863 157<1701.28 1768> 1033 211<305 1422>
 LayerCount: 2
 Fore
-Refer: 333 732 N 1 0 0 1 243 346 2
+Refer: 333 732 N 1 0 0 1 242 346 2
 Refer: 49 78 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4399,10 +4442,10 @@ Width: 1461
 GlyphClass: 2
 Flags: W
 HStem: 0 210<428.361 1032.64> 1212 210<428.361 1032.64> 1544 422
-VStem: 140 211<290.465 1131.54> 532.5 312 1110 211<290.465 1131.54>
+VStem: 140 211<290.465 1131.54> 533 312 1110 211<290.465 1131.54>
 LayerCount: 2
 Fore
-Refer: 67 96 N 1 0 0 1 432.5 374 2
+Refer: 67 96 N 1 0 0 1 433 374 2
 Refer: 50 79 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4414,10 +4457,10 @@ Width: 1461
 GlyphClass: 2
 Flags: W
 HStem: 0 210<428.361 1032.64> 1212 210<428.361 1032.64> 1544 422
-VStem: 140 211<290.465 1131.54> 616.5 312 1110 211<290.465 1131.54>
+VStem: 140 211<290.465 1131.54> 617 312 1110 211<290.465 1131.54>
 LayerCount: 2
 Fore
-Refer: 118 180 N 1 0 0 1 516.5 374 2
+Refer: 118 180 N 1 0 0 1 517 374 2
 Refer: 50 79 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4428,12 +4471,11 @@ GlifName: O_circumflex
 Width: 1461
 GlyphClass: 2
 Flags: W
-HStem: 0 210<428.361 1032.64> 1212 210<428.361 1032.64> 1544 309
-VStem: 140 211<290.465 1131.54> 419 623 1110 211<290.465 1131.54>
-CounterMasks: 1 1c
+HStem: 0 210<428.361 1032.64> 1212 210<428.361 1032.64> 1543 309
+VStem: 140 211<290.465 1131.54> 420 623 1110 211<290.465 1131.54>
 LayerCount: 2
 Fore
-Refer: 327 710 N 1 0 0 1 319 431 2
+Refer: 327 710 N 1 0 0 1 320 430 2
 Refer: 50 79 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4444,11 +4486,11 @@ GlifName: O_tilde
 Width: 1461
 GlyphClass: 2
 Flags: W
-HStem: 0 210<428.361 1032.64> 1212 210<428.361 1032.64> 1544 154<723.801 898.852> 1625 148<559.234 741.872>
-VStem: 140 211<290.465 1131.54> 401.5 155<1552 1619.93> 902.5 157<1701.28 1768> 1110 211<290.465 1131.54>
+HStem: 0 210<428.361 1032.64> 1212 210<428.361 1032.64> 1544 154<723.301 898.352> 1625 148<558.734 741.372>
+VStem: 140 211<290.465 1131.54> 401 155<1552 1619.93> 902 157<1701.28 1768> 1110 211<290.465 1131.54>
 LayerCount: 2
 Fore
-Refer: 333 732 N 1 0 0 1 281.5 346 2
+Refer: 333 732 N 1 0 0 1 281 346 2
 Refer: 50 79 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4459,11 +4501,11 @@ GlifName: O_dieresis
 Width: 1461
 GlyphClass: 2
 Flags: W
-HStem: 0 210<428.361 1032.64> 1212 210<428.361 1032.64> 1544 221<471.78 649.153 811.78 989.153>
-VStem: 140 211<290.465 1131.54> 450 221<1565.78 1743.15> 790 221<1565.78 1743.15> 1110 211<290.465 1131.54>
+HStem: 0 210<428.361 1032.64> 1212 210<428.361 1032.64> 1545 221<472.78 650.153 812.78 990.153>
+VStem: 140 211<290.465 1131.54> 451 221<1566.78 1744.15> 791 221<1566.78 1744.15> 1110 211<290.465 1131.54>
 LayerCount: 2
 Fore
-Refer: 106 168 N 1 0 0 1 330 343 2
+Refer: 106 168 N 1 0 0 1 331 344 2
 Refer: 50 79 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4502,6 +4544,7 @@ GlyphClass: 2
 Flags: W
 HStem: 0 210<494.951 1035.82> 1212 210<432.183 952.165>
 VStem: 143 212<360.418 1131.54> 1113 212<290.465 1085.87>
+AnchorPoint: "top" 731 1544 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4547,10 +4590,10 @@ Width: 1438
 GlyphClass: 2
 Flags: W
 HStem: 0 211<424.445 1014.09> 1402 20G<140 351 1088 1298> 1544 422
-VStem: 140 211<279.344 1422> 521 312 1088 210<279.344 1422>
+VStem: 140 211<279.344 1422> 520 312 1088 210<279.344 1422>
 LayerCount: 2
 Fore
-Refer: 67 96 N 1 0 0 1 421 374 2
+Refer: 67 96 N 1 0 0 1 420 374 2
 Refer: 56 85 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4562,10 +4605,10 @@ Width: 1438
 GlyphClass: 2
 Flags: W
 HStem: 0 211<424.445 1014.09> 1402 20G<140 351 1088 1298> 1544 422
-VStem: 140 211<279.344 1422> 605 312 1088 210<279.344 1422>
+VStem: 140 211<279.344 1422> 604 312 1088 210<279.344 1422>
 LayerCount: 2
 Fore
-Refer: 118 180 N 1 0 0 1 505 374 2
+Refer: 118 180 N 1 0 0 1 504 374 2
 Refer: 56 85 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4576,11 +4619,11 @@ GlifName: U_circumflex
 Width: 1438
 GlyphClass: 2
 Flags: W
-HStem: 0 211<424.445 1014.09> 1402 20G<140 351 1088 1298> 1544 309
-VStem: 140 211<279.344 1422> 407.5 623 1088 210<279.344 1422>
+HStem: 0 211<424.445 1014.09> 1402 20G<140 351 1088 1298> 1543 309
+VStem: 140 211<279.344 1422> 407 623 1088 210<279.344 1422>
 LayerCount: 2
 Fore
-Refer: 327 710 N 1 0 0 1 307.5 431 2
+Refer: 327 710 N 1 0 0 1 307 430 2
 Refer: 56 85 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4591,11 +4634,11 @@ GlifName: U_dieresis
 Width: 1438
 GlyphClass: 2
 Flags: W
-HStem: 0 211<424.445 1014.09> 1402 20G<140 351 1088 1298> 1544 221<460.28 637.653 800.28 977.653>
-VStem: 140 211<279.344 1422> 438.5 221<1565.78 1743.15> 778.5 221<1565.78 1743.15> 1088 210<279.344 1422>
+HStem: 0 211<424.445 1014.09> 1402 20G<140 351 1088 1298> 1545 221<459.78 637.153 799.78 977.153>
+VStem: 140 211<279.344 1422> 438 221<1566.78 1744.15> 778 221<1566.78 1744.15> 1088 210<279.344 1422>
 LayerCount: 2
 Fore
-Refer: 106 168 N 1 0 0 1 318.5 343 2
+Refer: 106 168 N 1 0 0 1 318 344 2
 Refer: 56 85 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4700,10 +4743,10 @@ Width: 1182
 GlyphClass: 2
 Flags: W
 HStem: 0 211<374.411 731> 825 211<372.99 851> 1158 422
-VStem: 110 211<262.99 774.452> 388 312 851 211<0 825>
+VStem: 110 211<262.99 774.452> 393 312 851 211<0 825>
 LayerCount: 2
 Fore
-Refer: 67 96 N 1 0 0 1 288 -12 2
+Refer: 67 96 N 1 0 0 1 293 -12 2
 Refer: 68 97 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4715,10 +4758,10 @@ Width: 1182
 GlyphClass: 2
 Flags: W
 HStem: 0 211<374.411 731> 825 211<372.99 851> 1158 422
-VStem: 110 211<262.99 774.452> 472 312 851 211<0 825>
+VStem: 110 211<262.99 774.452> 477 312 851 211<0 825>
 LayerCount: 2
 Fore
-Refer: 118 180 N 1 0 0 1 372 -12 2
+Refer: 118 180 N 1 0 0 1 377 -12 2
 Refer: 68 97 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4729,11 +4772,11 @@ GlifName: acircumflex
 Width: 1182
 GlyphClass: 2
 Flags: W
-HStem: 0 211<374.411 731> 825 211<372.99 851> 1158 309
-VStem: 110 211<262.99 774.452> 274.5 623 851 211<0 825>
+HStem: 0 211<374.411 731> 825 211<372.99 851> 1157 309
+VStem: 110 211<262.99 774.452> 280 623 851 211<0 825>
 LayerCount: 2
 Fore
-Refer: 327 710 N 1 0 0 1 174.5 45 2
+Refer: 327 710 N 1 0 0 1 180 44 2
 Refer: 68 97 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4744,11 +4787,11 @@ GlifName: atilde
 Width: 1182
 GlyphClass: 2
 Flags: W
-HStem: 0 211<374.411 731> 825 211<372.99 851> 1158 154<579.301 754.352> 1239 148<414.734 597.372>
-VStem: 110 211<262.99 774.452> 257 155<1166 1233.93> 758 157<1315.28 1382> 851 211<0 825>
+HStem: 0 211<374.411 731> 825 211<372.99 851> 1158 154<583.301 758.352> 1239 148<418.734 601.372>
+VStem: 110 211<262.99 774.452> 261 155<1166 1233.93> 762 157<1315.28 1382> 851 211<0 825>
 LayerCount: 2
 Fore
-Refer: 333 732 N 1 0 0 1 137 -40 2
+Refer: 333 732 N 1 0 0 1 141 -40 2
 Refer: 68 97 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4759,11 +4802,11 @@ GlifName: adieresis
 Width: 1182
 GlyphClass: 2
 Flags: W
-HStem: 0 211<374.411 731> 825 211<372.99 851> 1158 221<327.28 504.653 667.28 844.653>
-VStem: 110 211<262.99 774.452> 305.5 221<1179.78 1357.15> 645.5 221<1179.78 1357.15> 851 211<0 825>
+HStem: 0 211<374.411 731> 825 211<372.99 851> 1159 221<332.78 510.153 672.78 850.153>
+VStem: 110 211<262.99 774.452> 311 221<1180.78 1358.15> 651 221<1180.78 1358.15> 851 211<0 825>
 LayerCount: 2
 Fore
-Refer: 106 168 N 1 0 0 1 185.5 -43 2
+Refer: 106 168 N 1 0 0 1 191 -42 2
 Refer: 68 97 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4774,11 +4817,11 @@ GlifName: aring
 Width: 1182
 GlyphClass: 2
 Flags: W
-HStem: 0 211<374.411 731> 825 211<372.99 851> 1158 118<515.406 656.594> 1421 118<515.406 656.594>
-VStem: 110 211<262.99 774.452> 396 118<1276.59 1420.41> 658 118<1276.59 1420.41> 851 211<0 825>
+HStem: 0 211<374.411 731> 825 211<372.99 851> 1158 118<520.406 661.594> 1421 118<520.406 661.594>
+VStem: 110 211<262.99 774.452> 401 118<1276.59 1420.41> 663 118<1276.59 1420.41> 851 211<0 825>
 LayerCount: 2
 Fore
-Refer: 331 730 N 1 0 0 1 296 117 2
+Refer: 331 730 N 1 0 0 1 301 117 2
 Refer: 68 97 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4791,6 +4834,7 @@ GlyphClass: 3
 Flags: W
 HStem: 0 211<374.411 731 1071.38 1730> 408 210<1182 1578.68> 825 211<372.99 851 1062 1578.68>
 VStem: 110 211<262.99 774.452> 851 211<0 11 219.135 825> 1593 210<631.719 810.145>
+AnchorPoint: "top" 956 1158 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4835,34 +4879,13 @@ GlifName: ccedilla
 Width: 1187
 GlyphClass: 2
 Flags: W
-HStem: -303 150<411.937 610> 0 211<379.839 537.967 671 1077> 825 211<379.839 1077>
-VStem: 110 211<273.298 764.191> 558 152<-217.5 -3.62744>
+HStem: -308 150<464.937 663.496> 0 211<379.839 1077> 825 211<379.839 1077>
+VStem: 110 211<273.298 764.191> 612 151<-222.5 1.18543>
 LayerCount: 2
 Fore
-SplineSet
-110 376 m 2
- 110 662 l 2
- 110 868 282 1036 494 1036 c 2
- 1077 1036 l 1
- 1077 825 l 1
- 494 825 l 2
- 399 825 321 751 321 659 c 2
- 321 378 l 2
- 321 286 398 211 494 211 c 2
- 1077 211 l 1
- 1077 0 l 1
- 671 0 l 1
- 697 -74 710 -130 710 -173 c 0
- 710 -262 662 -303 558 -303 c 0
- 525 -303 496 -300 408 -287 c 1
- 408 -139 l 1
- 490 -152 501 -153 518 -153 c 0
- 547 -153 558 -145 558 -122 c 0
- 558 -103 552 -82 523 0 c 1
- 494 0 l 2
- 282 0 110 169 110 376 c 2
-EndSplineSet
-Validated: 1
+Refer: 122 184 N 1 0 0 1 361 5 2
+Refer: 70 99 N 1 0 0 1 0 0 3
+Validated: 5
 EndChar
 
 StartChar: egrave
@@ -4872,10 +4895,10 @@ Width: 1182
 GlyphClass: 2
 Flags: W
 HStem: 0 211<344.558 999> 408 210<451 847.68> 825 211<335.298 847.68> 1158 422
-VStem: 120 211<219.135 825> 398 312 862 210<631.719 810.145>
+VStem: 120 211<219.135 825> 393 312 862 210<631.719 810.145>
 LayerCount: 2
 Fore
-Refer: 67 96 N 1 0 0 1 298 -12 2
+Refer: 67 96 N 1 0 0 1 293 -12 2
 Refer: 72 101 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4887,10 +4910,10 @@ Width: 1182
 GlyphClass: 2
 Flags: W
 HStem: 0 211<344.558 999> 408 210<451 847.68> 825 211<335.298 847.68> 1158 422
-VStem: 120 211<219.135 825> 482 312 862 210<631.719 810.145>
+VStem: 120 211<219.135 825> 477 312 862 210<631.719 810.145>
 LayerCount: 2
 Fore
-Refer: 118 180 N 1 0 0 1 382 -12 2
+Refer: 118 180 N 1 0 0 1 377 -12 2
 Refer: 72 101 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4901,11 +4924,11 @@ GlifName: ecircumflex
 Width: 1182
 GlyphClass: 2
 Flags: W
-HStem: 0 211<344.558 999> 408 210<451 847.68> 825 211<335.298 847.68> 1158 309
-VStem: 120 211<219.135 825> 284.5 623 862 210<631.719 810.145>
+HStem: 0 211<344.558 999> 408 210<451 847.68> 825 211<335.298 847.68> 1157 309
+VStem: 120 211<219.135 825> 280 623 862 210<631.719 810.145>
 LayerCount: 2
 Fore
-Refer: 327 710 N 1 0 0 1 184.5 45 2
+Refer: 327 710 N 1 0 0 1 180 44 2
 Refer: 72 101 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4916,11 +4939,11 @@ GlifName: edieresis
 Width: 1182
 GlyphClass: 2
 Flags: W
-HStem: 0 211<344.558 999> 408 210<451 847.68> 825 211<335.298 847.68> 1158 221<337.28 514.653 677.28 854.653>
-VStem: 120 211<219.135 825> 315.5 221<1179.78 1357.15> 655.5 221<1179.78 1357.15> 862 210<631.719 810.145>
+HStem: 0 211<344.558 999> 408 210<451 847.68> 825 211<335.298 847.68> 1159 221<332.78 510.153 672.78 850.153>
+VStem: 120 211<219.135 825> 311 221<1180.78 1358.15> 651 221<1180.78 1358.15> 862 210<631.719 810.145>
 LayerCount: 2
 Fore
-Refer: 106 168 N 1 0 0 1 195.5 -43 2
+Refer: 106 168 N 1 0 0 1 191 -42 2
 Refer: 72 101 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4932,10 +4955,10 @@ Width: 465
 GlyphClass: 2
 Flags: W
 HStem: 0 21G<127 338> 1016 20G<127 338> 1158 422
-VStem: 34.5 312 127 211<0 1036>
+VStem: 34 312 127 211<0 1036>
 LayerCount: 2
 Fore
-Refer: 67 96 N 1 0 0 1 -65.5 -12 2
+Refer: 67 96 N 1 0 0 1 -66 -12 2
 Refer: 243 305 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4947,10 +4970,10 @@ Width: 465
 GlyphClass: 2
 Flags: W
 HStem: 0 21G<127 338> 1016 20G<127 338> 1158 422
-VStem: 118.5 312 127 211<0 1036>
+VStem: 118 312 127 211<0 1036>
 LayerCount: 2
 Fore
-Refer: 118 180 N 1 0 0 1 18.5 -12 2
+Refer: 118 180 N 1 0 0 1 18 -12 2
 Refer: 243 305 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4961,11 +4984,11 @@ GlifName: icircumflex
 Width: 465
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<127 338> 1016 20G<127 338> 1158 309
+HStem: 0 21G<127 338> 1016 20G<127 338> 1157 309
 VStem: -79 623 127 211<0 1036>
 LayerCount: 2
 Fore
-Refer: 327 710 N 1 0 0 1 -179 45 2
+Refer: 327 710 N 1 0 0 1 -179 44 2
 Refer: 243 305 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4976,11 +4999,11 @@ GlifName: idieresis
 Width: 465
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<127 338> 1016 20G<127 338> 1158 221<-26.22 151.153 313.78 491.153>
-VStem: -48 221<1179.78 1357.15> 127 211<0 1036> 292 221<1179.78 1357.15>
+HStem: 0 21G<127 338> 1016 20G<127 338> 1159 221<-26.22 151.153 313.78 491.153>
+VStem: -48 221<1180.78 1358.15> 127 211<0 1036> 292 221<1180.78 1358.15>
 LayerCount: 2
 Fore
-Refer: 106 168 N 1 0 0 1 -168 -43 2
+Refer: 106 168 N 1 0 0 1 -168 -42 2
 Refer: 243 305 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -5030,11 +5053,11 @@ GlifName: ntilde
 Width: 1192
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<120 331 861 1072> 827 209<331 807.589> 1158 154<589.301 764.352> 1239 148<424.734 607.372>
-VStem: 120 211<0 827> 267 155<1166 1233.93> 768 157<1315.28 1382> 861 211<0 773.01>
+HStem: 0 21G<120 331 861 1072> 827 209<331 807.589> 1158 154<588.301 763.352> 1239 148<423.734 606.372>
+VStem: 120 211<0 827> 266 155<1166 1233.93> 767 157<1315.28 1382> 861 211<0 773.01>
 LayerCount: 2
 Fore
-Refer: 333 732 N 1 0 0 1 147 -40 2
+Refer: 333 732 N 1 0 0 1 146 -40 2
 Refer: 81 110 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -5075,11 +5098,11 @@ GlifName: ocircumflex
 Width: 1194
 GlyphClass: 2
 Flags: W
-HStem: 0 211<374.411 819.589> 825 211<374.411 819.589> 1158 309
-VStem: 110 211<262.99 773.01> 285.5 623 873 211<262.99 773.01>
+HStem: 0 211<374.411 819.589> 825 211<374.411 819.589> 1157 309
+VStem: 110 211<262.99 773.01> 286 623 873 211<262.99 773.01>
 LayerCount: 2
 Fore
-Refer: 327 710 N 1 0 0 1 185.5 45 2
+Refer: 327 710 N 1 0 0 1 186 44 2
 Refer: 82 111 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -5090,11 +5113,11 @@ GlifName: otilde
 Width: 1194
 GlyphClass: 2
 Flags: W
-HStem: 0 211<374.411 819.589> 825 211<374.411 819.589> 1158 154<590.301 765.352> 1239 148<425.734 608.372>
-VStem: 110 211<262.99 773.01> 268 155<1166 1233.93> 769 157<1315.28 1382> 873 211<262.99 773.01>
+HStem: 0 211<374.411 819.589> 825 211<374.411 819.589> 1158 154<589.301 764.352> 1239 148<424.734 607.372>
+VStem: 110 211<262.99 773.01> 267 155<1166 1233.93> 768 157<1315.28 1382> 873 211<262.99 773.01>
 LayerCount: 2
 Fore
-Refer: 333 732 N 1 0 0 1 148 -40 2
+Refer: 333 732 N 1 0 0 1 147 -40 2
 Refer: 82 111 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -5105,11 +5128,11 @@ GlifName: odieresis
 Width: 1194
 GlyphClass: 2
 Flags: W
-HStem: 0 211<374.411 819.589> 825 211<374.411 819.589> 1158 221<338.28 515.653 678.28 855.653>
-VStem: 110 211<262.99 773.01> 316.5 221<1179.78 1357.15> 656.5 221<1179.78 1357.15> 873 211<262.99 773.01>
+HStem: 0 211<374.411 819.589> 825 211<374.411 819.589> 1159 221<338.78 516.153 678.78 856.153>
+VStem: 110 211<262.99 773.01> 317 221<1180.78 1358.15> 657 221<1180.78 1358.15> 873 211<262.99 773.01>
 LayerCount: 2
 Fore
-Refer: 106 168 N 1 0 0 1 196.5 -43 2
+Refer: 106 168 N 1 0 0 1 197 -42 2
 Refer: 82 111 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -5152,6 +5175,7 @@ GlyphClass: 2
 Flags: W
 HStem: 0 211<492 819.589> 825 211<374.411 691>
 VStem: 110 211<315.525 773.01> 873 211<262.99 730.922>
+AnchorPoint: "top" 597 1158 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5224,11 +5248,11 @@ GlifName: ucircumflex
 Width: 1192
 GlyphClass: 2
 Flags: W
-HStem: 0 209<384.411 861> 1016 20G<120 331 861 1072> 1158 309
-VStem: 120 211<262.99 1036> 284.5 623 861 211<209 1036>
+HStem: 0 209<384.411 861> 1016 20G<120 331 861 1072> 1157 309
+VStem: 120 211<262.99 1036> 285 623 861 211<209 1036>
 LayerCount: 2
 Fore
-Refer: 327 710 N 1 0 0 1 184.5 45 2
+Refer: 327 710 N 1 0 0 1 185 44 2
 Refer: 88 117 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -5239,11 +5263,11 @@ GlifName: udieresis
 Width: 1192
 GlyphClass: 2
 Flags: W
-HStem: 0 209<384.411 861> 1016 20G<120 331 861 1072> 1158 221<337.28 514.653 677.28 854.653>
-VStem: 120 211<262.99 1036> 315.5 221<1179.78 1357.15> 655.5 221<1179.78 1357.15> 861 211<209 1036>
+HStem: 0 209<384.411 861> 1016 20G<120 331 861 1072> 1159 221<337.78 515.153 677.78 855.153>
+VStem: 120 211<262.99 1036> 316 221<1180.78 1358.15> 656 221<1180.78 1358.15> 861 211<209 1036>
 LayerCount: 2
 Fore
-Refer: 106 168 N 1 0 0 1 195.5 -43 2
+Refer: 106 168 N 1 0 0 1 196 -42 2
 Refer: 88 117 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -5306,11 +5330,11 @@ GlifName: ydieresis
 Width: 1121
 GlyphClass: 2
 Flags: W
-HStem: -390 21G<280 518.714> 1016 20G<60 291.493 820.34 1061> 1158 221<301.78 479.153 641.78 819.153>
-VStem: 280 221<1179.78 1357.15> 620 221<1179.78 1357.15>
+HStem: -390 21G<280 518.714> 1016 20G<60 291.493 820.34 1061> 1159 221<301.78 479.153 641.78 819.153>
+VStem: 280 221<1180.78 1358.15> 620 221<1180.78 1358.15>
 LayerCount: 2
 Fore
-Refer: 106 168 N 1 0 0 1 160 -43 2
+Refer: 106 168 N 1 0 0 1 160 -42 2
 Refer: 92 121 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -5336,11 +5360,11 @@ GlifName: amacron
 Width: 1182
 GlyphClass: 2
 Flags: W
-HStem: 0 211<374.411 731> 825 211<372.99 851> 1158 147<287.5 884.5>
-VStem: 110 211<262.99 774.452> 287.5 597<1158 1305> 851 211<0 825>
+HStem: 0 211<374.411 731> 825 211<372.99 851> 1158 147<292 889>
+VStem: 110 211<262.99 774.452> 292 597<1158 1305> 851 211<0 825>
 LayerCount: 2
 Fore
-Refer: 113 175 N 1 0 0 1 167.5 -117 2
+Refer: 113 175 N 1 0 0 1 172 -117 2
 Refer: 68 97 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -5351,11 +5375,11 @@ GlifName: A_breve
 Width: 1361
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<40 272.26 1088.76 1321> 428 210<620 865> 1402 20G<541.841 819.159> 1544 134<570.964 790.036>
-VStem: 382.5 134<1732.97 1842> 844.5 134<1732.97 1842>
+HStem: 0 21G<40 272.26 1088.76 1321> 428 210<620 865> 1402 20G<541.841 819.159> 1544 134<571.464 790.536>
+VStem: 383 134<1732.97 1842> 845 134<1732.97 1842>
 LayerCount: 2
 Fore
-Refer: 329 728 N 1 0 0 1 282.5 422 2
+Refer: 329 728 N 1 0 0 1 283 422 2
 Refer: 36 65 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -5366,11 +5390,11 @@ GlifName: abreve
 Width: 1182
 GlyphClass: 2
 Flags: W
-HStem: 0 211<374.411 731> 825 211<372.99 851> 1158 134<476.464 695.536>
-VStem: 110 211<262.99 774.452> 288 134<1346.97 1456> 750 134<1346.97 1456> 851 211<0 825>
+HStem: 0 211<374.411 731> 825 211<372.99 851> 1158 134<481.464 700.536>
+VStem: 110 211<262.99 774.452> 293 134<1346.97 1456> 755 134<1346.97 1456> 851 211<0 825>
 LayerCount: 2
 Fore
-Refer: 329 728 N 1 0 0 1 188 36 2
+Refer: 329 728 N 1 0 0 1 193 36 2
 Refer: 68 97 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -5381,33 +5405,13 @@ GlifName: A_ogonek
 Width: 1361
 GlyphClass: 2
 Flags: W
-HStem: -303 150<1195.5 1394.06> 0 21G<40 272.26> 428 210<620 865> 1402 20G<541.841 819.159>
-VStem: 1096 151<-217.5 -3.78678>
+HStem: -307 150<1189.5 1388.06> 0 21G<40 272.26 1088.76 1321> 428 210<620 865> 1402 20G<541.841 819.159>
+VStem: 1090 151<-221.5 2.18543>
 LayerCount: 2
 Fore
-SplineSet
-40 0 m 1
- 549 1422 l 1
- 812 1422 l 1
- 1321 0 l 1
- 1283 0 l 1
- 1252 -89 1247 -104 1247 -122 c 0
- 1247 -144 1258 -153 1288 -153 c 0
- 1305 -153 1316 -152 1398 -139 c 1
- 1398 -287 l 1
- 1310 -300 1281 -303 1248 -303 c 0
- 1144 -303 1096 -262 1096 -173 c 0
- 1096 -130 1109 -74 1135 0 c 1
- 1096 0 l 1
- 941 428 l 1
- 544 428 l 1
- 620 638 l 1
- 865 638 l 1
- 681 1146 l 1
- 265 0 l 1
- 40 0 l 1
-EndSplineSet
-Validated: 1
+Refer: 332 731 N 1 0 0 1 962 6 2
+Refer: 36 65 N 1 0 0 1 0 0 3
+Validated: 5
 EndChar
 
 StartChar: aogonek
@@ -5416,36 +5420,13 @@ GlifName: aogonek
 Width: 1182
 GlyphClass: 2
 Flags: W
-HStem: -303 150<943.504 1142.06> 0 211<374.411 731> 825 211<372.99 851>
-VStem: 110 211<262.99 774.452> 844 151<-207.497 -3.55895> 851 211<0 825>
+HStem: -307 150<943.504 1142.06> 0 211<374.411 731> 825 211<372.99 851>
+VStem: 110 211<262.99 774.452> 844 151<-221.5 2.18543> 851 211<0 825>
 LayerCount: 2
 Fore
-SplineSet
-110 374 m 2xf4
- 110 664 l 2
- 110 869 278 1036 484 1036 c 2
- 1062 1036 l 1
- 1062 0 l 1xf4
- 1030 0 l 1
- 1001 -82 995 -103 995 -122 c 0
- 995 -144 1006 -153 1036 -153 c 0
- 1053 -153 1064 -152 1146 -139 c 1
- 1146 -287 l 1
- 1058 -300 1029 -303 996 -303 c 0
- 892 -303 844 -262 844 -173 c 0xf8
- 844 -129 857 -71 882 0 c 1
- 851 0 l 1
- 851 825 l 1
- 484 825 l 2
- 394 825 321 752 321 662 c 2
- 321 376 l 2
- 321 285 394 211 484 211 c 2
- 731 211 l 1
- 731 0 l 1
- 484 0 l 2
- 278 0 110 168 110 374 c 2xf4
-EndSplineSet
-Validated: 1
+Refer: 332 731 N 1 0 0 1 716 6 2
+Refer: 68 97 N 1 0 0 1 0 0 3
+Validated: 5
 EndChar
 
 StartChar: Cacute
@@ -5455,10 +5436,10 @@ Width: 1381
 GlyphClass: 2
 Flags: W
 HStem: 0 211<405.353 1271> 1212 210<405.353 1271> 1544 422
-VStem: 120 211<285.428 1140.98> 581.5 312
+VStem: 120 211<285.428 1140.98> 576 312
 LayerCount: 2
 Fore
-Refer: 118 180 N 1 0 0 1 481.5 374 2
+Refer: 118 180 N 1 0 0 1 476 374 2
 Refer: 38 67 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -5470,10 +5451,10 @@ Width: 1187
 GlyphClass: 2
 Flags: W
 HStem: 0 211<379.839 1077> 825 211<379.839 1077> 1158 422
-VStem: 110 211<273.298 764.191> 479.5 312
+VStem: 110 211<273.298 764.191> 534 312
 LayerCount: 2
 Fore
-Refer: 118 180 N 1 0 0 1 379.5 -12 2
+Refer: 118 180 N 1 0 0 1 434 -12 2
 Refer: 70 99 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -5484,11 +5465,11 @@ GlifName: C_circumflex
 Width: 1381
 GlyphClass: 2
 Flags: W
-HStem: 0 211<405.353 1271> 1212 210<405.353 1271> 1544 309
-VStem: 120 211<285.428 1140.98> 384 623
+HStem: 0 211<405.353 1271> 1212 210<405.353 1271> 1543 309
+VStem: 120 211<285.428 1140.98> 379 623
 LayerCount: 2
 Fore
-Refer: 327 710 N 1 0 0 1 284 431 2
+Refer: 327 710 N 1 0 0 1 279 430 2
 Refer: 38 67 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -5499,11 +5480,11 @@ GlifName: ccircumflex
 Width: 1187
 GlyphClass: 2
 Flags: W
-HStem: 0 211<379.839 1077> 825 211<379.839 1077> 1158 309
-VStem: 110 211<273.298 764.191> 282 623
+HStem: 0 211<379.839 1077> 825 211<379.839 1077> 1157 309
+VStem: 110 211<273.298 764.191> 337 623
 LayerCount: 2
 Fore
-Refer: 327 710 N 1 0 0 1 182 45 2
+Refer: 327 710 N 1 0 0 1 237 44 2
 Refer: 70 99 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -5514,11 +5495,11 @@ GlifName: C_dotaccent
 Width: 1381
 GlyphClass: 2
 Flags: W
-HStem: 0 211<405.353 1271> 1212 210<405.353 1271> 1544 221<607.141 784.22>
-VStem: 120 211<285.428 1140.98> 585 221<1565.78 1743.15>
+HStem: 0 211<405.353 1271> 1212 210<405.353 1271> 1544 221<601.141 778.22>
+VStem: 120 211<285.428 1140.98> 579 221<1565.78 1743.15>
 LayerCount: 2
 Fore
-Refer: 330 729 N 1 0 0 1 490 332 2
+Refer: 330 729 N 1 0 0 1 484 332 2
 Refer: 38 67 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -5529,11 +5510,11 @@ GlifName: cdotaccent
 Width: 1187
 GlyphClass: 2
 Flags: W
-HStem: 0 211<379.839 1077> 825 211<379.839 1077> 1158 221<505.141 682.22>
-VStem: 110 211<273.298 764.191> 483 221<1179.78 1357.15>
+HStem: 0 211<379.839 1077> 825 211<379.839 1077> 1158 221<559.141 736.22>
+VStem: 110 211<273.298 764.191> 537 221<1179.78 1357.15>
 LayerCount: 2
 Fore
-Refer: 330 729 N 1 0 0 1 388 -54 2
+Refer: 330 729 N 1 0 0 1 442 -54 2
 Refer: 70 99 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -5545,10 +5526,10 @@ Width: 1381
 GlyphClass: 2
 Flags: W
 HStem: 0 211<405.353 1271> 1212 210<405.353 1271> 1544 309
-VStem: 120 211<285.428 1140.98> 384 623
+VStem: 120 211<285.428 1140.98> 378 623
 LayerCount: 2
 Fore
-Refer: 328 711 N 1 0 0 1 284 431 2
+Refer: 328 711 N 1 0 0 1 278 431 2
 Refer: 38 67 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -5560,10 +5541,10 @@ Width: 1187
 GlyphClass: 2
 Flags: W
 HStem: 0 211<379.839 1077> 825 211<379.839 1077> 1158 309
-VStem: 110 211<273.298 764.191> 282 623
+VStem: 110 211<273.298 764.191> 336 623
 LayerCount: 2
 Fore
-Refer: 328 711 N 1 0 0 1 182 45 2
+Refer: 328 711 N 1 0 0 1 236 45 2
 Refer: 70 99 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -5575,10 +5556,10 @@ Width: 1418
 GlyphClass: 2
 Flags: W
 HStem: 0 211<351 1015.54> 1212 210<351 1015.54> 1544 309
-VStem: 140 211<211 1212> 407.5 623 1088 210<279.344 1140.98>
+VStem: 140 211<211 1212> 397 623 1088 210<279.344 1140.98>
 LayerCount: 2
 Fore
-Refer: 328 711 N 1 0 0 1 307.5 431 2
+Refer: 328 711 N 1 0 0 1 297 431 2
 Refer: 39 68 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -5586,36 +5567,15 @@ EndChar
 StartChar: dcaron
 Encoding: 271 271 209
 GlifName: dcaron
-Width: 1182
+Width: 1507
 GlyphClass: 2
 Flags: W
-HStem: 0 211<372.99 851> 825 211<374.411 731> 1402 20G<851 1062 1295.01 1343.59>
-VStem: 110 211<261.548 773.01> 851 211<211 1422>
+HStem: 0 211<372.99 851> 825 211<374.411 731> 1000 422 1402 20G<851 1062>
+VStem: 110 211<261.548 773.01> 851 211<211 1422> 1245 312
 LayerCount: 2
 Fore
-SplineSet
-110 372 m 2
- 110 662 l 2
- 110 868 278 1036 484 1036 c 2
- 731 1036 l 1
- 731 825 l 1
- 484 825 l 2
- 394 825 321 751 321 660 c 2
- 321 374 l 2
- 321 284 394 211 484 211 c 2
- 851 211 l 1
- 851 1422 l 1
- 1062 1422 l 1
- 1062 211 l 2
- 1062 95 967 0 851 0 c 2
- 484 0 l 2
- 278 0 110 167 110 372 c 2
-1173 1053 m 1
- 1302 1422 l 1
- 1485 1334 l 1
- 1287 1000 l 1
- 1173 1053 l 1
-EndSplineSet
+Refer: 336 789 N 1 0 0 1 1145 -170 2
+Refer: 71 100 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
@@ -5701,11 +5661,11 @@ GlifName: E_macron
 Width: 1363
 GlyphClass: 2
 Flags: W
-HStem: 0 211<351 1243> 635 210<471 1243> 1212 210<351 1243> 1544 147<393 990>
-VStem: 140 211<211 1212> 393 597<1544 1691>
+HStem: 0 211<351 1243> 635 210<471 1243> 1212 210<351 1243> 1544 147<379 976>
+VStem: 140 211<211 1212> 379 597<1544 1691>
 LayerCount: 2
 Fore
-Refer: 113 175 N 1 0 0 1 273 269 2
+Refer: 113 175 N 1 0 0 1 259 269 2
 Refer: 40 69 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -5716,11 +5676,11 @@ GlifName: emacron
 Width: 1182
 GlyphClass: 2
 Flags: W
-HStem: 0 211<344.558 999> 408 210<451 847.68> 825 211<335.298 847.68> 1158 147<297.5 894.5>
-VStem: 120 211<219.135 825> 297.5 597<1158 1305> 862 210<631.719 810.145>
+HStem: 0 211<344.558 999> 408 210<451 847.68> 825 211<335.298 847.68> 1158 147<292 889>
+VStem: 120 211<219.135 825> 292 597<1158 1305> 862 210<631.719 810.145>
 LayerCount: 2
 Fore
-Refer: 113 175 N 1 0 0 1 177.5 -117 2
+Refer: 113 175 N 1 0 0 1 172 -117 2
 Refer: 72 101 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -5731,11 +5691,11 @@ GlifName: E_breve
 Width: 1363
 GlyphClass: 2
 Flags: W
-HStem: 0 211<351 1243> 635 210<471 1243> 1212 210<351 1243> 1544 134<581.964 801.036>
-VStem: 140 211<211 1212> 393.5 134<1732.97 1842> 855.5 134<1732.97 1842>
+HStem: 0 211<351 1243> 635 210<471 1243> 1212 210<351 1243> 1544 134<568.464 787.536>
+VStem: 140 211<211 1212> 380 134<1732.97 1842> 842 134<1732.97 1842>
 LayerCount: 2
 Fore
-Refer: 329 728 N 1 0 0 1 293.5 422 2
+Refer: 329 728 N 1 0 0 1 280 422 2
 Refer: 40 69 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -5746,11 +5706,11 @@ GlifName: ebreve
 Width: 1182
 GlyphClass: 2
 Flags: W
-HStem: 0 211<344.558 999> 408 210<451 847.68> 825 211<335.298 847.68> 1158 134<486.464 705.536>
-VStem: 120 211<219.135 825> 298 134<1346.97 1456> 760 134<1346.97 1456> 862 210<631.719 810.145>
+HStem: 0 211<344.558 999> 408 210<451 847.68> 825 211<335.298 847.68> 1158 134<481.464 700.536>
+VStem: 120 211<219.135 825> 293 134<1346.97 1456> 755 134<1346.97 1456> 862 210<631.719 810.145>
 LayerCount: 2
 Fore
-Refer: 329 728 N 1 0 0 1 198 36 2
+Refer: 329 728 N 1 0 0 1 193 36 2
 Refer: 72 101 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -5761,11 +5721,11 @@ GlifName: E_dotaccent
 Width: 1363
 GlyphClass: 2
 Flags: W
-HStem: 0 211<351 1243> 635 210<471 1243> 1212 210<351 1243> 1544 221<603.141 780.22>
-VStem: 140 211<211 1212> 581 221<1565.78 1743.15>
+HStem: 0 211<351 1243> 635 210<471 1243> 1212 210<351 1243> 1544 221<589.141 766.22>
+VStem: 140 211<211 1212> 567 221<1565.78 1743.15>
 LayerCount: 2
 Fore
-Refer: 330 729 N 1 0 0 1 486 332 2
+Refer: 330 729 N 1 0 0 1 472 332 2
 Refer: 40 69 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -5776,11 +5736,11 @@ GlifName: edotaccent
 Width: 1182
 GlyphClass: 2
 Flags: W
-HStem: 0 211<344.558 999> 408 210<451 847.68> 825 211<335.298 847.68> 1158 221<507.641 684.72>
-VStem: 120 211<219.135 825> 485.5 221<1179.78 1357.15> 862 210<631.719 810.145>
+HStem: 0 211<344.558 999> 408 210<451 847.68> 825 211<335.298 847.68> 1158 221<502.141 679.22>
+VStem: 120 211<219.135 825> 480 221<1179.78 1357.15> 862 210<631.719 810.145>
 LayerCount: 2
 Fore
-Refer: 330 729 N 1 0 0 1 390.5 -54 2
+Refer: 330 729 N 1 0 0 1 385 -54 2
 Refer: 72 101 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -5791,35 +5751,13 @@ GlifName: E_ogonek
 Width: 1363
 GlyphClass: 2
 Flags: W
-HStem: -303 150<749.004 948.063> 0 211<351 688 821.166 1243> 635 210<471 1243> 1212 210<351 1243>
-VStem: 140 211<211 1212> 650 150<-217.5 -3.71828>
+HStem: -307 150<663.504 862.063> 0 211<351 1243> 635 210<471 1243> 1212 210<351 1243>
+VStem: 140 211<211 1212> 564 151<-221.5 2.18543>
 LayerCount: 2
 Fore
-SplineSet
-140 0 m 1
- 140 1422 l 1
- 1243 1422 l 1
- 1243 1212 l 1
- 351 1212 l 1
- 351 211 l 1
- 1243 211 l 1
- 1243 0 l 1
- 836 0 l 1
- 805 -89 800 -104 800 -122 c 0
- 800 -144 812 -153 842 -153 c 0
- 859 -153 870 -152 952 -139 c 1
- 952 -287 l 1
- 864 -300 835 -303 802 -303 c 0
- 698 -303 650 -262 650 -173 c 0
- 650 -129 663 -71 688 0 c 1
- 140 0 l 1
-471 635 m 1
- 471 845 l 1
- 1243 845 l 1
- 1243 635 l 1
- 471 635 l 1
-EndSplineSet
-Validated: 1
+Refer: 332 731 N 1 0 0 1 436 6 2
+Refer: 40 69 N 1 0 0 1 0 0 3
+Validated: 5
 EndChar
 
 StartChar: eogonek
@@ -5828,41 +5766,13 @@ GlifName: eogonek
 Width: 1182
 GlyphClass: 2
 Flags: W
-HStem: -303 150<579.504 778.063> 0 211<344.558 518 651.033 999> 408 210<451 847.68> 825 211<335.298 847.68>
-VStem: 120 211<219.135 825> 480 151<-217.5 -3.55895> 862 210<631.719 810.145>
+HStem: -307 150<576.504 775.063> 0 211<344.558 999> 408 210<451 847.68> 825 211<335.298 847.68>
+VStem: 120 211<219.135 825> 477 151<-221.5 2.18543> 862 210<631.719 810.145>
 LayerCount: 2
 Fore
-SplineSet
-120 292 m 2
- 120 822 l 2
- 120 940 219 1036 341 1036 c 2
- 773 1036 l 2
- 938 1036 1072 901 1072 735 c 2
- 1072 706 l 2
- 1072 542 938 408 773 408 c 2
- 451 408 l 1
- 451 618 l 1
- 775 618 l 2
- 823 618 862 658 862 707 c 2
- 862 735 l 2
- 862 785 823 825 775 825 c 2
- 331 825 l 1
- 331 293 l 2
- 331 248 366 211 410 211 c 2
- 999 211 l 1
- 999 0 l 1
- 666 0 l 1
- 637 -82 631 -103 631 -122 c 0
- 631 -144 642 -153 672 -153 c 0
- 689 -153 700 -152 782 -139 c 1
- 782 -287 l 1
- 694 -300 665 -303 632 -303 c 0
- 528 -303 480 -262 480 -173 c 0
- 480 -129 493 -71 518 0 c 1
- 410 0 l 2
- 250 0 120 131 120 292 c 2
-EndSplineSet
-Validated: 1
+Refer: 332 731 N 1 0 0 1 349 6 2
+Refer: 72 101 N 1 0 0 1 0 0 3
+Validated: 5
 EndChar
 
 StartChar: Ecaron
@@ -5872,10 +5782,10 @@ Width: 1363
 GlyphClass: 2
 Flags: W
 HStem: 0 211<351 1243> 635 210<471 1243> 1212 210<351 1243> 1544 309
-VStem: 140 211<211 1212> 380 623
+VStem: 140 211<211 1212> 366 623
 LayerCount: 2
 Fore
-Refer: 328 711 N 1 0 0 1 280 431 2
+Refer: 328 711 N 1 0 0 1 266 431 2
 Refer: 40 69 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -5887,10 +5797,10 @@ Width: 1182
 GlyphClass: 2
 Flags: W
 HStem: 0 211<344.558 999> 408 210<451 847.68> 825 211<335.298 847.68> 1158 309
-VStem: 120 211<219.135 825> 284.5 623 862 210<631.719 810.145>
+VStem: 120 211<219.135 825> 279 623 862 210<631.719 810.145>
 LayerCount: 2
 Fore
-Refer: 328 711 N 1 0 0 1 184.5 45 2
+Refer: 328 711 N 1 0 0 1 179 45 2
 Refer: 72 101 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -5917,11 +5827,11 @@ GlifName: gcircumflex
 Width: 1182
 GlyphClass: 2
 Flags: W
-HStem: -388 206<177 798.285> 0 210<374.411 731> 824 211<372.99 851> 1158 309
-VStem: 110 211<262.082 773.452> 274.5 623 851 211<-125.01 824>
+HStem: -388 206<177 798.285> 0 210<374.411 731> 824 211<372.99 851> 1157 309
+VStem: 110 211<262.082 773.452> 280 623 851 211<-125.01 824>
 LayerCount: 2
 Fore
-Refer: 327 710 N 1 0 0 1 174.5 45 2
+Refer: 327 710 N 1 0 0 1 180 44 2
 Refer: 74 103 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -5932,11 +5842,11 @@ GlifName: G_breve
 Width: 1421
 GlyphClass: 2
 Flags: W
-HStem: 0 210<408.361 1012.64> 585 210<704 1090> 1212 210<408.361 1217> 1544 134<600.964 820.036>
-VStem: 120 211<290.465 1131.54> 412.5 134<1732.97 1842> 874.5 134<1732.97 1842> 1090 211<290.465 585>
+HStem: 0 210<408.361 1012.64> 585 210<704 1090> 1212 210<408.361 1217> 1544 134<600.464 819.536>
+VStem: 120 211<290.465 1131.54> 412 134<1732.97 1842> 874 134<1732.97 1842> 1090 211<290.465 585>
 LayerCount: 2
 Fore
-Refer: 329 728 N 1 0 0 1 312.5 422 2
+Refer: 329 728 N 1 0 0 1 312 422 2
 Refer: 42 71 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -5947,11 +5857,11 @@ GlifName: gbreve
 Width: 1182
 GlyphClass: 2
 Flags: W
-HStem: -388 206<177 798.285> 0 210<374.411 731> 824 211<372.99 851> 1158 134<476.464 695.536>
-VStem: 110 211<262.082 773.452> 288 134<1346.97 1456> 750 134<1346.97 1456> 851 211<-125.01 824>
+HStem: -388 206<177 798.285> 0 210<374.411 731> 824 211<372.99 851> 1158 134<481.464 700.536>
+VStem: 110 211<262.082 773.452> 293 134<1346.97 1456> 755 134<1346.97 1456> 851 211<-125.01 824>
 LayerCount: 2
 Fore
-Refer: 329 728 N 1 0 0 1 188 36 2
+Refer: 329 728 N 1 0 0 1 193 36 2
 Refer: 74 103 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -5962,12 +5872,11 @@ GlifName: G_dotaccent
 Width: 1421
 GlyphClass: 2
 Flags: W
-HStem: 0 210<408.361 1012.64> 585 210<704 1090> 1212 210<408.361 1217> 1544 221<622.141 799.22>
-VStem: 120 211<290.465 1131.54> 600 221<1565.78 1743.15> 1090 211<290.465 585>
-CounterMasks: 1 0e
+HStem: 0 210<408.361 1012.64> 585 210<704 1090> 1212 210<408.361 1217> 1544 221<621.141 798.22>
+VStem: 120 211<290.465 1131.54> 599 221<1565.78 1743.15> 1090 211<290.465 585>
 LayerCount: 2
 Fore
-Refer: 330 729 N 1 0 0 1 505 332 2
+Refer: 330 729 N 1 0 0 1 504 332 2
 Refer: 42 71 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -5978,12 +5887,11 @@ GlifName: gdotaccent
 Width: 1182
 GlyphClass: 2
 Flags: W
-HStem: -388 206<177 798.285> 0 210<374.411 731> 824 211<372.99 851> 1158 221<497.641 674.72>
-VStem: 110 211<262.082 773.452> 475.5 221<1179.78 1357.15> 851 211<-125.01 824>
-CounterMasks: 1 0e
+HStem: -388 206<177 798.285> 0 210<374.411 731> 824 211<372.99 851> 1158 221<502.141 679.22>
+VStem: 110 211<262.082 773.452> 480 221<1179.78 1357.15> 851 211<-125.01 824>
 LayerCount: 2
 Fore
-Refer: 330 729 N 1 0 0 1 380.5 -54 2
+Refer: 330 729 N 1 0 0 1 385 -54 2
 Refer: 74 103 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -5994,12 +5902,11 @@ GlifName: uni0122
 Width: 1421
 GlyphClass: 2
 Flags: W
-HStem: -536 414<642 725> 0 210<408.361 1012.64> 585 210<704 1090> 1212 210<408.361 1217>
-VStem: 120 211<290.465 1131.54> 567 287 1090 211<290.465 585>
-CounterMasks: 1 0e
+HStem: -534 414<641 724> 0 210<408.361 1012.64> 585 210<704 1090> 1212 210<408.361 1217>
+VStem: 120 211<290.465 1131.54> 566 287 1090 211<290.465 585>
 LayerCount: 2
 Fore
-Refer: 337 806 N 1 0 0 1 467 -334 2
+Refer: 337 806 N 1 0 0 1 466 -332 2
 Refer: 42 71 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -6026,33 +5933,12 @@ GlifName: H_circumflex
 Width: 1438
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<140 351 1088 1298> 635 210<351 1088> 1402 20G<140 351 1088 1298>
-VStem: 140 211<0 635 845 1422> 1088 210<0 635 845 1422>
+HStem: 0 21G<140 351 1088 1298> 635 210<351 1088> 1402 20G<140 351 1088 1298> 1543 309
+VStem: 140 211<0 635 845 1422> 408 623 1088 210<0 635 845 1422>
 LayerCount: 2
 Fore
-SplineSet
-140 0 m 1
- 140 1422 l 1
- 351 1422 l 1
- 351 845 l 1
- 1088 845 l 1
- 1088 1422 l 1
- 1298 1422 l 1
- 1298 0 l 1
- 1088 0 l 1
- 1088 635 l 1
- 351 635 l 1
- 351 0 l 1
- 140 0 l 1
-408 1544 m 1
- 642 1853 l 1
- 797 1853 l 1
- 1031 1544 l 1
- 890 1544 l 1
- 719 1716 l 1
- 549 1544 l 1
- 408 1544 l 1
-EndSplineSet
+Refer: 327 710 N 1 0 0 1 308 430 2
+Refer: 43 72 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
@@ -6062,33 +5948,12 @@ GlifName: hcircumflex
 Width: 1167
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<120 331 836 1047> 825 211<331 772.829> 1402 20G<120 331>
-VStem: 120 211<0 825 1036 1422> 836 211<0 765.113>
+HStem: 0 21G<120 331 836 1047> 825 211<331 772.829> 1402 20G<120 331> 1543 309
+VStem: -86 623 120 211<0 825 1036 1422> 836 211<0 765.113>
 LayerCount: 2
 Fore
-SplineSet
-120 0 m 1
- 120 1422 l 1
- 331 1422 l 1
- 331 1036 l 1
- 657 1036 l 2
- 872 1036 1047 869 1047 663 c 2
- 1047 0 l 1
- 836 0 l 1
- 836 660 l 2
- 836 748 753 825 657 825 c 2
- 331 825 l 1
- 331 0 l 1
- 120 0 l 1
-272 1544 m 1
- 506 1853 l 1
- 661 1853 l 1
- 895 1544 l 1
- 754 1544 l 1
- 583 1716 l 1
- 413 1544 l 1
- 272 1544 l 1
-EndSplineSet
+Refer: 327 710 N 1 0 0 1 -186 430 2
+Refer: 75 104 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
@@ -6175,11 +6040,11 @@ GlifName: I_tilde
 Width: 491
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<140 351> 1402 20G<140 351> 1544 154<238.801 413.852> 1625 148<74.2339 256.872>
-VStem: -83.5 155<1552 1619.93> 140 211<0 1422> 417.5 157<1701.28 1768>
+HStem: 0 21G<140 351> 1402 20G<140 351> 1544 154<237.301 412.352> 1625 148<72.7339 255.372>
+VStem: -85 155<1552 1619.93> 140 211<0 1422> 416 157<1701.28 1768>
 LayerCount: 2
 Fore
-Refer: 333 732 N 1 0 0 1 -203.5 346 2
+Refer: 333 732 N 1 0 0 1 -205 346 2
 Refer: 44 73 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -6190,11 +6055,11 @@ GlifName: itilde
 Width: 465
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<127 338> 1016 20G<127 338> 1158 154<225.801 400.852> 1239 148<61.2339 243.872>
-VStem: -96.5 155<1166 1233.93> 127 211<0 1036> 404.5 157<1315.28 1382>
+HStem: 0 21G<127 338> 1016 20G<127 338> 1158 154<224.301 399.352> 1239 148<59.7339 242.372>
+VStem: -98 155<1166 1233.93> 127 211<0 1036> 403 157<1315.28 1382>
 LayerCount: 2
 Fore
-Refer: 333 732 N 1 0 0 1 -216.5 -40 2
+Refer: 333 732 N 1 0 0 1 -218 -40 2
 Refer: 243 305 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -6205,11 +6070,11 @@ GlifName: I_macron
 Width: 491
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<140 351> 1402 20G<140 351> 1544 147<-53 544>
-VStem: -53 597<1544 1691> 140 211<0 1422>
+HStem: 0 21G<140 351> 1402 20G<140 351> 1544 147<-54 543>
+VStem: -54 597<1544 1691> 140 211<0 1422>
 LayerCount: 2
 Fore
-Refer: 113 175 N 1 0 0 1 -173 269 2
+Refer: 113 175 N 1 0 0 1 -174 269 2
 Refer: 44 73 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -6220,11 +6085,11 @@ GlifName: imacron
 Width: 465
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<127 338> 1016 20G<127 338> 1158 147<-66 531>
-VStem: -66 597<1158 1305> 127 211<0 1036>
+HStem: 0 21G<127 338> 1016 20G<127 338> 1158 147<-67 530>
+VStem: -67 597<1158 1305> 127 211<0 1036>
 LayerCount: 2
 Fore
-Refer: 113 175 N 1 0 0 1 -186 -117 2
+Refer: 113 175 N 1 0 0 1 -187 -117 2
 Refer: 243 305 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -6235,12 +6100,11 @@ GlifName: I_breve
 Width: 491
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<140 351> 1402 20G<140 351> 1544 134<135.964 355.036>
-VStem: -52.5 134<1732.97 1842> 140 211<0 1422> 409.5 134<1732.97 1842>
-CounterMasks: 1 1c
+HStem: 0 21G<140 351> 1402 20G<140 351> 1544 134<135.464 354.536>
+VStem: -53 134<1732.97 1842> 140 211<0 1422> 409 134<1732.97 1842>
 LayerCount: 2
 Fore
-Refer: 329 728 N 1 0 0 1 -152.5 422 2
+Refer: 329 728 N 1 0 0 1 -153 422 2
 Refer: 44 73 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -6251,12 +6115,11 @@ GlifName: ibreve
 Width: 465
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<127 338> 1016 20G<127 338> 1158 134<122.964 342.036>
-VStem: -65.5 134<1346.97 1456> 127 211<0 1036> 396.5 134<1346.97 1456>
-CounterMasks: 1 1c
+HStem: 0 21G<127 338> 1016 20G<127 338> 1158 134<122.464 341.536>
+VStem: -66 134<1346.97 1456> 127 211<0 1036> 396 134<1346.97 1456>
 LayerCount: 2
 Fore
-Refer: 329 728 N 1 0 0 1 -165.5 36 2
+Refer: 329 728 N 1 0 0 1 -166 36 2
 Refer: 243 305 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -6267,26 +6130,13 @@ GlifName: I_ogonek
 Width: 491
 GlyphClass: 2
 Flags: W
-HStem: -303 150<229.004 428.063> 1402 20G<140 351>
-VStem: 130 150<-207.497 -3.71828> 140 211<0 1422>
+HStem: -307 150<231.504 430.063> 0 21G<140 351> 1402 20G<140 351>
+VStem: 132 151<-221.5 2.18543> 140 211<0 1422>
 LayerCount: 2
 Fore
-SplineSet
-130 -173 m 0xe0
- 130 -129 143 -71 168 0 c 1
- 140 0 l 1
- 140 1422 l 1
- 351 1422 l 1
- 351 0 l 1xd0
- 316 0 l 1
- 285 -89 280 -104 280 -122 c 0
- 280 -144 292 -153 322 -153 c 0
- 339 -153 350 -152 432 -139 c 1
- 432 -287 l 1
- 344 -300 315 -303 282 -303 c 0
- 178 -303 130 -262 130 -173 c 0xe0
-EndSplineSet
-Validated: 1
+Refer: 332 731 N 1 0 0 1 4 6 2
+Refer: 44 73 N 1 0 0 1 0 0 3
+Validated: 5
 EndChar
 
 StartChar: iogonek
@@ -6295,31 +6145,13 @@ GlifName: iogonek
 Width: 452
 GlyphClass: 2
 Flags: W
-HStem: -303 150<209.504 408.063> 1016 20G<120 332> 1188 260<127.632 324.368>
-VStem: 96 260<1219.63 1416.37> 110 151<-207.497 -3.39853> 120 212<0 1036>
+HStem: -307 150<211.504 410.063> 0 21G<120 332> 1016 20G<120 332> 1188 260<127.632 324.368>
+VStem: 96 260<1219.63 1416.37> 112 151<-221.5 2.18543> 120 212<0 1036>
 LayerCount: 2
 Fore
-SplineSet
-96 1318 m 0xf0
- 96 1390 154 1448 226 1448 c 0
- 298 1448 356 1390 356 1318 c 0
- 356 1246 298 1188 226 1188 c 0
- 154 1188 96 1246 96 1318 c 0xf0
-110 -173 m 0xe8
- 110 -126 123 -68 148 0 c 1
- 120 0 l 1
- 120 1036 l 1
- 332 1036 l 1
- 332 0 l 1xe4
- 296 0 l 1
- 268 -78 261 -102 261 -122 c 0
- 261 -144 272 -153 302 -153 c 0
- 319 -153 330 -152 412 -139 c 1
- 412 -287 l 1
- 324 -300 295 -303 262 -303 c 0
- 158 -303 110 -262 110 -173 c 0xe8
-EndSplineSet
-Validated: 1
+Refer: 332 731 N 1 0 0 1 -16 6 2
+Refer: 76 105 N 1 0 0 1 0 0 3
+Validated: 5
 EndChar
 
 StartChar: Idotaccent
@@ -6355,6 +6187,7 @@ GlyphClass: 2
 Flags: W
 HStem: 0 21G<127 338> 1016 20G<127 338>
 VStem: 127 211<0 1036>
+AnchorPoint: "top" 232 1158 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6370,29 +6203,15 @@ EndChar
 StartChar: IJ
 Encoding: 306 306 244
 GlifName: I_J_
-Width: 1326
+Width: 1306
 GlyphClass: 2
 Flags: W
-HStem: 0 210<531 904.072> 1402 20G<140 351 976 1186>
-VStem: 140 211<0 1422> 976 210<278.344 1422>
+HStem: 0 21G<140 351> 0 210<511 884.072> 1402 20G<140 351 956 1166>
+VStem: 140 211<0 1422> 956 210<278.344 1422>
 LayerCount: 2
 Fore
-SplineSet
-140 0 m 1
- 140 1422 l 1
- 351 1422 l 1
- 351 0 l 1
- 140 0 l 1
-531 0 m 1
- 531 210 l 1
- 785 210 l 2
- 890 210 976 294 976 398 c 2
- 976 1422 l 1
- 1186 1422 l 1
- 1186 395 l 2
- 1186 177 1006 0 785 0 c 2
- 531 0 l 1
-EndSplineSet
+Refer: 45 74 N 1 0 0 1 471 0 2
+Refer: 44 73 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
@@ -6406,30 +6225,8 @@ HStem: -391 211<442 591.106> 0 21G<120 332> 1016 20G<120 332 601 812> 1188 260<1
 VStem: 96 260<1219.63 1416.37> 120 212<0 1036> 573 260<1221.25 1413.85> 601 211<-166.146 1036>
 LayerCount: 2
 Fore
-SplineSet
-96 1318 m 0xf8
- 96 1390 154 1448 226 1448 c 0
- 298 1448 356 1390 356 1318 c 0
- 356 1246 298 1188 226 1188 c 0
- 154 1188 96 1246 96 1318 c 0xf8
-120 0 m 1xf4
- 120 1036 l 1
- 332 1036 l 1
- 332 0 l 1
- 120 0 l 1xf4
-442 -180 m 1
- 589 -180 601 -171 601 -60 c 2
- 601 1036 l 1
- 812 1036 l 1
- 812 -60 l 2xf1
- 812 -313 725 -391 442 -391 c 1
- 442 -180 l 1
-573 1317 m 0xf2
- 573 1389 632 1448 704 1448 c 0
- 775 1448 833 1390 833 1317 c 0
- 833 1245 776 1188 704 1188 c 0
- 631 1188 573 1246 573 1317 c 0xf2
-EndSplineSet
+Refer: 77 106 N 1 0 0 1 402 0 2
+Refer: 76 105 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
@@ -6439,59 +6236,27 @@ GlifName: J_circumflex
 Width: 835
 GlyphClass: 2
 Flags: W
-HStem: 0 210<40 413.072> 1402 20G<485 695>
-VStem: 485 210<278.344 1422>
+HStem: 0 210<40 413.072> 1402 20G<485 695> 1544 309
+VStem: 278.5 623 485 210<278.344 1422>
 LayerCount: 2
 Fore
-SplineSet
-40 0 m 1
- 40 210 l 1
- 294 210 l 2
- 399 210 485 294 485 398 c 2
- 485 1422 l 1
- 695 1422 l 1
- 695 395 l 2
- 695 177 515 0 294 0 c 2
- 40 0 l 1
-278 1544 m 1
- 512 1853 l 1
- 667 1853 l 1
- 901 1544 l 1
- 760 1544 l 1
- 589 1716 l 1
- 419 1544 l 1
- 278 1544 l 1
-EndSplineSet
+Refer: 327 710 N 1 0 0 1 178.5 431 2
+Refer: 45 74 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
 StartChar: jcircumflex
 Encoding: 309 309 247
 GlifName: jcircumflex
-Width: 535
+Width: 530
 GlyphClass: 2
 Flags: W
-HStem: -391 211<40 189.106> 1016 20G<199 410>
-VStem: 199 211<-166.146 1036>
+HStem: -391 211<40 189.069> 1016 20G<199 410> 1157 309
+VStem: -7 623 199 211<-166.175 1036>
 LayerCount: 2
 Fore
-SplineSet
--8 1158 m 1
- 226 1467 l 1
- 381 1467 l 1
- 615 1158 l 1
- 474 1158 l 1
- 303 1330 l 1
- 133 1158 l 1
- -8 1158 l 1
-40 -180 m 1
- 187 -180 199 -171 199 -60 c 2
- 199 1036 l 1
- 410 1036 l 1
- 410 -60 l 2
- 410 -313 323 -391 40 -391 c 1
- 40 -180 l 1
-EndSplineSet
+Refer: 327 710 N 1 0 0 1 -107 44 2
+Refer: 326 567 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
@@ -6501,31 +6266,12 @@ GlifName: uni0136
 Width: 1394
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<140 351 1038.65 1354> 1402 20G<140 351 1000.42 1311>
-VStem: 140 211<0 635 846 1422>
+HStem: -534 414<628 711> 0 21G<140 351 1038.65 1354> 1402 20G<140 351 1000.42 1311>
+VStem: 140 211<0 635 846 1422> 553 287
 LayerCount: 2
 Fore
-SplineSet
-140 0 m 1
- 140 1422 l 1
- 351 1422 l 1
- 351 846 l 1
- 456 846 l 1
- 1020 1422 l 1
- 1311 1422 l 1
- 623 719 l 1
- 1354 0 l 1
- 1059 0 l 1
- 413 635 l 1
- 351 635 l 1
- 351 0 l 1
- 140 0 l 1
-604 -536 m 1
- 679 -122 l 1
- 891 -122 l 1
- 762 -536 l 1
- 604 -536 l 1
-EndSplineSet
+Refer: 337 806 N 1 0 0 1 453 -332 2
+Refer: 46 75 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
@@ -6535,31 +6281,12 @@ GlifName: uni0137
 Width: 1123
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<120 331 778.607 1093> 1016 20G<758.108 1051> 1402 20G<120 331>
-VStem: 120 211<0 428 639 1422>
+HStem: -534 414<493 576> 0 21G<120 331 778.607 1093> 1016 20G<758.108 1051> 1402 20G<120 331>
+VStem: 120 211<0 428 639 1422> 418 287
 LayerCount: 2
 Fore
-SplineSet
-120 0 m 1
- 120 1422 l 1
- 331 1422 l 1
- 331 639 l 1
- 402 639 l 1
- 777 1036 l 1
- 1051 1036 l 1
- 578 534 l 1
- 1093 0 l 1
- 798 0 l 1
- 383 428 l 1
- 331 428 l 1
- 331 0 l 1
- 120 0 l 1
-463 -536 m 1
- 538 -122 l 1
- 750 -122 l 1
- 621 -536 l 1
- 463 -536 l 1
-EndSplineSet
+Refer: 337 806 N 1 0 0 1 318 -332 2
+Refer: 78 107 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
@@ -6598,26 +6325,12 @@ GlifName: L_acute
 Width: 1282
 GlyphClass: 2
 Flags: W
-HStem: 0 210<419.04 1242> 1402 20G<140 350>
-VStem: 140 210<279.576 1422>
+HStem: 0 210<419.04 1242> 1402 20G<140 350> 1544 422
+VStem: 131 312 140 210<279.576 1422>
 LayerCount: 2
 Fore
-SplineSet
-131 1597 m 1
- 260 1966 l 1
- 443 1878 l 1
- 245 1544 l 1
- 131 1597 l 1
-140 398 m 2
- 140 1422 l 1
- 350 1422 l 1
- 350 398 l 2
- 350 294 434 210 537 210 c 2
- 1242 210 l 1
- 1242 0 l 1
- 537 0 l 2
- 318 0 140 178 140 398 c 2
-EndSplineSet
+Refer: 118 180 N 1 0 0 1 31 374 2
+Refer: 47 76 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
@@ -6627,22 +6340,12 @@ GlifName: lacute
 Width: 451
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<120 331> 1402 20G<120 331>
-VStem: 120 211<0 1422>
+HStem: 0 21G<120 331> 1402 20G<120 331> 1544 422
+VStem: 111 312 120 211<0 1422>
 LayerCount: 2
 Fore
-SplineSet
-111 1597 m 1
- 240 1966 l 1
- 423 1878 l 1
- 225 1544 l 1
- 111 1597 l 1
-120 0 m 1
- 120 1422 l 1
- 331 1422 l 1
- 331 0 l 1
- 120 0 l 1
-EndSplineSet
+Refer: 118 180 N 1 0 0 1 11 374 2
+Refer: 79 108 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
@@ -6652,26 +6355,12 @@ GlifName: uni013B_
 Width: 1282
 GlyphClass: 2
 Flags: W
-HStem: 0 210<419.04 1242> 1402 20G<140 350>
-VStem: 140 210<279.576 1422>
+HStem: -534 414<572 655> 0 210<419.04 1242> 1402 20G<140 350>
+VStem: 140 210<279.576 1422> 497 287
 LayerCount: 2
 Fore
-SplineSet
-140 398 m 2
- 140 1422 l 1
- 350 1422 l 1
- 350 398 l 2
- 350 294 434 210 537 210 c 2
- 1242 210 l 1
- 1242 0 l 1
- 537 0 l 2
- 318 0 140 178 140 398 c 2
-578 -536 m 1
- 653 -122 l 1
- 865 -122 l 1
- 736 -536 l 1
- 578 -536 l 1
-EndSplineSet
+Refer: 337 806 N 1 0 0 1 397 -332 2
+Refer: 47 76 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
@@ -6681,76 +6370,42 @@ GlifName: uni013C_
 Width: 451
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<120 331> 1402 20G<120 331>
-VStem: 120 211<0 1422>
+HStem: -534 414<156 239> 0 21G<120 331> 1402 20G<120 331>
+VStem: 81 287 120 211<0 1422>
 LayerCount: 2
 Fore
-SplineSet
-82 -536 m 1
- 157 -122 l 1
- 369 -122 l 1
- 240 -536 l 1
- 82 -536 l 1
-120 0 m 1
- 120 1422 l 1
- 331 1422 l 1
- 331 0 l 1
- 120 0 l 1
-EndSplineSet
+Refer: 337 806 N 1 0 0 1 -19 -332 2
+Refer: 79 108 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
 StartChar: Lcaron
 Encoding: 317 317 255
 GlifName: L_caron
-Width: 1705
+Width: 1697
 GlyphClass: 2
 Flags: W
-HStem: 0 210<419.04 1242> 1402 20G<140 350 1475.01 1523.59>
-VStem: 140 210<279.576 1422>
+HStem: 0 210<419.04 1242> 1000 422 1402 20G<140 350>
+VStem: 140 210<279.576 1422> 1425 312
 LayerCount: 2
 Fore
-SplineSet
-140 398 m 2
- 140 1422 l 1
- 350 1422 l 1
- 350 398 l 2
- 350 294 434 210 537 210 c 2
- 1242 210 l 1
- 1242 0 l 1
- 537 0 l 2
- 318 0 140 178 140 398 c 2
-1353 1053 m 1
- 1482 1422 l 1
- 1665 1334 l 1
- 1467 1000 l 1
- 1353 1053 l 1
-EndSplineSet
+Refer: 336 789 N 1 0 0 1 1325 -170 2
+Refer: 47 76 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
 StartChar: lcaron
 Encoding: 318 318 256
 GlifName: lcaron
-Width: 846
+Width: 786
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<120 331> 1402 20G<120 331 564.008 612.591>
-VStem: 120 211<0 1422>
+HStem: 0 21G<120 331> 1000 422 1402 20G<120 331>
+VStem: 120 211<0 1422> 514 312
 LayerCount: 2
 Fore
-SplineSet
-120 0 m 1
- 120 1422 l 1
- 331 1422 l 1
- 331 0 l 1
- 120 0 l 1
-442 1053 m 1
- 571 1422 l 1
- 754 1334 l 1
- 556 1000 l 1
- 442 1053 l 1
-EndSplineSet
+Refer: 336 789 N 1 0 0 1 414 -170 2
+Refer: 79 108 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
@@ -6772,25 +6427,15 @@ EndChar
 StartChar: ldot
 Encoding: 320 320 258
 GlifName: ldot
-Width: 892
+Width: 912
 GlyphClass: 3
 Flags: W
 HStem: 0 21G<120 331> 775 221<592.78 770.153> 1402 20G<120 331>
 VStem: 120 211<0 1422> 571 221<797.141 974.22>
 LayerCount: 2
 Fore
-SplineSet
-120 0 m 1
- 120 1422 l 1
- 331 1422 l 1
- 331 0 l 1
- 120 0 l 1
-571 886 m 0
- 571 947 620 996 681 996 c 0
- 743 996 792 947 792 886 c 0
- 792 824 743 775 681 775 c 0
- 620 775 571 825 571 886 c 0
-EndSplineSet
+Refer: 121 183 N 1 0 0 1 451 0 2
+Refer: 79 108 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
@@ -6829,27 +6474,27 @@ EndChar
 StartChar: lslash
 Encoding: 322 322 260
 GlifName: lslash
-Width: 570
+Width: 671
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<254 465> 1402 20G<254 465>
-VStem: 254 211<0 565 857 1422>
+HStem: 0 21G<230 441> 1402 20G<230 441>
+VStem: 230 211<0 565 857 1422>
 LayerCount: 2
 Fore
 SplineSet
-64 626 m 1
- 254 735 l 1
- 254 1422 l 1
- 465 1422 l 1
- 465 857 l 1
- 581 924 l 1
- 655 797 l 1
- 465 687 l 1
- 465 0 l 1
- 254 0 l 1
- 254 565 l 1
- 138 499 l 1
- 64 626 l 1
+40 626 m 1
+ 230 735 l 1
+ 230 1422 l 1
+ 441 1422 l 1
+ 441 857 l 1
+ 557 924 l 1
+ 631 797 l 1
+ 441 687 l 1
+ 441 0 l 1
+ 230 0 l 1
+ 230 565 l 1
+ 114 499 l 1
+ 40 626 l 1
 EndSplineSet
 Validated: 1
 EndChar
@@ -6890,12 +6535,11 @@ GlifName: uni0145
 Width: 1384
 GlyphClass: 2
 Flags: W
-HStem: -536 414<623.5 706.5> 0 21G<140 351 958.766 1244> 1402 20G<140 425.083 1033 1244>
-VStem: 140 211<0 1102> 548.5 287 1033 211<305 1422>
-CounterMasks: 1 1c
+HStem: -534 414<623 706> 0 21G<140 351 958.766 1244> 1402 20G<140 425.083 1033 1244>
+VStem: 140 211<0 1102> 548 287 1033 211<305 1422>
 LayerCount: 2
 Fore
-Refer: 337 806 N 1 0 0 1 448.5 -334 2
+Refer: 337 806 N 1 0 0 1 448 -332 2
 Refer: 49 78 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -6906,12 +6550,11 @@ GlifName: uni0146
 Width: 1192
 GlyphClass: 2
 Flags: W
-HStem: -536 414<527.5 610.5> 0 21G<120 331 861 1072> 827 209<331 807.589>
-VStem: 120 211<0 827> 452.5 287 861 211<0 773.01>
-CounterMasks: 1 1c
+HStem: -534 414<527 610> 0 21G<120 331 861 1072> 827 209<331 807.589>
+VStem: 120 211<0 827> 452 287 861 211<0 773.01>
 LayerCount: 2
 Fore
-Refer: 337 806 N 1 0 0 1 352.5 -334 2
+Refer: 337 806 N 1 0 0 1 352 -332 2
 Refer: 81 110 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -6923,11 +6566,10 @@ Width: 1384
 GlyphClass: 2
 Flags: W
 HStem: 0 21G<140 351 958.766 1244> 1402 20G<140 425.083 1033 1244> 1544 309
-VStem: 140 211<0 1102> 380.5 623 1033 211<305 1422>
-CounterMasks: 1 1c
+VStem: 140 211<0 1102> 380 623 1033 211<305 1422>
 LayerCount: 2
 Fore
-Refer: 328 711 N 1 0 0 1 280.5 431 2
+Refer: 328 711 N 1 0 0 1 280 431 2
 Refer: 49 78 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -6939,10 +6581,10 @@ Width: 1192
 GlyphClass: 2
 Flags: W
 HStem: 0 21G<120 331 861 1072> 827 209<331 807.589> 1158 309
-VStem: 120 211<0 827> 284.5 623 861 211<0 773.01>
+VStem: 120 211<0 827> 284 623 861 211<0 773.01>
 LayerCount: 2
 Fore
-Refer: 328 711 N 1 0 0 1 184.5 45 2
+Refer: 328 711 N 1 0 0 1 184 45 2
 Refer: 81 110 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -6950,31 +6592,31 @@ EndChar
 StartChar: napostrophe
 Encoding: 329 329 267
 GlifName: napostrophe
-Width: 1402
+Width: 1342
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 541 1071 1282> 827 209<541 1017.59>
-VStem: 330 211<0 827> 1071 211<0 773.01>
+HStem: 0 21G<270 481 1011 1222> 827 209<481 957.589>
+VStem: 270 211<0 827> 1011 211<0 773.01>
 LayerCount: 2
 Fore
 SplineSet
-100 1211 m 1
- 229 1580 l 1
- 412 1492 l 1
- 214 1158 l 1
- 100 1211 l 1
-330 0 m 1
- 330 826 l 2
- 330 942 425 1036 543 1036 c 2
- 908 1036 l 2
- 1114 1036 1282 868 1282 662 c 2
- 1282 0 l 1
- 1071 0 l 1
- 1071 659 l 2
- 1071 752 998 827 908 827 c 2
- 541 827 l 1
- 541 0 l 1
- 330 0 l 1
+270 0 m 1
+ 270 826 l 2
+ 270 942 365 1036 483 1036 c 2
+ 848 1036 l 2
+ 1054 1036 1222 868 1222 662 c 2
+ 1222 0 l 1
+ 1011 0 l 1
+ 1011 659 l 2
+ 1011 752 938 827 848 827 c 2
+ 481 827 l 1
+ 481 0 l 1
+ 270 0 l 1
+40 1211 m 1
+ 169 1580 l 1
+ 352 1492 l 1
+ 154 1158 l 1
+ 40 1211 l 1
 EndSplineSet
 Validated: 1
 EndChar
@@ -7060,11 +6702,11 @@ GlifName: omacron
 Width: 1194
 GlyphClass: 2
 Flags: W
-HStem: 0 211<374.411 819.589> 825 211<374.411 819.589> 1158 147<298.5 895.5>
-VStem: 110 211<262.99 773.01> 298.5 597<1158 1305> 873 211<262.99 773.01>
+HStem: 0 211<374.411 819.589> 825 211<374.411 819.589> 1158 147<298 895>
+VStem: 110 211<262.99 773.01> 298 597<1158 1305> 873 211<262.99 773.01>
 LayerCount: 2
 Fore
-Refer: 113 175 N 1 0 0 1 178.5 -117 2
+Refer: 113 175 N 1 0 0 1 178 -117 2
 Refer: 82 111 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -7075,11 +6717,11 @@ GlifName: O_breve
 Width: 1461
 GlyphClass: 2
 Flags: W
-HStem: 0 210<428.361 1032.64> 1212 210<428.361 1032.64> 1544 134<620.964 840.036>
-VStem: 140 211<290.465 1131.54> 432.5 134<1732.97 1842> 894.5 134<1732.97 1842> 1110 211<290.465 1131.54>
+HStem: 0 210<428.361 1032.64> 1212 210<428.361 1032.64> 1544 134<621.464 840.536>
+VStem: 140 211<290.465 1131.54> 433 134<1732.97 1842> 895 134<1732.97 1842> 1110 211<290.465 1131.54>
 LayerCount: 2
 Fore
-Refer: 329 728 N 1 0 0 1 332.5 422 2
+Refer: 329 728 N 1 0 0 1 333 422 2
 Refer: 50 79 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -7105,11 +6747,11 @@ GlifName: O_hungarumlaut
 Width: 1461
 GlyphClass: 2
 Flags: W
-HStem: 0 210<428.361 1032.64> 1212 210<428.361 1032.64> 1544 271<649 655 946 952>
-VStem: 140 211<290.465 1131.54> 509 614 1110 211<290.465 1131.54>
+HStem: 0 210<428.361 1032.64> 1212 210<428.361 1032.64> 1544 271<650 656 947 953>
+VStem: 140 211<290.465 1131.54> 510 614 1110 211<290.465 1131.54>
 LayerCount: 2
 Fore
-Refer: 334 733 N 1 0 0 1 409 393 2
+Refer: 334 733 N 1 0 0 1 410 393 2
 Refer: 50 79 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -7120,11 +6762,11 @@ GlifName: ohungarumlaut
 Width: 1194
 GlyphClass: 2
 Flags: W
-HStem: 0 211<374.411 819.589> 825 211<374.411 819.589> 1158 271<515.5 521.5 812.5 818.5>
-VStem: 110 211<262.99 773.01> 375.5 614 873 211<262.99 773.01>
+HStem: 0 211<374.411 819.589> 825 211<374.411 819.589> 1158 271<516 522 813 819>
+VStem: 110 211<262.99 773.01> 376 614 873 211<262.99 773.01>
 LayerCount: 2
 Fore
-Refer: 334 733 N 1 0 0 1 275.5 7 2
+Refer: 334 733 N 1 0 0 1 276 7 2
 Refer: 82 111 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -7137,6 +6779,7 @@ GlyphClass: 3
 Flags: W
 HStem: 0 211<428.361 1032.64 1321 2213> 635 210<1441 2213> 1212 210<428.361 1032.64 1321 2213>
 VStem: 140 211<290.465 1131.54> 1110 211<286.082 1135.92>
+AnchorPoint: "top" 1166 1544 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7183,6 +6826,7 @@ GlyphClass: 3
 Flags: W
 HStem: 0 211<384.473 812.369 1097.18 1754> 408 210<1206 1602.68> 825 211<384.473 814.111 1086.75 1602.68>
 VStem: 110 211<271.809 765.68> 875 211<270.653 766.496> 1617 210<631.719 810.145>
+AnchorPoint: "top" 968 1158 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7247,10 +6891,10 @@ Width: 719
 GlyphClass: 2
 Flags: W
 HStem: 0 21G<120 331> 826 210<343.719 649> 1158 422
-VStem: 120 211<0 811.442> 270.5 312
+VStem: 120 211<0 811.442> 246 312
 LayerCount: 2
 Fore
-Refer: 118 180 N 1 0 0 1 170.5 -12 2
+Refer: 118 180 N 1 0 0 1 146 -12 2
 Refer: 85 114 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -7261,11 +6905,11 @@ GlifName: uni0156
 Width: 1375
 GlyphClass: 2
 Flags: W
-HStem: -536 414<659 742> 0 21G<140 351 1043.5 1315> 585 210<471 634 891 988.636> 1212 210<351 987.789>
-VStem: 140 211<0 1212> 584 287 1033 210<834.328 1167.71>
+HStem: -534 414<618 701> 0 21G<140 351 1043.5 1315> 585 210<471 634 891 988.636> 1212 210<351 987.789>
+VStem: 140 211<0 1212> 543 287 1033 210<834.328 1167.71>
 LayerCount: 2
 Fore
-Refer: 337 806 N 1 0 0 1 484 -334 2
+Refer: 337 806 N 1 0 0 1 443 -332 2
 Refer: 53 82 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -7276,11 +6920,11 @@ GlifName: uni0157
 Width: 719
 GlyphClass: 2
 Flags: W
-HStem: -536 414<157 240> 0 21G<120 331> 826 210<343.719 649>
+HStem: -534 414<157 240> 0 21G<120 331> 826 210<343.719 649>
 VStem: 82 287 120 211<0 811.442>
 LayerCount: 2
 Fore
-Refer: 337 806 N 1 0 0 1 -18 -334 2
+Refer: 337 806 N 1 0 0 1 -18 -332 2
 Refer: 85 114 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -7292,10 +6936,10 @@ Width: 1375
 GlyphClass: 2
 Flags: W
 HStem: 0 21G<140 351 1043.5 1315> 585 210<471 634 891 988.636> 1212 210<351 987.789> 1544 309
-VStem: 140 211<0 1212> 416 623 1033 210<834.328 1167.71>
+VStem: 140 211<0 1212> 375 623 1033 210<834.328 1167.71>
 LayerCount: 2
 Fore
-Refer: 328 711 N 1 0 0 1 316 431 2
+Refer: 328 711 N 1 0 0 1 275 431 2
 Refer: 53 82 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -7307,10 +6951,10 @@ Width: 719
 GlyphClass: 2
 Flags: W
 HStem: 0 21G<120 331> 826 210<343.719 649> 1158 309
-VStem: 73 623 120 211<0 811.442>
+VStem: 48 623 120 211<0 811.442>
 LayerCount: 2
 Fore
-Refer: 328 711 N 1 0 0 1 -27 45 2
+Refer: 328 711 N 1 0 0 1 -52 45 2
 Refer: 85 114 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -7322,10 +6966,10 @@ Width: 1399
 GlyphClass: 2
 Flags: W
 HStem: 0 211<121 1030.96> 635 210<368.012 1030.96> 1212 210<376.347 1209> 1544 422
-VStem: 120 211<880.71 1172.18> 585.5 312 1068 211<250.742 594.258>
+VStem: 120 211<880.71 1172.18> 586 312 1068 211<250.742 594.258>
 LayerCount: 2
 Fore
-Refer: 118 180 N 1 0 0 1 485.5 374 2
+Refer: 118 180 N 1 0 0 1 486 374 2
 Refer: 54 83 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -7337,10 +6981,10 @@ Width: 1193
 GlyphClass: 2
 Flags: W
 HStem: 0 211<157 860.215> 428 210<333.719 860.215> 825 211<333.719 1016> 1158 422
-VStem: 110 211<654.139 810.807> 482.5 312 873 210<226.139 411.861>
+VStem: 110 211<654.139 810.807> 482 312 873 210<226.139 411.861>
 LayerCount: 2
 Fore
-Refer: 118 180 N 1 0 0 1 382.5 -12 2
+Refer: 118 180 N 1 0 0 1 382 -12 2
 Refer: 86 115 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -7351,12 +6995,11 @@ GlifName: S_circumflex
 Width: 1399
 GlyphClass: 2
 Flags: W
-HStem: 0 211<121 1030.96> 635 210<368.012 1030.96> 1212 210<376.347 1209> 1544 309
-VStem: 120 211<880.71 1172.18> 388 623 1068 211<250.742 594.258>
-CounterMasks: 1 0e
+HStem: 0 211<121 1030.96> 635 210<368.012 1030.96> 1212 210<376.347 1209> 1543 309
+VStem: 120 211<880.71 1172.18> 389 623 1068 211<250.742 594.258>
 LayerCount: 2
 Fore
-Refer: 327 710 N 1 0 0 1 288 431 2
+Refer: 327 710 N 1 0 0 1 289 430 2
 Refer: 54 83 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -7367,11 +7010,11 @@ GlifName: scircumflex
 Width: 1193
 GlyphClass: 2
 Flags: W
-HStem: 0 211<157 860.215> 428 210<333.719 860.215> 825 211<333.719 1016> 1158 309
+HStem: 0 211<157 860.215> 428 210<333.719 860.215> 825 211<333.719 1016> 1157 309
 VStem: 110 211<654.139 810.807> 285 623 873 210<226.139 411.861>
 LayerCount: 2
 Fore
-Refer: 327 710 N 1 0 0 1 185 45 2
+Refer: 327 710 N 1 0 0 1 185 44 2
 Refer: 86 115 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -7382,42 +7025,13 @@ GlifName: S_cedilla
 Width: 1399
 GlyphClass: 2
 Flags: W
-HStem: -303 150<517.937 716> 0 211<121 643.967 777 1030.96> 635 210<368.012 1030.96> 1212 210<376.347 1209>
-VStem: 120 211<880.71 1172.18> 664 152<-217.5 -3.62744> 1068 211<250.742 594.258>
+HStem: -307 150<516.937 715.496> 0 211<121 1030.96> 635 210<368.012 1030.96> 1212 210<376.347 1209>
+VStem: 120 211<880.71 1172.18> 664 151<-221.5 2.18543> 1068 211<250.742 594.258>
 LayerCount: 2
 Fore
-SplineSet
-120 973 m 2
- 120 1078 l 2
- 120 1268 278 1422 473 1422 c 2
- 1209 1422 l 1
- 1209 1212 l 1
- 473 1212 l 2
- 395 1212 331 1149 331 1072 c 2
- 331 974 l 2
- 331 903 395 845 473 845 c 2
- 926 845 l 2
- 1121 845 1279 690 1279 500 c 2
- 1279 345 l 2
- 1279 155 1121 0 926 0 c 2
- 777 0 l 1
- 803 -74 816 -130 816 -173 c 0
- 816 -262 768 -303 664 -303 c 0
- 631 -303 602 -300 514 -287 c 1
- 514 -139 l 1
- 596 -152 607 -153 624 -153 c 0
- 653 -153 664 -145 664 -122 c 0
- 664 -103 658 -82 629 0 c 1
- 121 0 l 1
- 121 211 l 1
- 926 211 l 2
- 1004 211 1068 271 1068 346 c 2
- 1068 499 l 2
- 1068 574 1004 635 926 635 c 2
- 473 635 l 2
- 278 635 120 786 120 973 c 2
-EndSplineSet
-Validated: 1
+Refer: 122 184 N 1 0 0 1 413 6 2
+Refer: 54 83 N 1 0 0 1 0 0 3
+Validated: 5
 EndChar
 
 StartChar: scedilla
@@ -7426,42 +7040,13 @@ GlifName: scedilla
 Width: 1193
 GlyphClass: 2
 Flags: W
-HStem: -303 150<413.937 612.996> 0 211<157 540.834 674 860.215> 428 210<333.719 860.215> 825 211<333.719 1016>
-VStem: 110 211<654.139 810.807> 562 150<-217.5 -3.71828> 873 210<226.139 411.861>
+HStem: -307 150<412.937 611.496> 0 211<157 860.215> 428 210<333.719 860.215> 825 211<333.719 1016>
+VStem: 110 211<654.139 810.807> 560 151<-221.5 2.18543> 873 210<226.139 411.861>
 LayerCount: 2
 Fore
-SplineSet
-110 720 m 2
- 110 745 l 2
- 110 906 244 1036 408 1036 c 2
- 1016 1036 l 1
- 1016 825 l 1
- 408 825 l 2
- 360 825 321 789 321 745 c 2
- 321 720 l 2
- 321 675 360 638 408 638 c 2
- 786 638 l 2
- 950 638 1083 507 1083 346 c 2
- 1083 292 l 2
- 1083 131 950 0 786 0 c 2
- 674 0 l 1
- 699 -71 712 -129 712 -173 c 0
- 712 -262 664 -303 560 -303 c 0
- 527 -303 498 -300 410 -287 c 1
- 410 -139 l 1
- 492 -152 503 -153 520 -153 c 0
- 550 -153 562 -144 562 -122 c 0
- 562 -104 557 -89 526 0 c 1
- 157 0 l 1
- 157 211 l 1
- 786 211 l 2
- 834 211 873 248 873 293 c 2
- 873 345 l 2
- 873 391 834 428 786 428 c 2
- 408 428 l 2
- 244 428 110 559 110 720 c 2
-EndSplineSet
-Validated: 1
+Refer: 122 184 N 1 0 0 1 309 6 2
+Refer: 86 115 N 1 0 0 1 0 0 3
+Validated: 5
 EndChar
 
 StartChar: Scaron
@@ -7487,10 +7072,10 @@ Width: 1193
 GlyphClass: 2
 Flags: W
 HStem: 0 211<157 860.215> 428 210<333.719 860.215> 825 211<333.719 1016> 1158 309
-VStem: 110 211<654.139 810.807> 285 623 873 210<226.139 411.861>
+VStem: 110 211<654.139 810.807> 284 623 873 210<226.139 411.861>
 LayerCount: 2
 Fore
-Refer: 328 711 N 1 0 0 1 185 45 2
+Refer: 328 711 N 1 0 0 1 184 45 2
 Refer: 86 115 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -7501,30 +7086,13 @@ GlifName: uni0162
 Width: 1238
 GlyphClass: 2
 Flags: W
-HStem: -303 150<435.937 634.496> 1212 210<40 513 725 1198>
-VStem: 513 212<0 1212> 583 151<-207.497 -3.49046>
+HStem: -307 150<435.937 634.496> 0 21G<513 725> 1212 210<40 513 725 1198>
+VStem: 513 212<0 1212> 583 151<-221.5 2.18543>
 LayerCount: 2
 Fore
-SplineSet
-40 1212 m 1xe0
- 40 1422 l 1
- 1198 1422 l 1
- 1198 1212 l 1
- 725 1212 l 1
- 725 0 l 1xe0
- 696 0 l 1
- 721 -70 734 -128 734 -173 c 0
- 734 -262 686 -303 582 -303 c 0
- 549 -303 520 -300 432 -287 c 1
- 432 -139 l 1
- 514 -152 525 -153 542 -153 c 0
- 572 -153 583 -144 583 -122 c 0xd0
- 583 -103 577 -80 548 0 c 1
- 513 0 l 1
- 513 1212 l 1
- 40 1212 l 1xe0
-EndSplineSet
-Validated: 1
+Refer: 122 184 N 1 0 0 1 332 6 2
+Refer: 55 84 N 1 0 0 1 0 0 3
+Validated: 5
 EndChar
 
 StartChar: uni0163
@@ -7533,37 +7101,13 @@ GlifName: uni0163
 Width: 805
 GlyphClass: 2
 Flags: W
-HStem: -303 150<369.937 568.996> 0 211<630 735> 825 211<70 205 416 735> 1402 20G<205 416>
-VStem: 205 211<223.13 825 1036 1422> 518 151<-217.5 -3.05931>
+HStem: -307 150<370.937 569.496> 0 211<428.719 735> 825 211<70 205 416 735> 1402 20G<205 416>
+VStem: 205 211<226.773 825 1036 1422> 518 151<-221.5 2.18543>
 LayerCount: 2
 Fore
-SplineSet
-70 825 m 1
- 70 1036 l 1
- 205 1036 l 1
- 205 1422 l 1
- 416 1422 l 1
- 416 1036 l 1
- 735 1036 l 1
- 735 825 l 1
- 416 825 l 1
- 416 294 l 2
- 416 248 456 211 506 211 c 2
- 735 211 l 1
- 735 0 l 1
- 630 0 l 1
- 656 -74 669 -130 669 -173 c 0
- 669 -262 620 -303 516 -303 c 0
- 483 -303 454 -300 366 -287 c 1
- 366 -139 l 1
- 448 -152 459 -153 476 -153 c 0
- 506 -153 518 -144 518 -122 c 0
- 518 -102 511 -78 482 1 c 1
- 326 12 205 139 205 293 c 2
- 205 825 l 1
- 70 825 l 1
-EndSplineSet
-Validated: 1
+Refer: 122 184 N 1 0 0 1 267 6 2
+Refer: 87 116 N 1 0 0 1 0 0 3
+Validated: 5
 EndChar
 
 StartChar: Tcaron
@@ -7572,66 +7116,27 @@ GlifName: T_caron
 Width: 1238
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<513 725> 1212 210<40 513 725 1198>
-VStem: 513 212<0 1212>
+HStem: 0 21G<513 725> 1212 210<40 513 725 1198> 1544 309
+VStem: 307 623 513 212<0 1212>
 LayerCount: 2
 Fore
-SplineSet
-40 1212 m 1
- 40 1422 l 1
- 1198 1422 l 1
- 1198 1212 l 1
- 725 1212 l 1
- 725 0 l 1
- 513 0 l 1
- 513 1212 l 1
- 40 1212 l 1
-308 1853 m 1
- 449 1853 l 1
- 619 1681 l 1
- 790 1853 l 1
- 931 1853 l 1
- 697 1544 l 1
- 542 1544 l 1
- 308 1853 l 1
-EndSplineSet
+Refer: 328 711 N 1 0 0 1 207 431 2
+Refer: 55 84 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
 StartChar: tcaron
 Encoding: 357 357 295
 GlifName: tcaron
-Width: 805
+Width: 1190
 GlyphClass: 2
 Flags: W
-HStem: 0 211<428.719 735> 825 211<70 205 416 735> 1146 276<905 1040>
-VStem: 205 211<226.773 825 1036 1422> 905 135<1146 1422>
+HStem: 0 211<428.719 735> 825 211<70 205 416 735> 1000 422 1402 20G<205 416>
+VStem: 205 211<226.773 825 1036 1422> 918 312
 LayerCount: 2
 Fore
-SplineSet
-70 825 m 1
- 70 1036 l 1
- 205 1036 l 1
- 205 1422 l 1
- 416 1422 l 1
- 416 1036 l 1
- 735 1036 l 1
- 735 825 l 1
- 416 825 l 1
- 416 294 l 2
- 416 248 456 211 506 211 c 2
- 735 211 l 1
- 735 0 l 1
- 503 0 l 2
- 339 0 205 131 205 293 c 2
- 205 825 l 1
- 70 825 l 1
-898 1422 m 1
- 1047 1422 l 1
- 1040 1146 l 1
- 905 1146 l 1
- 898 1422 l 1
-EndSplineSet
+Refer: 336 789 N 1 0 0 1 818 -170 2
+Refer: 87 116 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
@@ -7713,11 +7218,11 @@ GlifName: U_tilde
 Width: 1438
 GlyphClass: 2
 Flags: W
-HStem: 0 211<424.445 1014.09> 1402 20G<140 351 1088 1298> 1544 154<712.301 887.352> 1625 148<547.734 730.372>
-VStem: 140 211<279.344 1422> 390 155<1552 1619.93> 891 157<1701.28 1768> 1088 210<279.344 1422>
+HStem: 0 211<424.445 1014.09> 1402 20G<140 351 1088 1298> 1544 154<710.301 885.352> 1625 148<545.734 728.372>
+VStem: 140 211<279.344 1422> 388 155<1552 1619.93> 889 157<1701.28 1768> 1088 210<279.344 1422>
 LayerCount: 2
 Fore
-Refer: 333 732 N 1 0 0 1 270 346 2
+Refer: 333 732 N 1 0 0 1 268 346 2
 Refer: 56 85 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -7728,11 +7233,11 @@ GlifName: utilde
 Width: 1192
 GlyphClass: 2
 Flags: W
-HStem: 0 209<384.411 861> 1016 20G<120 331 861 1072> 1158 154<589.301 764.352> 1239 148<424.734 607.372>
-VStem: 120 211<262.99 1036> 267 155<1166 1233.93> 768 157<1315.28 1382> 861 211<209 1036>
+HStem: 0 209<384.411 861> 1016 20G<120 331 861 1072> 1158 154<588.301 763.352> 1239 148<423.734 606.372>
+VStem: 120 211<262.99 1036> 266 155<1166 1233.93> 767 157<1315.28 1382> 861 211<209 1036>
 LayerCount: 2
 Fore
-Refer: 333 732 N 1 0 0 1 147 -40 2
+Refer: 333 732 N 1 0 0 1 146 -40 2
 Refer: 88 117 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -7743,11 +7248,11 @@ GlifName: U_macron
 Width: 1438
 GlyphClass: 2
 Flags: W
-HStem: 0 211<424.445 1014.09> 1402 20G<140 351 1088 1298> 1544 147<420.5 1017.5>
-VStem: 140 211<279.344 1422> 420.5 597<1544 1691> 1088 210<279.344 1422>
+HStem: 0 211<424.445 1014.09> 1402 20G<140 351 1088 1298> 1544 147<419 1016>
+VStem: 140 211<279.344 1422> 419 597<1544 1691> 1088 210<279.344 1422>
 LayerCount: 2
 Fore
-Refer: 113 175 N 1 0 0 1 300.5 269 2
+Refer: 113 175 N 1 0 0 1 299 269 2
 Refer: 56 85 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -7758,11 +7263,11 @@ GlifName: umacron
 Width: 1192
 GlyphClass: 2
 Flags: W
-HStem: 0 209<384.411 861> 1016 20G<120 331 861 1072> 1158 147<297.5 894.5>
-VStem: 120 211<262.99 1036> 297.5 597<1158 1305> 861 211<209 1036>
+HStem: 0 209<384.411 861> 1016 20G<120 331 861 1072> 1158 147<297 894>
+VStem: 120 211<262.99 1036> 297 597<1158 1305> 861 211<209 1036>
 LayerCount: 2
 Fore
-Refer: 113 175 N 1 0 0 1 177.5 -117 2
+Refer: 113 175 N 1 0 0 1 177 -117 2
 Refer: 88 117 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -7773,11 +7278,11 @@ GlifName: U_breve
 Width: 1438
 GlyphClass: 2
 Flags: W
-HStem: 0 211<424.445 1014.09> 1402 20G<140 351 1088 1298> 1544 134<609.464 828.536>
-VStem: 140 211<279.344 1422> 421 134<1732.97 1842> 883 134<1732.97 1842> 1088 210<279.344 1422>
+HStem: 0 211<424.445 1014.09> 1402 20G<140 351 1088 1298> 1544 134<608.464 827.536>
+VStem: 140 211<279.344 1422> 420 134<1732.97 1842> 882 134<1732.97 1842> 1088 210<279.344 1422>
 LayerCount: 2
 Fore
-Refer: 329 728 N 1 0 0 1 321 422 2
+Refer: 329 728 N 1 0 0 1 320 422 2
 Refer: 56 85 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -7803,11 +7308,11 @@ GlifName: U_ring
 Width: 1438
 GlyphClass: 2
 Flags: W
-HStem: 0 211<424.445 1014.09> 1402 20G<140 351 1088 1298> 1544 118<648.406 789.594> 1807 118<648.406 789.594>
-VStem: 140 211<279.344 1422> 529 118<1662.59 1806.41> 791 118<1662.59 1806.41> 1088 210<279.344 1422>
+HStem: 0 211<424.445 1014.09> 1402 20G<140 351 1088 1298> 1544 118<647.406 788.594> 1807 118<647.406 788.594>
+VStem: 140 211<279.344 1422> 528 118<1662.59 1806.41> 790 118<1662.59 1806.41> 1088 210<279.344 1422>
 LayerCount: 2
 Fore
-Refer: 331 730 N 1 0 0 1 429 503 2
+Refer: 331 730 N 1 0 0 1 428 503 2
 Refer: 56 85 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -7833,11 +7338,11 @@ GlifName: U_hungarumlaut
 Width: 1438
 GlyphClass: 2
 Flags: W
-HStem: 0 211<424.445 1014.09> 1402 20G<140 351 1088 1298> 1544 271<637.5 643.5 934.5 940.5>
-VStem: 140 211<279.344 1422> 497.5 614 1088 210<279.344 1422>
+HStem: 0 211<424.445 1014.09> 1402 20G<140 351 1088 1298> 1544 271<637 643 934 940>
+VStem: 140 211<279.344 1422> 497 614 1088 210<279.344 1422>
 LayerCount: 2
 Fore
-Refer: 334 733 N 1 0 0 1 397.5 393 2
+Refer: 334 733 N 1 0 0 1 397 393 2
 Refer: 56 85 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -7848,11 +7353,11 @@ GlifName: uhungarumlaut
 Width: 1192
 GlyphClass: 2
 Flags: W
-HStem: 0 209<384.411 861> 1016 20G<120 331 861 1072> 1158 271<514.5 520.5 811.5 817.5>
-VStem: 120 211<262.99 1036> 374.5 614 861 211<209 1036>
+HStem: 0 209<384.411 861> 1016 20G<120 331 861 1072> 1158 271<515 521 812 818>
+VStem: 120 211<262.99 1036> 375 614 861 211<209 1036>
 LayerCount: 2
 Fore
-Refer: 334 733 N 1 0 0 1 274.5 7 2
+Refer: 334 733 N 1 0 0 1 275 7 2
 Refer: 88 117 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -7863,34 +7368,13 @@ GlifName: U_ogonek
 Width: 1438
 GlyphClass: 2
 Flags: W
-HStem: -303 150<702.504 901.063> 0 211<424.445 641 773.005 1014.09> 1402 20G<140 351 1088 1298>
-VStem: 140 211<279.344 1422> 603 151<-217.5 -3.3769> 1088 210<279.344 1422>
+HStem: -307 150<703.504 902.063> 0 211<424.445 1014.09> 1402 20G<140 351 1088 1298>
+VStem: 140 211<279.344 1422> 604 151<-221.5 2.18543> 1088 210<279.344 1422>
 LayerCount: 2
 Fore
-SplineSet
-140 397 m 2
- 140 1422 l 1
- 351 1422 l 1
- 351 399 l 2
- 351 295 438 211 545 211 c 2
- 894 211 l 2
- 1001 211 1088 295 1088 399 c 2
- 1088 1422 l 1
- 1298 1422 l 1
- 1298 397 l 2
- 1298 178 1117 0 894 0 c 2
- 789 0 l 1
- 762 -73 754 -101 754 -122 c 0
- 754 -144 765 -153 795 -153 c 0
- 812 -153 823 -152 905 -139 c 1
- 905 -287 l 1
- 817 -300 788 -303 755 -303 c 0
- 651 -303 603 -262 603 -173 c 0
- 603 -130 616 -72 641 0 c 1
- 545 0 l 2
- 321 0 140 178 140 397 c 2
-EndSplineSet
-Validated: 1
+Refer: 332 731 N 1 0 0 1 476 6 2
+Refer: 56 85 N 1 0 0 1 0 0 3
+Validated: 5
 EndChar
 
 StartChar: uogonek
@@ -7899,33 +7383,13 @@ GlifName: uogonek
 Width: 1192
 GlyphClass: 2
 Flags: W
-HStem: -303 150<759.504 958.063> 0 209<384.411 698 830.005 861> 1016 20G<120 331 861 1072>
-VStem: 120 211<262.99 1036> 660 151<-217.5 -3.3769> 861 211<209 1036>
+HStem: -307 150<809.504 1008.06> 0 209<384.411 861> 1016 20G<120 331 861 1072>
+VStem: 120 211<262.99 1036> 710 151<-221.5 2.18543> 861 211<209 1036>
 LayerCount: 2
 Fore
-SplineSet
-120 374 m 2
- 120 1036 l 1
- 331 1036 l 1
- 331 377 l 2
- 331 284 404 209 494 209 c 2
- 861 209 l 1
- 861 1036 l 1
- 1072 1036 l 1
- 1072 210 l 2
- 1072 94 977 0 859 0 c 2
- 846 0 l 1
- 819 -73 811 -101 811 -122 c 0
- 811 -144 822 -153 852 -153 c 0
- 869 -153 880 -152 962 -139 c 1
- 962 -287 l 1
- 874 -300 845 -303 812 -303 c 0
- 708 -303 660 -262 660 -173 c 0
- 660 -130 673 -72 698 0 c 1
- 494 0 l 2
- 288 0 120 168 120 374 c 2
-EndSplineSet
-Validated: 1
+Refer: 332 731 N 1 0 0 1 582 6 2
+Refer: 88 117 N 1 0 0 1 0 0 3
+Validated: 5
 EndChar
 
 StartChar: Wcircumflex
@@ -7934,11 +7398,11 @@ GlifName: W_circumflex
 Width: 1646
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<313.526 519.014 1127.95 1332.47> 1402 20G<70 285.47 1361.53 1576> 1544 309
-VStem: 511.5 623
+HStem: 0 21G<313.526 519.014 1127.95 1332.47> 1402 20G<70 285.47 1361.53 1576> 1543 309
+VStem: 512 623
 LayerCount: 2
 Fore
-Refer: 327 710 N 1 0 0 1 411.5 431 2
+Refer: 327 710 N 1 0 0 1 412 430 2
 Refer: 58 87 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -7949,11 +7413,11 @@ GlifName: wcircumflex
 Width: 1492
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<236.525 436.86 1056.18 1256.46> 1016 20G<60 275.469 1217.53 1432> 1158 309
-VStem: 434.5 623
+HStem: 0 21G<236.525 436.86 1056.18 1256.46> 1016 20G<60 275.469 1217.53 1432> 1157 309
+VStem: 435 623
 LayerCount: 2
 Fore
-Refer: 327 710 N 1 0 0 1 334.5 45 2
+Refer: 327 710 N 1 0 0 1 335 44 2
 Refer: 90 119 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -7964,11 +7428,11 @@ GlifName: Y_circumflex
 Width: 1371
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<579 795> 1402 20G<40 311.471 1060.6 1331> 1544 309
-VStem: 374 623 579 216<0 679>
+HStem: 0 21G<579 795> 1402 20G<40 311.471 1060.6 1331> 1543 309
+VStem: 375 623 579 216<0 679>
 LayerCount: 2
 Fore
-Refer: 327 710 N 1 0 0 1 274 431 2
+Refer: 327 710 N 1 0 0 1 275 430 2
 Refer: 60 89 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -7979,11 +7443,11 @@ GlifName: ycircumflex
 Width: 1121
 GlyphClass: 2
 Flags: W
-HStem: -390 21G<280 518.714> 1016 20G<60 291.493 820.34 1061> 1158 309
+HStem: -390 21G<280 518.714> 1016 20G<60 291.493 820.34 1061> 1157 309
 VStem: 249 623
 LayerCount: 2
 Fore
-Refer: 327 710 N 1 0 0 1 149 45 2
+Refer: 327 710 N 1 0 0 1 149 44 2
 Refer: 92 121 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -7994,11 +7458,11 @@ GlifName: Y_dieresis
 Width: 1371
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<579 795> 1402 20G<40 311.471 1060.6 1331> 1544 221<426.78 604.153 766.78 944.153>
-VStem: 405 221<1565.78 1743.15> 579 216<0 679> 745 221<1565.78 1743.15>
+HStem: 0 21G<579 795> 1402 20G<40 311.471 1060.6 1331> 1545 221<427.78 605.153 767.78 945.153>
+VStem: 406 221<1566.78 1744.15> 579 216<0 679> 746 221<1566.78 1744.15>
 LayerCount: 2
 Fore
-Refer: 106 168 N 1 0 0 1 285 343 2
+Refer: 106 168 N 1 0 0 1 286 344 2
 Refer: 60 89 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -8010,10 +7474,10 @@ Width: 1347
 GlyphClass: 2
 Flags: W
 HStem: 0 208<422 1223> 1212 210<120 927> 1544 422
-VStem: 559.5 312
+VStem: 560 312
 LayerCount: 2
 Fore
-Refer: 118 180 N 1 0 0 1 459.5 374 2
+Refer: 118 180 N 1 0 0 1 460 374 2
 Refer: 61 90 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -8025,10 +7489,10 @@ Width: 1175
 GlyphClass: 2
 Flags: W
 HStem: 0 210<439 1065> 826 210<110 733> 1158 422
-VStem: 473.5 312
+VStem: 473 312
 LayerCount: 2
 Fore
-Refer: 118 180 N 1 0 0 1 373.5 -12 2
+Refer: 118 180 N 1 0 0 1 373 -12 2
 Refer: 93 122 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -8054,11 +7518,11 @@ GlifName: zdotaccent
 Width: 1175
 GlyphClass: 2
 Flags: W
-HStem: 0 210<439 1065> 826 210<110 733> 1158 221<499.141 676.22>
-VStem: 477 221<1179.78 1357.15>
+HStem: 0 210<439 1065> 826 210<110 733> 1158 221<498.141 675.22>
+VStem: 476 221<1179.78 1357.15>
 LayerCount: 2
 Fore
-Refer: 330 729 N 1 0 0 1 382 -54 2
+Refer: 330 729 N 1 0 0 1 381 -54 2
 Refer: 93 122 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -8085,10 +7549,10 @@ Width: 1175
 GlyphClass: 2
 Flags: W
 HStem: 0 210<439 1065> 826 210<110 733> 1158 309
-VStem: 276 623
+VStem: 275 623
 LayerCount: 2
 Fore
-Refer: 328 711 N 1 0 0 1 176 45 2
+Refer: 328 711 N 1 0 0 1 175 45 2
 Refer: 93 122 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -8132,10 +7596,10 @@ Width: 2044
 GlyphClass: 2
 Flags: W
 HStem: 0 211<1029 1924> 428 210<606 819> 635 210<1151 1923> 1212 210<685 819 1029 1924> 1544 422
-VStem: 819 210<211 428 638 1212> 868 312
+VStem: 819 210<211 428 638 1212> 908 312
 LayerCount: 2
 Fore
-Refer: 118 180 N 1 0 0 1 768 374 2
+Refer: 118 180 N 1 0 0 1 808 374 2
 Refer: 136 198 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -8147,10 +7611,10 @@ Width: 1913
 GlyphClass: 2
 Flags: W
 HStem: 0 211<374.411 731 1071.38 1730> 408 210<1182 1578.68> 825 211<372.99 851 1062 1578.68> 1158 422
-VStem: 110 211<262.99 774.452> 842.5 312 851 211<0 11 219.135 825> 1593 210<631.719 810.145>
+VStem: 110 211<262.99 774.452> 842 312 851 211<0 11 219.135 825> 1593 210<631.719 810.145>
 LayerCount: 2
 Fore
-Refer: 118 180 N 1 0 0 1 742.5 -12 2
+Refer: 118 180 N 1 0 0 1 742 -12 2
 Refer: 168 230 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -8158,46 +7622,15 @@ EndChar
 StartChar: Oslashacute
 Encoding: 510 510 324
 GlifName: O_slashacute
-Width: 1422
+Width: 1462
 GlyphClass: 2
 Flags: W
-HStem: 0 210<474.951 1015.82> 1212 210<412.183 932.165>
-VStem: 123 212<360.418 1131.54> 1093 212<290.465 1085.87>
+HStem: 0 210<494.951 1035.82> 1212 210<432.183 952.165> 1544 422
+VStem: 143 212<360.418 1131.54> 617 312 1113 212<290.465 1085.87>
 LayerCount: 2
 Fore
-SplineSet
-85 -4 m 1
- 204 165 l 1
- 151 233 123 315 123 400 c 2
- 123 1022 l 2
- 123 1243 313 1422 547 1422 c 2
- 881 1422 l 2
- 942 1422 1002 1409 1058 1385 c 1
- 1183 1564 l 1
- 1337 1457 l 1
- 1210 1274 l 1
- 1272 1202 1305 1114 1305 1022 c 2
- 1305 400 l 2
- 1305 179 1115 0 881 0 c 2
- 547 0 l 2
- 480 0 413 16 350 46 c 1
- 239 -111 l 1
- 85 -4 l 1
-335 399 m 2
- 335 382 336 370 339 359 c 1
- 933 1206 l 1
- 916 1210 899 1212 881 1212 c 2
- 547 1212 l 2
- 430 1212 335 1128 335 1023 c 2
- 335 399 l 2
-473 222 m 1
- 496 214 521 210 547 210 c 2
- 881 210 l 2
- 998 210 1093 294 1093 399 c 2
- 1093 1023 l 2
- 1093 1048 1089 1070 1080 1089 c 1
- 473 222 l 1
-EndSplineSet
+Refer: 118 180 N 1 0 0 1 517 374 2
+Refer: 154 216 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
@@ -8207,11 +7640,11 @@ GlifName: oslashacute
 Width: 1194
 GlyphClass: 2
 Flags: W
-HStem: 0 211<492 819.589> 825 211<374.411 691> 1270 422
+HStem: 0 211<492 819.589> 825 211<374.411 691> 1158 422
 VStem: 110 211<315.525 773.01> 483 312 873 211<262.99 730.922>
 LayerCount: 2
 Fore
-Refer: 118 180 N 1 0 0 1 383 100 2
+Refer: 118 180 N 1 0 0 1 383 -12 2
 Refer: 186 248 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -8219,20 +7652,21 @@ EndChar
 StartChar: uni0237
 Encoding: 567 567 326
 GlifName: uni0237
-Width: 535
+Width: 530
 GlyphClass: 2
 Flags: W
-HStem: -391 211<40 189.106> 1016 20G<199 410>
-VStem: 199 211<-166.146 1036>
+HStem: -391 211<40 189.069> 1016 20G<199 410>
+VStem: 199 211<-166.175 1036>
+AnchorPoint: "top" 304 1158 basechar 0
 LayerCount: 2
 Fore
 SplineSet
 40 -180 m 1
- 187 -180 199 -171 199 -60 c 2
+ 187.037504113 -180 199 -170.971701217 199 -60 c 2
  199 1036 l 1
  410 1036 l 1
  410 -60 l 2
- 410 -313 323 -391 40 -391 c 1
+ 410 -313.085143998 322.904843744 -391 40 -391 c 1
  40 -180 l 1
 EndSplineSet
 Validated: 1
@@ -8246,6 +7680,7 @@ GlyphClass: 2
 Flags: W
 HStem: 1113 309
 VStem: 100 623
+AnchorPoint: "top" 411 1114 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8269,6 +7704,7 @@ GlyphClass: 2
 Flags: W
 HStem: 1113 309
 VStem: 100 623
+AnchorPoint: "top" 412 1113 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8292,6 +7728,7 @@ GlyphClass: 2
 Flags: W
 HStem: 1122 134<288.464 507.536>
 VStem: 100 134<1310.97 1420> 562 134<1310.97 1420>
+AnchorPoint: "top" 398 1122 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8314,6 +7751,7 @@ GlyphClass: 2
 Flags: W
 HStem: 1212 221<117.141 294.22>
 VStem: 95 221<1233.78 1411.15>
+AnchorPoint: "top" 206 1212 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8334,6 +7772,7 @@ GlyphClass: 2
 Flags: W
 HStem: 1041 118<219.406 360.594> 1304 118<219.406 360.594>
 VStem: 100 118<1159.59 1303.41> 362 118<1159.59 1303.41>
+AnchorPoint: "top" 290 1041 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8367,6 +7806,7 @@ GlyphClass: 2
 Flags: W
 HStem: -313 150<227.504 426.063>
 VStem: 128 151<-227.5 -3.81457>
+AnchorPoint: "botton" 242 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8391,6 +7831,7 @@ GlyphClass: 2
 Flags: W
 HStem: 1198 154<442.301 617.352> 1279 148<277.734 460.372>
 VStem: 120 155<1206 1273.93> 621 157<1355.28 1422>
+AnchorPoint: "top" 450 1198 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8417,6 +7858,7 @@ GlyphClass: 2
 Flags: W
 HStem: 1151 271<240 246 537 543>
 VStem: 100 614
+AnchorPoint: "top" 321 1151 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8482,6 +7924,7 @@ GlyphClass: 2
 Flags: W
 HStem: -202 414<175 258>
 VStem: 100 287
+AnchorPoint: "botton" 244 212 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8560,11 +8003,11 @@ GlifName: W_dieresis
 Width: 1646
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<313.526 519.014 1127.95 1332.47> 1402 20G<70 285.47 1361.53 1576> 1544 221<564.28 741.653 904.28 1081.65>
-VStem: 542.5 221<1565.78 1743.15> 882.5 221<1565.78 1743.15>
+HStem: 0 21G<313.526 519.014 1127.95 1332.47> 1402 20G<70 285.47 1361.53 1576> 1545 221<564.78 742.153 904.78 1082.15>
+VStem: 543 221<1566.78 1744.15> 883 221<1566.78 1744.15>
 LayerCount: 2
 Fore
-Refer: 106 168 N 1 0 0 1 422.5 343 2
+Refer: 106 168 N 1 0 0 1 423 344 2
 Refer: 58 87 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -8575,11 +8018,11 @@ GlifName: wdieresis
 Width: 1492
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<236.525 436.86 1056.18 1256.46> 1016 20G<60 275.469 1217.53 1432> 1158 221<487.28 664.653 827.28 1004.65>
-VStem: 465.5 221<1179.78 1357.15> 805.5 221<1179.78 1357.15>
+HStem: 0 21G<236.525 436.86 1056.18 1256.46> 1016 20G<60 275.469 1217.53 1432> 1159 221<487.78 665.153 827.78 1005.15>
+VStem: 466 221<1180.78 1358.15> 806 221<1180.78 1358.15>
 LayerCount: 2
 Fore
-Refer: 106 168 N 1 0 0 1 345.5 -43 2
+Refer: 106 168 N 1 0 0 1 346 -42 2
 Refer: 90 119 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -8591,10 +8034,10 @@ Width: 1371
 GlyphClass: 2
 Flags: W
 HStem: 0 21G<579 795> 1402 20G<40 311.471 1060.6 1331> 1544 422
-VStem: 487.5 312 579 216<0 679>
+VStem: 488 312 579 216<0 679>
 LayerCount: 2
 Fore
-Refer: 67 96 N 1 0 0 1 387.5 374 2
+Refer: 67 96 N 1 0 0 1 388 374 2
 Refer: 60 89 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -8606,10 +8049,10 @@ Width: 1121
 GlyphClass: 2
 Flags: W
 HStem: -390 21G<280 518.714> 1016 20G<60 291.493 820.34 1061> 1158 422
-VStem: 362.5 312
+VStem: 362 312
 LayerCount: 2
 Fore
-Refer: 67 96 N 1 0 0 1 262.5 -12 2
+Refer: 67 96 N 1 0 0 1 262 -12 2
 Refer: 92 121 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -8680,6 +8123,7 @@ GlyphClass: 2
 Flags: W
 HStem: 1170 422
 VStem: 100 312
+AnchorPoint: "top" 214 1170 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8695,19 +8139,20 @@ EndChar
 StartChar: quotesinglbase
 Encoding: 8218 8218 350
 GlifName: quotesinglbase
-Width: 461
+Width: 487
 GlyphClass: 2
 Flags: W
-HStem: -202 414<144 227>
-VStem: 69 287
+HStem: -202 414<175 258>
+VStem: 100 287
+AnchorPoint: "botton" 279 212 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-69 -202 m 1
- 144 212 l 1
- 356 212 l 1
- 227 -202 l 1
- 69 -202 l 1
+100 -202 m 1
+ 175 212 l 1
+ 387 212 l 1
+ 258 -202 l 1
+ 100 -202 l 1
 EndSplineSet
 Validated: 1
 EndChar
