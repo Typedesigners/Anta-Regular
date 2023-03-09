@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1676747234
-ModificationTime: 1677862462
+ModificationTime: 1678360090
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -207,8 +207,7 @@ ChainSub2: coverage "'ordn' Ordnungszahlen in Lateinisch Nachschlagetabelle 6 Su
   SeqLookup: 0 "Einzelne Substitution Nachschlagetabelle 1"
 EndFPST
 LangName: 1033 "" "" "" "Version 1.0;Anta-Regular;2023" "" "Version 1.0" "" "" "Sergej Lebedev" "Sergej Lebedev" "" "https://typedesigner.de" "https://typedesigner.de" "This Font Software is licensed under the SIL Open Font License,+AAoA-Version 1.1. This license is available with a FAQ at:+AAoA-http://scripts.sil.org/OFL" "http://scripts.sil.org/OFL"
-Encoding: UnicodeBmp
-Compacted: 1
+Encoding: Custom
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -48
@@ -226,10 +225,10 @@ StemSnapV 9 [153 211]
 EndPrivate
 TeXData: 1 0 0 307200 153600 102400 530432 -1048576 102400 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "botton" "'mark' Akzent-Positionierung in Lateinisch Nachschlagetabelle 1-1" "top" "'mark' Akzent-Positionierung in Lateinisch Nachschlagetabelle 1-1"
-BeginChars: 65537 369
+BeginChars: 404 403
 
 StartChar: .notdef
-Encoding: 65536 -1 0
+Encoding: 0 -1 0
 GlifName: _notdef
 Width: 1024
 GlyphClass: 1
@@ -254,7 +253,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0000
-Encoding: 0 0 1
+Encoding: 1 0 1
 GlifName: uni0000
 Width: 0
 GlyphClass: 1
@@ -265,7 +264,7 @@ Validated: 1
 EndChar
 
 StartChar: uni000D
-Encoding: 13 13 2
+Encoding: 2 13 2
 GlifName: uni000D_
 Width: 512
 GlyphClass: 1
@@ -276,7 +275,7 @@ Validated: 1
 EndChar
 
 StartChar: space
-Encoding: 32 32 3
+Encoding: 3 32 3
 GlifName: space
 Width: 600
 GlyphClass: 2
@@ -287,7 +286,7 @@ Validated: 1
 EndChar
 
 StartChar: exclam
-Encoding: 33 33 4
+Encoding: 4 33 4
 GlifName: exclam
 Width: 540
 GlyphClass: 2
@@ -312,7 +311,7 @@ Validated: 1
 EndChar
 
 StartChar: quotedbl
-Encoding: 34 34 5
+Encoding: 5 34 5
 GlifName: quotedbl
 Width: 622
 GlyphClass: 2
@@ -337,7 +336,7 @@ Validated: 1
 EndChar
 
 StartChar: numbersign
-Encoding: 35 35 6
+Encoding: 6 35 6
 GlifName: numbersign
 Width: 1344
 GlyphClass: 2
@@ -385,7 +384,7 @@ Validated: 1
 EndChar
 
 StartChar: dollar
-Encoding: 36 36 7
+Encoding: 7 36 7
 GlifName: dollar
 Width: 1439
 GlyphClass: 2
@@ -439,7 +438,7 @@ Validated: 1
 EndChar
 
 StartChar: percent
-Encoding: 37 37 8
+Encoding: 8 37 8
 GlifName: percent
 Width: 2103
 GlyphClass: 2
@@ -497,7 +496,7 @@ Ligature2: "Ligaturen Substitution Nachschlagetabelle 3 Subtabelle" zero slash z
 EndChar
 
 StartChar: ampersand
-Encoding: 38 38 9
+Encoding: 9 38 9
 GlifName: ampersand
 Width: 1411
 GlyphClass: 2
@@ -541,7 +540,7 @@ Validated: 1
 EndChar
 
 StartChar: quotesingle
-Encoding: 39 39 10
+Encoding: 10 39 10
 GlifName: quotesingle
 Width: 389
 GlyphClass: 2
@@ -561,7 +560,7 @@ Validated: 1
 EndChar
 
 StartChar: parenleft
-Encoding: 40 40 11
+Encoding: 11 40 11
 GlifName: parenleft
 Width: 677
 GlyphClass: 2
@@ -585,7 +584,7 @@ Validated: 1
 EndChar
 
 StartChar: parenright
-Encoding: 41 41 12
+Encoding: 12 41 12
 GlifName: parenright
 Width: 677
 GlyphClass: 2
@@ -609,7 +608,7 @@ Validated: 1
 EndChar
 
 StartChar: asterisk
-Encoding: 42 42 13
+Encoding: 13 42 13
 GlifName: asterisk
 Width: 881
 GlyphClass: 2
@@ -643,7 +642,7 @@ Validated: 1
 EndChar
 
 StartChar: plus
-Encoding: 43 43 14
+Encoding: 14 43 14
 GlifName: plus
 Width: 1274
 GlyphClass: 2
@@ -671,7 +670,7 @@ Validated: 1
 EndChar
 
 StartChar: comma
-Encoding: 44 44 15
+Encoding: 15 44 15
 GlifName: comma
 Width: 470
 GlyphClass: 2
@@ -691,7 +690,7 @@ Validated: 1
 EndChar
 
 StartChar: hyphen
-Encoding: 45 45 16
+Encoding: 16 45 16
 GlifName: hyphen
 Width: 867
 GlyphClass: 2
@@ -711,7 +710,7 @@ Validated: 1
 EndChar
 
 StartChar: period
-Encoding: 46 46 17
+Encoding: 17 46 17
 GlifName: period
 Width: 490
 GlyphClass: 2
@@ -731,7 +730,7 @@ Validated: 1
 EndChar
 
 StartChar: slash
-Encoding: 47 47 18
+Encoding: 18 47 18
 GlifName: slash
 Width: 1391
 GlyphClass: 2
@@ -749,7 +748,7 @@ Validated: 1
 EndChar
 
 StartChar: zero
-Encoding: 48 48 19
+Encoding: 19 48 19
 GlifName: zero
 Width: 1343
 GlyphClass: 2
@@ -782,7 +781,7 @@ Validated: 1
 EndChar
 
 StartChar: one
-Encoding: 49 49 20
+Encoding: 20 49 20
 GlifName: one
 Width: 667
 GlyphClass: 2
@@ -806,7 +805,7 @@ Substitution2: "'aalt' Zugriff auf alle Alternativen in Lateinisch Nachschlageta
 EndChar
 
 StartChar: two
-Encoding: 50 50 21
+Encoding: 21 50 21
 GlifName: two
 Width: 1341
 GlyphClass: 2
@@ -842,7 +841,7 @@ Substitution2: "'aalt' Zugriff auf alle Alternativen in Lateinisch Nachschlageta
 EndChar
 
 StartChar: three
-Encoding: 51 51 22
+Encoding: 22 51 22
 GlifName: three
 Width: 1334
 GlyphClass: 2
@@ -881,7 +880,7 @@ Substitution2: "'aalt' Zugriff auf alle Alternativen in Lateinisch Nachschlageta
 EndChar
 
 StartChar: four
-Encoding: 52 52 23
+Encoding: 23 52 23
 GlifName: four
 Width: 1310
 GlyphClass: 2
@@ -909,7 +908,7 @@ Validated: 1
 EndChar
 
 StartChar: five
-Encoding: 53 53 24
+Encoding: 24 53 24
 GlifName: five
 Width: 1328
 GlyphClass: 2
@@ -943,7 +942,7 @@ Validated: 1
 EndChar
 
 StartChar: six
-Encoding: 54 54 25
+Encoding: 25 54 25
 GlifName: six
 Width: 1320
 GlyphClass: 2
@@ -980,7 +979,7 @@ Validated: 1
 EndChar
 
 StartChar: seven
-Encoding: 55 55 26
+Encoding: 26 55 26
 GlifName: seven
 Width: 1321
 GlyphClass: 2
@@ -1003,7 +1002,7 @@ Kerns2: 27 -60 "'kern' Horizontale Unterschneidung in Lateinisch Nachschlagetabe
 EndChar
 
 StartChar: eight
-Encoding: 56 56 27
+Encoding: 27 56 27
 GlifName: eight
 Width: 1311
 GlyphClass: 2
@@ -1051,7 +1050,7 @@ Validated: 1
 EndChar
 
 StartChar: nine
-Encoding: 57 57 28
+Encoding: 28 57 28
 GlifName: nine
 Width: 1320
 GlyphClass: 2
@@ -1088,7 +1087,7 @@ Validated: 1
 EndChar
 
 StartChar: colon
-Encoding: 58 58 29
+Encoding: 29 58 29
 GlifName: colon
 Width: 500
 GlyphClass: 2
@@ -1113,7 +1112,7 @@ Validated: 1
 EndChar
 
 StartChar: semicolon
-Encoding: 59 59 30
+Encoding: 30 59 30
 GlifName: semicolon
 Width: 500
 GlyphClass: 2
@@ -1138,7 +1137,7 @@ Validated: 1
 EndChar
 
 StartChar: less
-Encoding: 60 60 31
+Encoding: 31 60 31
 GlifName: less
 Width: 1230
 GlyphClass: 2
@@ -1159,7 +1158,7 @@ Validated: 1
 EndChar
 
 StartChar: equal
-Encoding: 61 61 32
+Encoding: 32 61 32
 GlifName: equal
 Width: 1233
 GlyphClass: 2
@@ -1183,7 +1182,7 @@ Validated: 1
 EndChar
 
 StartChar: greater
-Encoding: 62 62 33
+Encoding: 33 62 33
 GlifName: greater
 Width: 1230
 GlyphClass: 2
@@ -1204,7 +1203,7 @@ Validated: 1
 EndChar
 
 StartChar: question
-Encoding: 63 63 34
+Encoding: 34 63 34
 GlifName: question
 Width: 1149
 GlyphClass: 2
@@ -1239,7 +1238,7 @@ Validated: 1
 EndChar
 
 StartChar: at
-Encoding: 64 64 35
+Encoding: 35 64 35
 GlifName: at
 Width: 1577
 GlyphClass: 2
@@ -1285,7 +1284,7 @@ Validated: 1
 EndChar
 
 StartChar: A
-Encoding: 65 65 36
+Encoding: 36 65 36
 GlifName: A_
 Width: 1361
 GlyphClass: 2
@@ -1313,13 +1312,14 @@ Validated: 1
 EndChar
 
 StartChar: B
-Encoding: 66 66 37
+Encoding: 37 66 37
 GlifName: B_
 Width: 1408
 GlyphClass: 2
 Flags: W
 HStem: 0 211<351 1050.52> 639 210<471 995.406> 1212 210<351 986.439>
 VStem: 140 211<211 1212> 1033 210<885.871 1168.42> 1088 210<249.253 601.406>
+AnchorPoint: "top" 704 1544 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1347,11 +1347,10 @@ SplineSet
  351 1212 l 1
  351 211 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: C
-Encoding: 67 67 38
+Encoding: 38 67 38
 GlifName: C_
 Width: 1381
 GlyphClass: 2
@@ -1381,7 +1380,7 @@ Validated: 1
 EndChar
 
 StartChar: D
-Encoding: 68 68 39
+Encoding: 39 68 39
 GlifName: D_
 Width: 1418
 GlyphClass: 2
@@ -1411,7 +1410,7 @@ Validated: 1
 EndChar
 
 StartChar: E
-Encoding: 69 69 40
+Encoding: 40 69 40
 GlifName: E_
 Width: 1363
 GlyphClass: 2
@@ -1442,13 +1441,14 @@ Validated: 1
 EndChar
 
 StartChar: F
-Encoding: 70 70 41
+Encoding: 41 70 41
 GlifName: F_
 Width: 1212
 GlyphClass: 2
 Flags: W
 HStem: 0 21G<140 351> 635 210<471 1092> 1212 210<351 1092>
 VStem: 140 211<0 1212>
+AnchorPoint: "top" 606 1544 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1465,11 +1465,10 @@ SplineSet
  1092 635 l 1
  471 635 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: G
-Encoding: 71 71 42
+Encoding: 42 71 42
 GlifName: G_
 Width: 1421
 GlyphClass: 2
@@ -1505,7 +1504,7 @@ Validated: 1
 EndChar
 
 StartChar: H
-Encoding: 72 72 43
+Encoding: 43 72 43
 GlifName: H_
 Width: 1438
 GlyphClass: 2
@@ -1534,7 +1533,7 @@ Validated: 1
 EndChar
 
 StartChar: I
-Encoding: 73 73 44
+Encoding: 44 73 44
 GlifName: I_
 Width: 491
 GlyphClass: 2
@@ -1556,14 +1555,14 @@ Validated: 1
 EndChar
 
 StartChar: J
-Encoding: 74 74 45
+Encoding: 45 74 45
 GlifName: J_
 Width: 835
 GlyphClass: 2
 Flags: W
 HStem: 0 210<40 413.072> 1402 20G<485 695>
 VStem: 485 210<278.344 1422>
-AnchorPoint: "botton" 590 1544 basechar 0
+AnchorPoint: "top" 590 1544 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1577,11 +1576,10 @@ SplineSet
  695 177 515 0 294 0 c 2
  40 0 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: K
-Encoding: 75 75 46
+Encoding: 46 75 46
 GlifName: K_
 Width: 1394
 GlyphClass: 2
@@ -1612,7 +1610,7 @@ Kerns2: 86 -60 "'kern' Horizontale Unterschneidung in Lateinisch Nachschlagetabe
 EndChar
 
 StartChar: L
-Encoding: 76 76 47
+Encoding: 47 76 47
 GlifName: L_
 Width: 1282
 GlyphClass: 2
@@ -1638,7 +1636,7 @@ Validated: 1
 EndChar
 
 StartChar: M
-Encoding: 77 77 48
+Encoding: 48 77 48
 GlifName: M_
 Width: 1584
 GlyphClass: 2
@@ -1667,7 +1665,7 @@ Validated: 1
 EndChar
 
 StartChar: N
-Encoding: 78 78 49
+Encoding: 49 78 49
 GlifName: N_
 Width: 1384
 GlyphClass: 2
@@ -1695,7 +1693,7 @@ Validated: 1
 EndChar
 
 StartChar: O
-Encoding: 79 79 50
+Encoding: 50 79 50
 GlifName: O_
 Width: 1461
 GlyphClass: 2
@@ -1729,13 +1727,14 @@ Validated: 1
 EndChar
 
 StartChar: P
-Encoding: 80 80 51
+Encoding: 51 80 51
 GlifName: P_
 Width: 1348
 GlyphClass: 2
 Flags: W
 HStem: 0 21G<140 351> 585 210<471 996.416> 1212 210<351 988.143>
 VStem: 140 211<0 1212> 1033 210<835.389 1167.71>
+AnchorPoint: "top" 674 1544 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1755,11 +1754,10 @@ SplineSet
  351 0 l 1
  140 0 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Q
-Encoding: 81 81 52
+Encoding: 52 81 52
 GlifName: Q_
 Width: 1461
 GlyphClass: 2
@@ -1795,11 +1793,11 @@ Validated: 1
 EndChar
 
 StartChar: R
-Encoding: 82 82 53
+Encoding: 53 82 53
 GlifName: R_
 Width: 1375
 GlyphClass: 2
-Flags: WO
+Flags: W
 HStem: 0 21G<140 351 1043.5 1315> 585 210<471 634 891 988.636> 1212 210<351 987.789>
 VStem: 140 211<0 1212> 1033 210<834.328 1167.71>
 AnchorPoint: "top" 687 1544 basechar 0
@@ -1830,7 +1828,7 @@ Validated: 1
 EndChar
 
 StartChar: S
-Encoding: 83 83 54
+Encoding: 54 83 54
 GlifName: S_
 Width: 1399
 GlyphClass: 2
@@ -1868,7 +1866,7 @@ Validated: 1
 EndChar
 
 StartChar: T
-Encoding: 84 84 55
+Encoding: 55 84 55
 GlifName: T_
 Width: 1238
 GlyphClass: 2
@@ -1894,7 +1892,7 @@ Validated: 1
 EndChar
 
 StartChar: U
-Encoding: 85 85 56
+Encoding: 56 85 56
 GlifName: U_
 Width: 1438
 GlyphClass: 2
@@ -1924,7 +1922,7 @@ Validated: 1
 EndChar
 
 StartChar: V
-Encoding: 86 86 57
+Encoding: 57 86 57
 GlifName: V_
 Width: 1361
 GlyphClass: 2
@@ -1946,7 +1944,7 @@ Validated: 1
 EndChar
 
 StartChar: W
-Encoding: 87 87 58
+Encoding: 58 87 58
 GlifName: W_
 Width: 1646
 GlyphClass: 2
@@ -1975,7 +1973,7 @@ Validated: 1
 EndChar
 
 StartChar: X
-Encoding: 88 88 59
+Encoding: 59 88 59
 GlifName: X_
 Width: 1372
 GlyphClass: 2
@@ -2002,7 +2000,7 @@ Validated: 1
 EndChar
 
 StartChar: Y
-Encoding: 89 89 60
+Encoding: 60 89 60
 GlifName: Y_
 Width: 1371
 GlyphClass: 2
@@ -2028,7 +2026,7 @@ Validated: 1
 EndChar
 
 StartChar: Z
-Encoding: 90 90 61
+Encoding: 61 90 61
 GlifName: Z_
 Width: 1347
 GlyphClass: 2
@@ -2055,7 +2053,7 @@ Validated: 1
 EndChar
 
 StartChar: bracketleft
-Encoding: 91 91 62
+Encoding: 62 91 62
 GlifName: bracketleft
 Width: 610
 GlyphClass: 2
@@ -2079,7 +2077,7 @@ Validated: 1
 EndChar
 
 StartChar: backslash
-Encoding: 92 92 63
+Encoding: 63 92 63
 GlifName: backslash
 Width: 1391
 GlyphClass: 2
@@ -2097,7 +2095,7 @@ Validated: 1
 EndChar
 
 StartChar: bracketright
-Encoding: 93 93 64
+Encoding: 64 93 64
 GlifName: bracketright
 Width: 610
 GlyphClass: 2
@@ -2121,7 +2119,7 @@ Validated: 1
 EndChar
 
 StartChar: asciicircum
-Encoding: 94 94 65
+Encoding: 65 94 65
 GlifName: asciicircum
 Width: 873
 GlyphClass: 2
@@ -2144,7 +2142,7 @@ Validated: 1
 EndChar
 
 StartChar: underscore
-Encoding: 95 95 66
+Encoding: 66 95 66
 GlifName: underscore
 Width: 1281
 GlyphClass: 2
@@ -2163,7 +2161,7 @@ Validated: 1
 EndChar
 
 StartChar: grave
-Encoding: 96 96 67
+Encoding: 67 96 67
 GlifName: grave
 Width: 512
 GlyphClass: 2
@@ -2180,11 +2178,10 @@ SplineSet
  298 1170 l 1
  100 1504 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: a
-Encoding: 97 97 68
+Encoding: 68 97 68
 GlifName: a
 Width: 1182
 GlyphClass: 2
@@ -2218,13 +2215,14 @@ Substitution2: "'aalt' Zugriff auf alle Alternativen in Lateinisch Nachschlageta
 EndChar
 
 StartChar: b
-Encoding: 98 98 69
+Encoding: 69 98 69
 GlifName: b
 Width: 1182
 GlyphClass: 2
 Flags: W
 HStem: 0 211<321 799.01> 825 211<441 797.589> 1402 20G<110 321>
 VStem: 110 211<211 1422> 851 211<261.548 773.01>
+AnchorPoint: "top" 591 1544 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2245,11 +2243,10 @@ SplineSet
  321 0 l 2
  205 0 110 95 110 211 c 2
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: c
-Encoding: 99 99 70
+Encoding: 70 99 70
 GlifName: c
 Width: 1187
 GlyphClass: 2
@@ -2279,13 +2276,14 @@ Validated: 1
 EndChar
 
 StartChar: d
-Encoding: 100 100 71
+Encoding: 71 100 71
 GlifName: d
 Width: 1182
 GlyphClass: 2
 Flags: W
 HStem: 0 211<372.99 851> 825 211<374.411 731> 1402 20G<851 1062>
 VStem: 110 211<261.548 773.01> 851 211<211 1422>
+AnchorPoint: "top" 591 1544 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2306,11 +2304,10 @@ SplineSet
  484 0 l 2
  278 0 110 167 110 372 c 2
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: e
-Encoding: 101 101 72
+Encoding: 72 101 72
 GlifName: e
 Width: 1182
 GlyphClass: 2
@@ -2347,13 +2344,14 @@ Validated: 1
 EndChar
 
 StartChar: f
-Encoding: 102 102 73
+Encoding: 73 102 73
 GlifName: f
 Width: 719
 GlyphClass: 2
 Flags: W
 HStem: 0 21G<120 331> 826 210<331 653> 1212 210<343.719 649>
 VStem: 120 211<0 826 1036 1199.22>
+AnchorPoint: "top" 360 1544 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2371,11 +2369,10 @@ SplineSet
  331 0 l 1
  120 0 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: g
-Encoding: 103 103 74
+Encoding: 74 103 74
 GlifName: g
 Width: 1182
 GlyphClass: 2
@@ -2411,7 +2408,7 @@ Validated: 1
 EndChar
 
 StartChar: h
-Encoding: 104 104 75
+Encoding: 75 104 75
 GlifName: h
 Width: 1167
 GlyphClass: 2
@@ -2440,7 +2437,7 @@ Validated: 1
 EndChar
 
 StartChar: i
-Encoding: 105 105 76
+Encoding: 76 105 76
 GlifName: i
 Width: 452
 GlyphClass: 2
@@ -2466,7 +2463,7 @@ Validated: 1
 EndChar
 
 StartChar: j
-Encoding: 106 106 77
+Encoding: 77 106 77
 GlifName: j
 Width: 527
 GlyphClass: 2
@@ -2493,7 +2490,7 @@ Validated: 1
 EndChar
 
 StartChar: k
-Encoding: 107 107 78
+Encoding: 78 107 78
 GlifName: k
 Width: 1123
 GlyphClass: 2
@@ -2524,7 +2521,7 @@ Kerns2: 86 -20 "'kern' Horizontale Unterschneidung in Lateinisch Nachschlagetabe
 EndChar
 
 StartChar: l
-Encoding: 108 108 79
+Encoding: 79 108 79
 GlifName: l
 Width: 451
 GlyphClass: 2
@@ -2546,13 +2543,14 @@ Validated: 1
 EndChar
 
 StartChar: m
-Encoding: 109 109 80
+Encoding: 80 109 80
 GlifName: m
 Width: 1718
 GlyphClass: 2
 Flags: W
 HStem: 0 21G<120 331 751 962 1388 1598> 826 210<331 733.246 978.586 1334.44>
 VStem: 120 211<0 826> 751 211<0 808.681> 1388 210<0 771.742>
+AnchorPoint: "top" 861 1158 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2578,11 +2576,10 @@ SplineSet
  331 0 l 1
  120 0 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: n
-Encoding: 110 110 81
+Encoding: 81 110 81
 GlifName: n
 Width: 1192
 GlyphClass: 2
@@ -2611,7 +2608,7 @@ Validated: 1
 EndChar
 
 StartChar: o
-Encoding: 111 111 82
+Encoding: 82 111 82
 GlifName: o
 Width: 1194
 GlyphClass: 2
@@ -2647,13 +2644,14 @@ Substitution2: "'aalt' Zugriff auf alle Alternativen in Lateinisch Nachschlageta
 EndChar
 
 StartChar: p
-Encoding: 112 112 83
+Encoding: 83 112 83
 GlifName: p
 Width: 1182
 GlyphClass: 2
 Flags: W
 HStem: 0 211<441 797.589> 825 211<321 799.01>
 VStem: 110 211<-386 825> 851 211<262.99 774.452>
+AnchorPoint: "top" 592 1158 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2674,11 +2672,10 @@ SplineSet
  321 -386 l 1
  110 -386 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: q
-Encoding: 113 113 84
+Encoding: 84 113 84
 GlifName: q
 Width: 1182
 GlyphClass: 2
@@ -2709,7 +2706,7 @@ Validated: 1
 EndChar
 
 StartChar: r
-Encoding: 114 114 85
+Encoding: 85 114 85
 GlifName: r
 Width: 719
 GlyphClass: 2
@@ -2735,7 +2732,7 @@ Validated: 1
 EndChar
 
 StartChar: s
-Encoding: 115 115 86
+Encoding: 86 115 86
 GlifName: s
 Width: 1193
 GlyphClass: 2
@@ -2773,13 +2770,14 @@ Validated: 1
 EndChar
 
 StartChar: t
-Encoding: 116 116 87
+Encoding: 87 116 87
 GlifName: t
 Width: 805
 GlyphClass: 2
 Flags: W
 HStem: 0 211<428.719 735> 825 211<70 205 416 735> 1402 20G<205 416>
 VStem: 205 211<226.773 825 1036 1422>
+AnchorPoint: "top" 311 1544 basechar 0
 AnchorPoint: "botton" 554 6 basechar 0
 LayerCount: 2
 Fore
@@ -2802,12 +2800,11 @@ SplineSet
  205 825 l 1
  70 825 l 1
 EndSplineSet
-Validated: 1
 Kerns2: 87 -20 "'kern' Horizontale Unterschneidung in Lateinisch Nachschlagetabelle 0 Glyphen-Daten 0" 86 -20 "'kern' Horizontale Unterschneidung in Lateinisch Nachschlagetabelle 0 Glyphen-Daten 0"
 EndChar
 
 StartChar: u
-Encoding: 117 117 88
+Encoding: 88 117 88
 GlifName: u
 Width: 1192
 GlyphClass: 2
@@ -2836,7 +2833,7 @@ Validated: 1
 EndChar
 
 StartChar: v
-Encoding: 118 118 89
+Encoding: 89 118 89
 GlifName: v
 Width: 1076
 GlyphClass: 2
@@ -2858,7 +2855,7 @@ Validated: 1
 EndChar
 
 StartChar: w
-Encoding: 119 119 90
+Encoding: 90 119 90
 GlifName: w
 Width: 1492
 GlyphClass: 2
@@ -2887,7 +2884,7 @@ Validated: 1
 EndChar
 
 StartChar: x
-Encoding: 120 120 91
+Encoding: 91 120 91
 GlifName: x
 Width: 1199
 GlyphClass: 2
@@ -2914,7 +2911,7 @@ Validated: 1
 EndChar
 
 StartChar: y
-Encoding: 121 121 92
+Encoding: 92 121 92
 GlifName: y
 Width: 1121
 GlyphClass: 2
@@ -2938,7 +2935,7 @@ Validated: 1
 EndChar
 
 StartChar: z
-Encoding: 122 122 93
+Encoding: 93 122 93
 GlifName: z
 Width: 1175
 GlyphClass: 2
@@ -2964,7 +2961,7 @@ Validated: 1
 EndChar
 
 StartChar: braceleft
-Encoding: 123 123 94
+Encoding: 94 123 94
 GlifName: braceleft
 Width: 725
 GlyphClass: 2
@@ -2995,7 +2992,7 @@ Validated: 1
 EndChar
 
 StartChar: bar
-Encoding: 124 124 95
+Encoding: 95 124 95
 GlifName: bar
 Width: 428
 GlyphClass: 2
@@ -3014,7 +3011,7 @@ Validated: 1
 EndChar
 
 StartChar: braceright
-Encoding: 125 125 96
+Encoding: 96 125 96
 GlifName: braceright
 Width: 725
 GlyphClass: 2
@@ -3045,7 +3042,7 @@ Validated: 1
 EndChar
 
 StartChar: asciitilde
-Encoding: 126 126 97
+Encoding: 97 126 97
 GlifName: asciitilde
 Width: 1275
 GlyphClass: 2
@@ -3071,7 +3068,7 @@ Validated: 1
 EndChar
 
 StartChar: uni00A0
-Encoding: 160 160 98
+Encoding: 98 160 98
 GlifName: uni00A_0
 Width: 750
 GlyphClass: 2
@@ -3082,7 +3079,7 @@ Validated: 1
 EndChar
 
 StartChar: exclamdown
-Encoding: 161 161 99
+Encoding: 99 161 99
 GlifName: exclamdown
 Width: 500
 GlyphClass: 2
@@ -3107,7 +3104,7 @@ Validated: 1
 EndChar
 
 StartChar: cent
-Encoding: 162 162 100
+Encoding: 100 162 100
 GlifName: cent
 Width: 1202
 GlyphClass: 2
@@ -3148,7 +3145,7 @@ Validated: 1
 EndChar
 
 StartChar: sterling
-Encoding: 163 163 101
+Encoding: 101 163 101
 GlifName: sterling
 Width: 1214
 GlyphClass: 2
@@ -3185,7 +3182,7 @@ Validated: 1
 EndChar
 
 StartChar: currency
-Encoding: 164 164 102
+Encoding: 102 164 102
 GlifName: currency
 Width: 1024
 GlyphClass: 2
@@ -3226,7 +3223,7 @@ Validated: 1
 EndChar
 
 StartChar: yen
-Encoding: 165 165 103
+Encoding: 103 165 103
 GlifName: yen
 Width: 1417
 GlyphClass: 2
@@ -3265,7 +3262,7 @@ Validated: 1
 EndChar
 
 StartChar: brokenbar
-Encoding: 166 166 104
+Encoding: 104 166 104
 GlifName: brokenbar
 Width: 437
 GlyphClass: 2
@@ -3290,7 +3287,7 @@ Validated: 1
 EndChar
 
 StartChar: section
-Encoding: 167 167 105
+Encoding: 105 167 105
 GlifName: section
 Width: 1192
 GlyphClass: 2
@@ -3341,7 +3338,7 @@ Validated: 1
 EndChar
 
 StartChar: dieresis
-Encoding: 168 168 106
+Encoding: 106 168 106
 GlifName: dieresis
 Width: 801
 GlyphClass: 2
@@ -3367,7 +3364,7 @@ Validated: 1
 EndChar
 
 StartChar: copyright
-Encoding: 169 169 107
+Encoding: 107 169 107
 GlifName: copyright
 Width: 1277
 GlyphClass: 2
@@ -3413,7 +3410,7 @@ Validated: 1
 EndChar
 
 StartChar: ordfeminine
-Encoding: 170 170 108
+Encoding: 108 170 108
 GlifName: ordfeminine
 Width: 830
 GlyphClass: 2
@@ -3442,7 +3439,7 @@ Validated: 1
 EndChar
 
 StartChar: guillemotleft
-Encoding: 171 171 109
+Encoding: 109 171 109
 GlifName: guillemotleft
 Width: 1288
 GlyphClass: 2
@@ -3471,7 +3468,7 @@ Validated: 1
 EndChar
 
 StartChar: logicalnot
-Encoding: 172 172 110
+Encoding: 110 172 110
 GlifName: logicalnot
 Width: 1233
 GlyphClass: 2
@@ -3493,7 +3490,7 @@ Validated: 1
 EndChar
 
 StartChar: uni00AD
-Encoding: 173 173 111
+Encoding: 111 173 111
 GlifName: uni00A_D_
 Width: 847
 GlyphClass: 2
@@ -3513,7 +3510,7 @@ Validated: 1
 EndChar
 
 StartChar: registered
-Encoding: 174 174 112
+Encoding: 112 174 112
 GlifName: registered
 Width: 1277
 GlyphClass: 2
@@ -3565,7 +3562,7 @@ Validated: 1
 EndChar
 
 StartChar: macron
-Encoding: 175 175 113
+Encoding: 113 175 113
 GlifName: macron
 Width: 837
 GlyphClass: 2
@@ -3586,7 +3583,7 @@ Validated: 1
 EndChar
 
 StartChar: degree
-Encoding: 176 176 114
+Encoding: 114 176 114
 GlifName: degree
 Width: 718
 GlyphClass: 2
@@ -3619,7 +3616,7 @@ Validated: 1
 EndChar
 
 StartChar: plusminus
-Encoding: 177 177 115
+Encoding: 115 177 115
 GlifName: plusminus
 Width: 1213
 GlyphClass: 2
@@ -3652,7 +3649,7 @@ Validated: 1
 EndChar
 
 StartChar: twosuperior
-Encoding: 178 178 116
+Encoding: 116 178 116
 GlifName: twosuperior
 Width: 786
 GlyphClass: 2
@@ -3686,7 +3683,7 @@ Validated: 1
 EndChar
 
 StartChar: threesuperior
-Encoding: 179 179 117
+Encoding: 117 179 117
 GlifName: threesuperior
 Width: 790
 GlyphClass: 2
@@ -3723,7 +3720,7 @@ Validated: 1
 EndChar
 
 StartChar: acute
-Encoding: 180 180 118
+Encoding: 118 180 118
 GlifName: acute
 Width: 512
 GlyphClass: 2
@@ -3744,7 +3741,7 @@ Validated: 1
 EndChar
 
 StartChar: uni00B5
-Encoding: 181 181 119
+Encoding: 119 181 119
 GlifName: uni00B_5
 Width: 1192
 GlyphClass: 2
@@ -3773,7 +3770,7 @@ Validated: 1
 EndChar
 
 StartChar: paragraph
-Encoding: 182 182 120
+Encoding: 120 182 120
 GlifName: paragraph
 Width: 1039
 GlyphClass: 2
@@ -3800,7 +3797,7 @@ Validated: 1
 EndChar
 
 StartChar: periodcentered
-Encoding: 183 183 121
+Encoding: 121 183 121
 GlifName: periodcentered
 Width: 461
 GlyphClass: 2
@@ -3820,7 +3817,7 @@ Validated: 1
 EndChar
 
 StartChar: cedilla
-Encoding: 184 184 122
+Encoding: 122 184 122
 GlifName: cedilla
 Width: 502
 GlyphClass: 2
@@ -3845,7 +3842,7 @@ Validated: 1
 EndChar
 
 StartChar: onesuperior
-Encoding: 185 185 123
+Encoding: 123 185 123
 GlifName: onesuperior
 Width: 413
 GlyphClass: 2
@@ -3867,7 +3864,7 @@ Validated: 1
 EndChar
 
 StartChar: ordmasculine
-Encoding: 186 186 124
+Encoding: 124 186 124
 GlifName: ordmasculine
 Width: 809
 GlyphClass: 2
@@ -3902,7 +3899,7 @@ Validated: 1
 EndChar
 
 StartChar: guillemotright
-Encoding: 187 187 125
+Encoding: 125 187 125
 GlifName: guillemotright
 Width: 1288
 GlyphClass: 2
@@ -3931,7 +3928,7 @@ Validated: 1
 EndChar
 
 StartChar: onequarter
-Encoding: 188 188 126
+Encoding: 126 188 126
 GlifName: onequarter
 Width: 2043
 GlyphClass: 3
@@ -3975,7 +3972,7 @@ Ligature2: "Ligaturen Substitution Nachschlagetabelle 2 Subtabelle" one slash fo
 EndChar
 
 StartChar: onehalf
-Encoding: 189 189 127
+Encoding: 127 189 127
 GlifName: onehalf
 Width: 2030
 GlyphClass: 3
@@ -4027,7 +4024,7 @@ Ligature2: "Ligaturen Substitution Nachschlagetabelle 2 Subtabelle" one slash tw
 EndChar
 
 StartChar: threequarters
-Encoding: 190 190 128
+Encoding: 128 190 128
 GlifName: threequarters
 Width: 2329
 GlyphClass: 3
@@ -4086,7 +4083,7 @@ Ligature2: "Ligaturen Substitution Nachschlagetabelle 2 Subtabelle" three slash 
 EndChar
 
 StartChar: questiondown
-Encoding: 191 191 129
+Encoding: 129 191 129
 GlifName: questiondown
 Width: 1149
 GlyphClass: 2
@@ -4121,7 +4118,7 @@ Validated: 1
 EndChar
 
 StartChar: Agrave
-Encoding: 192 192 130
+Encoding: 130 192 130
 GlifName: A_grave
 Width: 1361
 GlyphClass: 2
@@ -4132,11 +4129,10 @@ LayerCount: 2
 Fore
 Refer: 67 96 N 1 0 0 1 383 374 2
 Refer: 36 65 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Aacute
-Encoding: 193 193 131
+Encoding: 131 193 131
 GlifName: A_acute
 Width: 1361
 GlyphClass: 2
@@ -4151,7 +4147,7 @@ Validated: 1
 EndChar
 
 StartChar: Acircumflex
-Encoding: 194 194 132
+Encoding: 132 194 132
 GlifName: A_circumflex
 Width: 1361
 GlyphClass: 2
@@ -4166,7 +4162,7 @@ Validated: 1
 EndChar
 
 StartChar: Atilde
-Encoding: 195 195 133
+Encoding: 133 195 133
 GlifName: A_tilde
 Width: 1361
 GlyphClass: 2
@@ -4181,7 +4177,7 @@ Validated: 1
 EndChar
 
 StartChar: Adieresis
-Encoding: 196 196 134
+Encoding: 134 196 134
 GlifName: A_dieresis
 Width: 1361
 GlyphClass: 2
@@ -4196,7 +4192,7 @@ Validated: 1
 EndChar
 
 StartChar: Aring
-Encoding: 197 197 135
+Encoding: 135 197 135
 GlifName: A_ring
 Width: 1361
 GlyphClass: 2
@@ -4211,7 +4207,7 @@ Validated: 1
 EndChar
 
 StartChar: AE
-Encoding: 198 198 136
+Encoding: 136 198 136
 GlifName: A_E_
 Width: 2044
 GlyphClass: 3
@@ -4249,7 +4245,7 @@ Validated: 1
 EndChar
 
 StartChar: Ccedilla
-Encoding: 199 199 137
+Encoding: 137 199 137
 GlifName: C_cedilla
 Width: 1381
 GlyphClass: 2
@@ -4264,7 +4260,7 @@ Validated: 5
 EndChar
 
 StartChar: Egrave
-Encoding: 200 200 138
+Encoding: 138 200 138
 GlifName: E_grave
 Width: 1363
 GlyphClass: 2
@@ -4275,11 +4271,10 @@ LayerCount: 2
 Fore
 Refer: 67 96 N 1 0 0 1 380 374 2
 Refer: 40 69 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Eacute
-Encoding: 201 201 139
+Encoding: 139 201 139
 GlifName: E_acute
 Width: 1363
 GlyphClass: 2
@@ -4294,7 +4289,7 @@ Validated: 1
 EndChar
 
 StartChar: Ecircumflex
-Encoding: 202 202 140
+Encoding: 140 202 140
 GlifName: E_circumflex
 Width: 1363
 GlyphClass: 2
@@ -4309,7 +4304,7 @@ Validated: 1
 EndChar
 
 StartChar: Edieresis
-Encoding: 203 203 141
+Encoding: 141 203 141
 GlifName: E_dieresis
 Width: 1363
 GlyphClass: 2
@@ -4324,7 +4319,7 @@ Validated: 1
 EndChar
 
 StartChar: Igrave
-Encoding: 204 204 142
+Encoding: 142 204 142
 GlifName: I_grave
 Width: 491
 GlyphClass: 2
@@ -4335,11 +4330,10 @@ LayerCount: 2
 Fore
 Refer: 67 96 N 1 0 0 1 -53 374 2
 Refer: 44 73 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Iacute
-Encoding: 205 205 143
+Encoding: 143 205 143
 GlifName: I_acute
 Width: 491
 GlyphClass: 2
@@ -4354,7 +4348,7 @@ Validated: 1
 EndChar
 
 StartChar: Icircumflex
-Encoding: 206 206 144
+Encoding: 144 206 144
 GlifName: I_circumflex
 Width: 491
 GlyphClass: 2
@@ -4369,7 +4363,7 @@ Validated: 1
 EndChar
 
 StartChar: Idieresis
-Encoding: 207 207 145
+Encoding: 145 207 145
 GlifName: I_dieresis
 Width: 491
 GlyphClass: 2
@@ -4384,7 +4378,7 @@ Validated: 1
 EndChar
 
 StartChar: Eth
-Encoding: 208 208 146
+Encoding: 146 208 146
 GlifName: E_th
 Width: 1465
 GlyphClass: 2
@@ -4421,7 +4415,7 @@ Validated: 1
 EndChar
 
 StartChar: Ntilde
-Encoding: 209 209 147
+Encoding: 147 209 147
 GlifName: N_tilde
 Width: 1384
 GlyphClass: 2
@@ -4436,7 +4430,7 @@ Validated: 1
 EndChar
 
 StartChar: Ograve
-Encoding: 210 210 148
+Encoding: 148 210 148
 GlifName: O_grave
 Width: 1461
 GlyphClass: 2
@@ -4447,11 +4441,10 @@ LayerCount: 2
 Fore
 Refer: 67 96 N 1 0 0 1 433 374 2
 Refer: 50 79 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Oacute
-Encoding: 211 211 149
+Encoding: 149 211 149
 GlifName: O_acute
 Width: 1461
 GlyphClass: 2
@@ -4466,7 +4459,7 @@ Validated: 1
 EndChar
 
 StartChar: Ocircumflex
-Encoding: 212 212 150
+Encoding: 150 212 150
 GlifName: O_circumflex
 Width: 1461
 GlyphClass: 2
@@ -4481,7 +4474,7 @@ Validated: 1
 EndChar
 
 StartChar: Otilde
-Encoding: 213 213 151
+Encoding: 151 213 151
 GlifName: O_tilde
 Width: 1461
 GlyphClass: 2
@@ -4496,7 +4489,7 @@ Validated: 1
 EndChar
 
 StartChar: Odieresis
-Encoding: 214 214 152
+Encoding: 152 214 152
 GlifName: O_dieresis
 Width: 1461
 GlyphClass: 2
@@ -4511,7 +4504,7 @@ Validated: 1
 EndChar
 
 StartChar: multiply
-Encoding: 215 215 153
+Encoding: 153 215 153
 GlifName: multiply
 Width: 1034
 GlyphClass: 2
@@ -4537,7 +4530,7 @@ Validated: 1
 EndChar
 
 StartChar: Oslash
-Encoding: 216 216 154
+Encoding: 154 216 154
 GlifName: O_slash
 Width: 1462
 GlyphClass: 2
@@ -4584,7 +4577,7 @@ Validated: 1
 EndChar
 
 StartChar: Ugrave
-Encoding: 217 217 155
+Encoding: 155 217 155
 GlifName: U_grave
 Width: 1438
 GlyphClass: 2
@@ -4595,11 +4588,10 @@ LayerCount: 2
 Fore
 Refer: 67 96 N 1 0 0 1 420 374 2
 Refer: 56 85 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Uacute
-Encoding: 218 218 156
+Encoding: 156 218 156
 GlifName: U_acute
 Width: 1438
 GlyphClass: 2
@@ -4614,7 +4606,7 @@ Validated: 1
 EndChar
 
 StartChar: Ucircumflex
-Encoding: 219 219 157
+Encoding: 157 219 157
 GlifName: U_circumflex
 Width: 1438
 GlyphClass: 2
@@ -4629,7 +4621,7 @@ Validated: 1
 EndChar
 
 StartChar: Udieresis
-Encoding: 220 220 158
+Encoding: 158 220 158
 GlifName: U_dieresis
 Width: 1438
 GlyphClass: 2
@@ -4644,7 +4636,7 @@ Validated: 1
 EndChar
 
 StartChar: Yacute
-Encoding: 221 221 159
+Encoding: 159 221 159
 GlifName: Y_acute
 Width: 1371
 GlyphClass: 2
@@ -4659,7 +4651,7 @@ Validated: 1
 EndChar
 
 StartChar: Thorn
-Encoding: 222 222 160
+Encoding: 160 222 160
 GlifName: T_horn
 Width: 1195
 GlyphClass: 2
@@ -4696,7 +4688,7 @@ Validated: 1
 EndChar
 
 StartChar: germandbls
-Encoding: 223 223 161
+Encoding: 161 223 161
 GlifName: germandbls
 Width: 1203
 GlyphClass: 2
@@ -4737,7 +4729,7 @@ Validated: 1
 EndChar
 
 StartChar: agrave
-Encoding: 224 224 162
+Encoding: 162 224 162
 GlifName: agrave
 Width: 1182
 GlyphClass: 2
@@ -4748,11 +4740,10 @@ LayerCount: 2
 Fore
 Refer: 67 96 N 1 0 0 1 293 -12 2
 Refer: 68 97 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: aacute
-Encoding: 225 225 163
+Encoding: 163 225 163
 GlifName: aacute
 Width: 1182
 GlyphClass: 2
@@ -4767,7 +4758,7 @@ Validated: 1
 EndChar
 
 StartChar: acircumflex
-Encoding: 226 226 164
+Encoding: 164 226 164
 GlifName: acircumflex
 Width: 1182
 GlyphClass: 2
@@ -4782,7 +4773,7 @@ Validated: 1
 EndChar
 
 StartChar: atilde
-Encoding: 227 227 165
+Encoding: 165 227 165
 GlifName: atilde
 Width: 1182
 GlyphClass: 2
@@ -4797,7 +4788,7 @@ Validated: 1
 EndChar
 
 StartChar: adieresis
-Encoding: 228 228 166
+Encoding: 166 228 166
 GlifName: adieresis
 Width: 1182
 GlyphClass: 2
@@ -4812,7 +4803,7 @@ Validated: 1
 EndChar
 
 StartChar: aring
-Encoding: 229 229 167
+Encoding: 167 229 167
 GlifName: aring
 Width: 1182
 GlyphClass: 2
@@ -4827,7 +4818,7 @@ Validated: 1
 EndChar
 
 StartChar: ae
-Encoding: 230 230 168
+Encoding: 168 230 168
 GlifName: ae
 Width: 1913
 GlyphClass: 3
@@ -4874,7 +4865,7 @@ Validated: 1
 EndChar
 
 StartChar: ccedilla
-Encoding: 231 231 169
+Encoding: 169 231 169
 GlifName: ccedilla
 Width: 1187
 GlyphClass: 2
@@ -4889,7 +4880,7 @@ Validated: 5
 EndChar
 
 StartChar: egrave
-Encoding: 232 232 170
+Encoding: 170 232 170
 GlifName: egrave
 Width: 1182
 GlyphClass: 2
@@ -4900,11 +4891,10 @@ LayerCount: 2
 Fore
 Refer: 67 96 N 1 0 0 1 293 -12 2
 Refer: 72 101 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: eacute
-Encoding: 233 233 171
+Encoding: 171 233 171
 GlifName: eacute
 Width: 1182
 GlyphClass: 2
@@ -4919,7 +4909,7 @@ Validated: 1
 EndChar
 
 StartChar: ecircumflex
-Encoding: 234 234 172
+Encoding: 172 234 172
 GlifName: ecircumflex
 Width: 1182
 GlyphClass: 2
@@ -4934,7 +4924,7 @@ Validated: 1
 EndChar
 
 StartChar: edieresis
-Encoding: 235 235 173
+Encoding: 173 235 173
 GlifName: edieresis
 Width: 1182
 GlyphClass: 2
@@ -4949,7 +4939,7 @@ Validated: 1
 EndChar
 
 StartChar: igrave
-Encoding: 236 236 174
+Encoding: 174 236 174
 GlifName: igrave
 Width: 465
 GlyphClass: 2
@@ -4960,11 +4950,10 @@ LayerCount: 2
 Fore
 Refer: 67 96 N 1 0 0 1 -66 -12 2
 Refer: 243 305 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: iacute
-Encoding: 237 237 175
+Encoding: 175 237 175
 GlifName: iacute
 Width: 465
 GlyphClass: 2
@@ -4979,7 +4968,7 @@ Validated: 1
 EndChar
 
 StartChar: icircumflex
-Encoding: 238 238 176
+Encoding: 176 238 176
 GlifName: icircumflex
 Width: 465
 GlyphClass: 2
@@ -4994,7 +4983,7 @@ Validated: 1
 EndChar
 
 StartChar: idieresis
-Encoding: 239 239 177
+Encoding: 177 239 177
 GlifName: idieresis
 Width: 465
 GlyphClass: 2
@@ -5009,7 +4998,7 @@ Validated: 1
 EndChar
 
 StartChar: eth
-Encoding: 240 240 178
+Encoding: 178 240 178
 GlifName: eth
 Width: 1266
 GlyphClass: 2
@@ -5048,7 +5037,7 @@ Validated: 1
 EndChar
 
 StartChar: ntilde
-Encoding: 241 241 179
+Encoding: 179 241 179
 GlifName: ntilde
 Width: 1192
 GlyphClass: 2
@@ -5063,7 +5052,7 @@ Validated: 1
 EndChar
 
 StartChar: ograve
-Encoding: 242 242 180
+Encoding: 180 242 180
 GlifName: ograve
 Width: 1194
 GlyphClass: 2
@@ -5074,11 +5063,10 @@ LayerCount: 2
 Fore
 Refer: 67 96 N 1 0 0 1 299 -12 2
 Refer: 82 111 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: oacute
-Encoding: 243 243 181
+Encoding: 181 243 181
 GlifName: oacute
 Width: 1194
 GlyphClass: 2
@@ -5093,7 +5081,7 @@ Validated: 1
 EndChar
 
 StartChar: ocircumflex
-Encoding: 244 244 182
+Encoding: 182 244 182
 GlifName: ocircumflex
 Width: 1194
 GlyphClass: 2
@@ -5108,7 +5096,7 @@ Validated: 1
 EndChar
 
 StartChar: otilde
-Encoding: 245 245 183
+Encoding: 183 245 183
 GlifName: otilde
 Width: 1194
 GlyphClass: 2
@@ -5123,7 +5111,7 @@ Validated: 1
 EndChar
 
 StartChar: odieresis
-Encoding: 246 246 184
+Encoding: 184 246 184
 GlifName: odieresis
 Width: 1194
 GlyphClass: 2
@@ -5138,7 +5126,7 @@ Validated: 1
 EndChar
 
 StartChar: divide
-Encoding: 247 247 185
+Encoding: 185 247 185
 GlifName: divide
 Width: 1237
 GlyphClass: 2
@@ -5168,7 +5156,7 @@ Validated: 1
 EndChar
 
 StartChar: oslash
-Encoding: 248 248 186
+Encoding: 186 248 186
 GlifName: oslash
 Width: 1194
 GlyphClass: 2
@@ -5213,7 +5201,7 @@ Validated: 1
 EndChar
 
 StartChar: ugrave
-Encoding: 249 249 187
+Encoding: 187 249 187
 GlifName: ugrave
 Width: 1192
 GlyphClass: 2
@@ -5224,11 +5212,10 @@ LayerCount: 2
 Fore
 Refer: 67 96 N 1 0 0 1 298 -12 2
 Refer: 88 117 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: uacute
-Encoding: 250 250 188
+Encoding: 188 250 188
 GlifName: uacute
 Width: 1192
 GlyphClass: 2
@@ -5243,7 +5230,7 @@ Validated: 1
 EndChar
 
 StartChar: ucircumflex
-Encoding: 251 251 189
+Encoding: 189 251 189
 GlifName: ucircumflex
 Width: 1192
 GlyphClass: 2
@@ -5258,7 +5245,7 @@ Validated: 1
 EndChar
 
 StartChar: udieresis
-Encoding: 252 252 190
+Encoding: 190 252 190
 GlifName: udieresis
 Width: 1192
 GlyphClass: 2
@@ -5273,7 +5260,7 @@ Validated: 1
 EndChar
 
 StartChar: yacute
-Encoding: 253 253 191
+Encoding: 191 253 191
 GlifName: yacute
 Width: 1121
 GlyphClass: 2
@@ -5288,7 +5275,7 @@ Validated: 1
 EndChar
 
 StartChar: thorn
-Encoding: 254 254 192
+Encoding: 192 254 192
 GlifName: thorn
 Width: 1224
 GlyphClass: 2
@@ -5325,7 +5312,7 @@ Validated: 1
 EndChar
 
 StartChar: ydieresis
-Encoding: 255 255 193
+Encoding: 193 255 193
 GlifName: ydieresis
 Width: 1121
 GlyphClass: 2
@@ -5340,7 +5327,7 @@ Validated: 1
 EndChar
 
 StartChar: Amacron
-Encoding: 256 256 194
+Encoding: 194 256 194
 GlifName: A_macron
 Width: 1361
 GlyphClass: 2
@@ -5355,7 +5342,7 @@ Validated: 1
 EndChar
 
 StartChar: amacron
-Encoding: 257 257 195
+Encoding: 195 257 195
 GlifName: amacron
 Width: 1182
 GlyphClass: 2
@@ -5370,7 +5357,7 @@ Validated: 1
 EndChar
 
 StartChar: Abreve
-Encoding: 258 258 196
+Encoding: 196 258 196
 GlifName: A_breve
 Width: 1361
 GlyphClass: 2
@@ -5385,7 +5372,7 @@ Validated: 1
 EndChar
 
 StartChar: abreve
-Encoding: 259 259 197
+Encoding: 197 259 197
 GlifName: abreve
 Width: 1182
 GlyphClass: 2
@@ -5400,7 +5387,7 @@ Validated: 1
 EndChar
 
 StartChar: Aogonek
-Encoding: 260 260 198
+Encoding: 198 260 198
 GlifName: A_ogonek
 Width: 1361
 GlyphClass: 2
@@ -5415,7 +5402,7 @@ Validated: 5
 EndChar
 
 StartChar: aogonek
-Encoding: 261 261 199
+Encoding: 199 261 199
 GlifName: aogonek
 Width: 1182
 GlyphClass: 2
@@ -5430,7 +5417,7 @@ Validated: 5
 EndChar
 
 StartChar: Cacute
-Encoding: 262 262 200
+Encoding: 200 262 200
 GlifName: C_acute
 Width: 1381
 GlyphClass: 2
@@ -5445,7 +5432,7 @@ Validated: 1
 EndChar
 
 StartChar: cacute
-Encoding: 263 263 201
+Encoding: 201 263 201
 GlifName: cacute
 Width: 1187
 GlyphClass: 2
@@ -5460,7 +5447,7 @@ Validated: 1
 EndChar
 
 StartChar: Ccircumflex
-Encoding: 264 264 202
+Encoding: 202 264 202
 GlifName: C_circumflex
 Width: 1381
 GlyphClass: 2
@@ -5475,7 +5462,7 @@ Validated: 1
 EndChar
 
 StartChar: ccircumflex
-Encoding: 265 265 203
+Encoding: 203 265 203
 GlifName: ccircumflex
 Width: 1187
 GlyphClass: 2
@@ -5490,7 +5477,7 @@ Validated: 1
 EndChar
 
 StartChar: Cdotaccent
-Encoding: 266 266 204
+Encoding: 204 266 204
 GlifName: C_dotaccent
 Width: 1381
 GlyphClass: 2
@@ -5505,7 +5492,7 @@ Validated: 1
 EndChar
 
 StartChar: cdotaccent
-Encoding: 267 267 205
+Encoding: 205 267 205
 GlifName: cdotaccent
 Width: 1187
 GlyphClass: 2
@@ -5520,7 +5507,7 @@ Validated: 1
 EndChar
 
 StartChar: Ccaron
-Encoding: 268 268 206
+Encoding: 206 268 206
 GlifName: C_caron
 Width: 1381
 GlyphClass: 2
@@ -5531,11 +5518,10 @@ LayerCount: 2
 Fore
 Refer: 328 711 N 1 0 0 1 278 431 2
 Refer: 38 67 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: ccaron
-Encoding: 269 269 207
+Encoding: 207 269 207
 GlifName: ccaron
 Width: 1187
 GlyphClass: 2
@@ -5546,11 +5532,10 @@ LayerCount: 2
 Fore
 Refer: 328 711 N 1 0 0 1 236 45 2
 Refer: 70 99 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Dcaron
-Encoding: 270 270 208
+Encoding: 208 270 208
 GlifName: D_caron
 Width: 1418
 GlyphClass: 2
@@ -5561,11 +5546,10 @@ LayerCount: 2
 Fore
 Refer: 328 711 N 1 0 0 1 297 431 2
 Refer: 39 68 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: dcaron
-Encoding: 271 271 209
+Encoding: 209 271 209
 GlifName: dcaron
 Width: 1507
 GlyphClass: 2
@@ -5576,11 +5560,10 @@ LayerCount: 2
 Fore
 Refer: 336 789 N 1 0 0 1 1145 -170 2
 Refer: 71 100 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: Dcroat
-Encoding: 272 272 210
+Encoding: 210 272 210
 GlifName: D_croat
 Width: 1465
 GlyphClass: 2
@@ -5617,7 +5600,7 @@ Validated: 1
 EndChar
 
 StartChar: dcroat
-Encoding: 273 273 211
+Encoding: 211 273 211
 GlifName: dcroat
 Width: 1262
 GlyphClass: 2
@@ -5656,7 +5639,7 @@ Validated: 1
 EndChar
 
 StartChar: Emacron
-Encoding: 274 274 212
+Encoding: 212 274 212
 GlifName: E_macron
 Width: 1363
 GlyphClass: 2
@@ -5671,7 +5654,7 @@ Validated: 1
 EndChar
 
 StartChar: emacron
-Encoding: 275 275 213
+Encoding: 213 275 213
 GlifName: emacron
 Width: 1182
 GlyphClass: 2
@@ -5686,7 +5669,7 @@ Validated: 1
 EndChar
 
 StartChar: Ebreve
-Encoding: 276 276 214
+Encoding: 214 276 214
 GlifName: E_breve
 Width: 1363
 GlyphClass: 2
@@ -5701,7 +5684,7 @@ Validated: 1
 EndChar
 
 StartChar: ebreve
-Encoding: 277 277 215
+Encoding: 215 277 215
 GlifName: ebreve
 Width: 1182
 GlyphClass: 2
@@ -5716,7 +5699,7 @@ Validated: 1
 EndChar
 
 StartChar: Edotaccent
-Encoding: 278 278 216
+Encoding: 216 278 216
 GlifName: E_dotaccent
 Width: 1363
 GlyphClass: 2
@@ -5731,7 +5714,7 @@ Validated: 1
 EndChar
 
 StartChar: edotaccent
-Encoding: 279 279 217
+Encoding: 217 279 217
 GlifName: edotaccent
 Width: 1182
 GlyphClass: 2
@@ -5746,7 +5729,7 @@ Validated: 1
 EndChar
 
 StartChar: Eogonek
-Encoding: 280 280 218
+Encoding: 218 280 218
 GlifName: E_ogonek
 Width: 1363
 GlyphClass: 2
@@ -5761,7 +5744,7 @@ Validated: 5
 EndChar
 
 StartChar: eogonek
-Encoding: 281 281 219
+Encoding: 219 281 219
 GlifName: eogonek
 Width: 1182
 GlyphClass: 2
@@ -5776,7 +5759,7 @@ Validated: 5
 EndChar
 
 StartChar: Ecaron
-Encoding: 282 282 220
+Encoding: 220 282 220
 GlifName: E_caron
 Width: 1363
 GlyphClass: 2
@@ -5787,11 +5770,10 @@ LayerCount: 2
 Fore
 Refer: 328 711 N 1 0 0 1 266 431 2
 Refer: 40 69 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: ecaron
-Encoding: 283 283 221
+Encoding: 221 283 221
 GlifName: ecaron
 Width: 1182
 GlyphClass: 2
@@ -5802,11 +5784,10 @@ LayerCount: 2
 Fore
 Refer: 328 711 N 1 0 0 1 179 45 2
 Refer: 72 101 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Gcircumflex
-Encoding: 284 284 222
+Encoding: 222 284 222
 GlifName: G_circumflex
 Width: 1421
 GlyphClass: 2
@@ -5822,7 +5803,7 @@ Validated: 1
 EndChar
 
 StartChar: gcircumflex
-Encoding: 285 285 223
+Encoding: 223 285 223
 GlifName: gcircumflex
 Width: 1182
 GlyphClass: 2
@@ -5837,7 +5818,7 @@ Validated: 1
 EndChar
 
 StartChar: Gbreve
-Encoding: 286 286 224
+Encoding: 224 286 224
 GlifName: G_breve
 Width: 1421
 GlyphClass: 2
@@ -5852,7 +5833,7 @@ Validated: 1
 EndChar
 
 StartChar: gbreve
-Encoding: 287 287 225
+Encoding: 225 287 225
 GlifName: gbreve
 Width: 1182
 GlyphClass: 2
@@ -5867,7 +5848,7 @@ Validated: 1
 EndChar
 
 StartChar: Gdotaccent
-Encoding: 288 288 226
+Encoding: 226 288 226
 GlifName: G_dotaccent
 Width: 1421
 GlyphClass: 2
@@ -5882,7 +5863,7 @@ Validated: 1
 EndChar
 
 StartChar: gdotaccent
-Encoding: 289 289 227
+Encoding: 227 289 227
 GlifName: gdotaccent
 Width: 1182
 GlyphClass: 2
@@ -5897,7 +5878,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0122
-Encoding: 290 290 228
+Encoding: 228 290 228
 GlifName: uni0122
 Width: 1421
 GlyphClass: 2
@@ -5908,11 +5889,10 @@ LayerCount: 2
 Fore
 Refer: 337 806 N 1 0 0 1 466 -332 2
 Refer: 42 71 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: uni0123
-Encoding: 291 291 229
+Encoding: 229 291 229
 GlifName: uni0123
 Width: 1182
 GlyphClass: 2
@@ -5928,7 +5908,7 @@ Validated: 1
 EndChar
 
 StartChar: Hcircumflex
-Encoding: 292 292 230
+Encoding: 230 292 230
 GlifName: H_circumflex
 Width: 1438
 GlyphClass: 2
@@ -5943,7 +5923,7 @@ Validated: 1
 EndChar
 
 StartChar: hcircumflex
-Encoding: 293 293 231
+Encoding: 231 293 231
 GlifName: hcircumflex
 Width: 1167
 GlyphClass: 2
@@ -5958,7 +5938,7 @@ Validated: 1
 EndChar
 
 StartChar: Hbar
-Encoding: 294 294 232
+Encoding: 232 294 232
 GlifName: H_bar
 Width: 1598
 GlyphClass: 2
@@ -5999,7 +5979,7 @@ Validated: 1
 EndChar
 
 StartChar: hbar
-Encoding: 295 295 233
+Encoding: 233 295 233
 GlifName: hbar
 Width: 1287
 GlyphClass: 2
@@ -6035,7 +6015,7 @@ Validated: 1
 EndChar
 
 StartChar: Itilde
-Encoding: 296 296 234
+Encoding: 234 296 234
 GlifName: I_tilde
 Width: 491
 GlyphClass: 2
@@ -6050,7 +6030,7 @@ Validated: 1
 EndChar
 
 StartChar: itilde
-Encoding: 297 297 235
+Encoding: 235 297 235
 GlifName: itilde
 Width: 465
 GlyphClass: 2
@@ -6065,7 +6045,7 @@ Validated: 1
 EndChar
 
 StartChar: Imacron
-Encoding: 298 298 236
+Encoding: 236 298 236
 GlifName: I_macron
 Width: 491
 GlyphClass: 2
@@ -6080,7 +6060,7 @@ Validated: 1
 EndChar
 
 StartChar: imacron
-Encoding: 299 299 237
+Encoding: 237 299 237
 GlifName: imacron
 Width: 465
 GlyphClass: 2
@@ -6095,7 +6075,7 @@ Validated: 1
 EndChar
 
 StartChar: Ibreve
-Encoding: 300 300 238
+Encoding: 238 300 238
 GlifName: I_breve
 Width: 491
 GlyphClass: 2
@@ -6110,7 +6090,7 @@ Validated: 1
 EndChar
 
 StartChar: ibreve
-Encoding: 301 301 239
+Encoding: 239 301 239
 GlifName: ibreve
 Width: 465
 GlyphClass: 2
@@ -6125,7 +6105,7 @@ Validated: 1
 EndChar
 
 StartChar: Iogonek
-Encoding: 302 302 240
+Encoding: 240 302 240
 GlifName: I_ogonek
 Width: 491
 GlyphClass: 2
@@ -6140,7 +6120,7 @@ Validated: 5
 EndChar
 
 StartChar: iogonek
-Encoding: 303 303 241
+Encoding: 241 303 241
 GlifName: iogonek
 Width: 452
 GlyphClass: 2
@@ -6155,7 +6135,7 @@ Validated: 5
 EndChar
 
 StartChar: Idotaccent
-Encoding: 304 304 242
+Encoding: 242 304 242
 GlifName: I_dotaccent
 Width: 451
 GlyphClass: 2
@@ -6180,7 +6160,7 @@ Validated: 1
 EndChar
 
 StartChar: dotlessi
-Encoding: 305 305 243
+Encoding: 243 305 243
 GlifName: dotlessi
 Width: 465
 GlyphClass: 2
@@ -6201,7 +6181,7 @@ Validated: 1
 EndChar
 
 StartChar: IJ
-Encoding: 306 306 244
+Encoding: 244 306 244
 GlifName: I_J_
 Width: 1306
 GlyphClass: 2
@@ -6212,11 +6192,10 @@ LayerCount: 2
 Fore
 Refer: 45 74 N 1 0 0 1 471 0 2
 Refer: 44 73 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: ij
-Encoding: 307 307 245
+Encoding: 245 307 245
 GlifName: ij
 Width: 929
 GlyphClass: 2
@@ -6231,22 +6210,21 @@ Validated: 1
 EndChar
 
 StartChar: Jcircumflex
-Encoding: 308 308 246
+Encoding: 246 308 246
 GlifName: J_circumflex
 Width: 835
 GlyphClass: 2
 Flags: W
-HStem: 0 210<40 413.072> 1402 20G<485 695> 1544 309
-VStem: 278.5 623 485 210<278.344 1422>
+HStem: 0 210<40 413.072> 1402 20G<485 695> 1543 309
+VStem: 279 623 485 210<278.344 1422>
 LayerCount: 2
 Fore
-Refer: 327 710 N 1 0 0 1 178.5 431 2
+Refer: 327 710 N 1 0 0 1 179 430 2
 Refer: 45 74 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: jcircumflex
-Encoding: 309 309 247
+Encoding: 247 309 247
 GlifName: jcircumflex
 Width: 530
 GlyphClass: 2
@@ -6261,37 +6239,35 @@ Validated: 1
 EndChar
 
 StartChar: uni0136
-Encoding: 310 310 248
+Encoding: 248 310 248
 GlifName: uni0136
 Width: 1394
 GlyphClass: 2
 Flags: W
-HStem: -534 414<628 711> 0 21G<140 351 1038.65 1354> 1402 20G<140 351 1000.42 1311>
-VStem: 140 211<0 635 846 1422> 553 287
+HStem: -534 414<591 674> 0 21G<140 351 1038.65 1354> 1402 20G<140 351 1000.42 1311>
+VStem: 140 211<0 635 846 1422> 516 287
 LayerCount: 2
 Fore
-Refer: 337 806 N 1 0 0 1 453 -332 2
+Refer: 337 806 N 1 0 0 1 416 -332 2
 Refer: 46 75 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: uni0137
-Encoding: 311 311 249
+Encoding: 249 311 249
 GlifName: uni0137
 Width: 1123
 GlyphClass: 2
 Flags: W
-HStem: -534 414<493 576> 0 21G<120 331 778.607 1093> 1016 20G<758.108 1051> 1402 20G<120 331>
-VStem: 120 211<0 428 639 1422> 418 287
+HStem: -534 414<456 539> 0 21G<120 331 778.607 1093> 1016 20G<758.108 1051> 1402 20G<120 331>
+VStem: 120 211<0 428 639 1422> 381 287
 LayerCount: 2
 Fore
-Refer: 337 806 N 1 0 0 1 318 -332 2
+Refer: 337 806 N 1 0 0 1 281 -332 2
 Refer: 78 107 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: kgreenlandic
-Encoding: 312 312 250
+Encoding: 250 312 250
 GlifName: kgreenlandic
 Width: 1123
 GlyphClass: 2
@@ -6320,7 +6296,7 @@ Validated: 1
 EndChar
 
 StartChar: Lacute
-Encoding: 313 313 251
+Encoding: 251 313 251
 GlifName: L_acute
 Width: 1282
 GlyphClass: 2
@@ -6335,7 +6311,7 @@ Validated: 1
 EndChar
 
 StartChar: lacute
-Encoding: 314 314 252
+Encoding: 252 314 252
 GlifName: lacute
 Width: 451
 GlyphClass: 2
@@ -6350,7 +6326,7 @@ Validated: 1
 EndChar
 
 StartChar: uni013B
-Encoding: 315 315 253
+Encoding: 253 315 253
 GlifName: uni013B_
 Width: 1282
 GlyphClass: 2
@@ -6361,11 +6337,10 @@ LayerCount: 2
 Fore
 Refer: 337 806 N 1 0 0 1 397 -332 2
 Refer: 47 76 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: uni013C
-Encoding: 316 316 254
+Encoding: 254 316 254
 GlifName: uni013C_
 Width: 451
 GlyphClass: 2
@@ -6376,11 +6351,10 @@ LayerCount: 2
 Fore
 Refer: 337 806 N 1 0 0 1 -19 -332 2
 Refer: 79 108 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Lcaron
-Encoding: 317 317 255
+Encoding: 255 317 255
 GlifName: L_caron
 Width: 1697
 GlyphClass: 2
@@ -6395,7 +6369,7 @@ Validated: 1
 EndChar
 
 StartChar: lcaron
-Encoding: 318 318 256
+Encoding: 256 318 256
 GlifName: lcaron
 Width: 786
 GlyphClass: 2
@@ -6410,7 +6384,7 @@ Validated: 1
 EndChar
 
 StartChar: Ldot
-Encoding: 319 319 257
+Encoding: 257 319 257
 GlifName: L_dot
 Width: 1282
 GlyphClass: 3
@@ -6425,7 +6399,7 @@ Validated: 1
 EndChar
 
 StartChar: ldot
-Encoding: 320 320 258
+Encoding: 258 320 258
 GlifName: ldot
 Width: 912
 GlyphClass: 3
@@ -6440,7 +6414,7 @@ Validated: 1
 EndChar
 
 StartChar: Lslash
-Encoding: 321 321 259
+Encoding: 259 321 259
 GlifName: L_slash
 Width: 1413
 GlyphClass: 2
@@ -6472,7 +6446,7 @@ Validated: 1
 EndChar
 
 StartChar: lslash
-Encoding: 322 322 260
+Encoding: 260 322 260
 GlifName: lslash
 Width: 671
 GlyphClass: 2
@@ -6500,7 +6474,7 @@ Validated: 1
 EndChar
 
 StartChar: Nacute
-Encoding: 323 323 261
+Encoding: 261 323 261
 GlifName: N_acute
 Width: 1384
 GlyphClass: 2
@@ -6515,7 +6489,7 @@ Validated: 1
 EndChar
 
 StartChar: nacute
-Encoding: 324 324 262
+Encoding: 262 324 262
 GlifName: nacute
 Width: 1192
 GlyphClass: 2
@@ -6530,7 +6504,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0145
-Encoding: 325 325 263
+Encoding: 263 325 263
 GlifName: uni0145
 Width: 1384
 GlyphClass: 2
@@ -6541,11 +6515,10 @@ LayerCount: 2
 Fore
 Refer: 337 806 N 1 0 0 1 448 -332 2
 Refer: 49 78 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: uni0146
-Encoding: 326 326 264
+Encoding: 264 326 264
 GlifName: uni0146
 Width: 1192
 GlyphClass: 2
@@ -6556,11 +6529,10 @@ LayerCount: 2
 Fore
 Refer: 337 806 N 1 0 0 1 352 -332 2
 Refer: 81 110 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Ncaron
-Encoding: 327 327 265
+Encoding: 265 327 265
 GlifName: N_caron
 Width: 1384
 GlyphClass: 2
@@ -6571,11 +6543,10 @@ LayerCount: 2
 Fore
 Refer: 328 711 N 1 0 0 1 280 431 2
 Refer: 49 78 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: ncaron
-Encoding: 328 328 266
+Encoding: 266 328 266
 GlifName: ncaron
 Width: 1192
 GlyphClass: 2
@@ -6586,11 +6557,10 @@ LayerCount: 2
 Fore
 Refer: 328 711 N 1 0 0 1 184 45 2
 Refer: 81 110 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: napostrophe
-Encoding: 329 329 267
+Encoding: 267 329 267
 GlifName: napostrophe
 Width: 1342
 GlyphClass: 2
@@ -6622,7 +6592,7 @@ Validated: 1
 EndChar
 
 StartChar: Eng
-Encoding: 330 330 268
+Encoding: 268 330 268
 GlifName: E_ng
 Width: 1384
 GlyphClass: 2
@@ -6652,7 +6622,7 @@ Validated: 1
 EndChar
 
 StartChar: eng
-Encoding: 331 331 269
+Encoding: 269 331 269
 GlifName: eng
 Width: 1192
 GlyphClass: 2
@@ -6681,7 +6651,7 @@ Validated: 1
 EndChar
 
 StartChar: Omacron
-Encoding: 332 332 270
+Encoding: 270 332 270
 GlifName: O_macron
 Width: 1461
 GlyphClass: 2
@@ -6697,7 +6667,7 @@ Validated: 1
 EndChar
 
 StartChar: omacron
-Encoding: 333 333 271
+Encoding: 271 333 271
 GlifName: omacron
 Width: 1194
 GlyphClass: 2
@@ -6712,7 +6682,7 @@ Validated: 1
 EndChar
 
 StartChar: Obreve
-Encoding: 334 334 272
+Encoding: 272 334 272
 GlifName: O_breve
 Width: 1461
 GlyphClass: 2
@@ -6727,7 +6697,7 @@ Validated: 1
 EndChar
 
 StartChar: obreve
-Encoding: 335 335 273
+Encoding: 273 335 273
 GlifName: obreve
 Width: 1194
 GlyphClass: 2
@@ -6742,7 +6712,7 @@ Validated: 1
 EndChar
 
 StartChar: Ohungarumlaut
-Encoding: 336 336 274
+Encoding: 274 336 274
 GlifName: O_hungarumlaut
 Width: 1461
 GlyphClass: 2
@@ -6757,7 +6727,7 @@ Validated: 1
 EndChar
 
 StartChar: ohungarumlaut
-Encoding: 337 337 275
+Encoding: 275 337 275
 GlifName: ohungarumlaut
 Width: 1194
 GlyphClass: 2
@@ -6772,7 +6742,7 @@ Validated: 1
 EndChar
 
 StartChar: OE
-Encoding: 338 338 276
+Encoding: 276 338 276
 GlifName: O_E_
 Width: 2333
 GlyphClass: 3
@@ -6819,7 +6789,7 @@ Validated: 1
 EndChar
 
 StartChar: oe
-Encoding: 339 339 277
+Encoding: 277 339 277
 GlifName: oe
 Width: 1937
 GlyphClass: 3
@@ -6870,7 +6840,7 @@ Validated: 1
 EndChar
 
 StartChar: Racute
-Encoding: 340 340 278
+Encoding: 278 340 278
 GlifName: R_acute
 Width: 1375
 GlyphClass: 2
@@ -6885,7 +6855,7 @@ Validated: 1
 EndChar
 
 StartChar: racute
-Encoding: 341 341 279
+Encoding: 279 341 279
 GlifName: racute
 Width: 719
 GlyphClass: 2
@@ -6900,7 +6870,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0156
-Encoding: 342 342 280
+Encoding: 280 342 280
 GlifName: uni0156
 Width: 1375
 GlyphClass: 2
@@ -6911,11 +6881,10 @@ LayerCount: 2
 Fore
 Refer: 337 806 N 1 0 0 1 443 -332 2
 Refer: 53 82 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: uni0157
-Encoding: 343 343 281
+Encoding: 281 343 281
 GlifName: uni0157
 Width: 719
 GlyphClass: 2
@@ -6926,11 +6895,10 @@ LayerCount: 2
 Fore
 Refer: 337 806 N 1 0 0 1 -18 -332 2
 Refer: 85 114 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Rcaron
-Encoding: 344 344 282
+Encoding: 282 344 282
 GlifName: R_caron
 Width: 1375
 GlyphClass: 2
@@ -6941,11 +6909,10 @@ LayerCount: 2
 Fore
 Refer: 328 711 N 1 0 0 1 275 431 2
 Refer: 53 82 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: rcaron
-Encoding: 345 345 283
+Encoding: 283 345 283
 GlifName: rcaron
 Width: 719
 GlyphClass: 2
@@ -6956,11 +6923,10 @@ LayerCount: 2
 Fore
 Refer: 328 711 N 1 0 0 1 -52 45 2
 Refer: 85 114 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Sacute
-Encoding: 346 346 284
+Encoding: 284 346 284
 GlifName: S_acute
 Width: 1399
 GlyphClass: 2
@@ -6975,7 +6941,7 @@ Validated: 1
 EndChar
 
 StartChar: sacute
-Encoding: 347 347 285
+Encoding: 285 347 285
 GlifName: sacute
 Width: 1193
 GlyphClass: 2
@@ -6990,7 +6956,7 @@ Validated: 1
 EndChar
 
 StartChar: Scircumflex
-Encoding: 348 348 286
+Encoding: 286 348 286
 GlifName: S_circumflex
 Width: 1399
 GlyphClass: 2
@@ -7005,7 +6971,7 @@ Validated: 1
 EndChar
 
 StartChar: scircumflex
-Encoding: 349 349 287
+Encoding: 287 349 287
 GlifName: scircumflex
 Width: 1193
 GlyphClass: 2
@@ -7020,7 +6986,7 @@ Validated: 1
 EndChar
 
 StartChar: Scedilla
-Encoding: 350 350 288
+Encoding: 288 350 288
 GlifName: S_cedilla
 Width: 1399
 GlyphClass: 2
@@ -7035,7 +7001,7 @@ Validated: 5
 EndChar
 
 StartChar: scedilla
-Encoding: 351 351 289
+Encoding: 289 351 289
 GlifName: scedilla
 Width: 1193
 GlyphClass: 2
@@ -7050,7 +7016,7 @@ Validated: 5
 EndChar
 
 StartChar: Scaron
-Encoding: 352 352 290
+Encoding: 290 352 290
 GlifName: S_caron
 Width: 1399
 GlyphClass: 2
@@ -7062,11 +7028,10 @@ LayerCount: 2
 Fore
 Refer: 328 711 N 1 0 0 1 288 431 2
 Refer: 54 83 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: scaron
-Encoding: 353 353 291
+Encoding: 291 353 291
 GlifName: scaron
 Width: 1193
 GlyphClass: 2
@@ -7077,11 +7042,10 @@ LayerCount: 2
 Fore
 Refer: 328 711 N 1 0 0 1 184 45 2
 Refer: 86 115 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: uni0162
-Encoding: 354 354 292
+Encoding: 292 354 292
 GlifName: uni0162
 Width: 1238
 GlyphClass: 2
@@ -7096,7 +7060,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0163
-Encoding: 355 355 293
+Encoding: 293 355 293
 GlifName: uni0163
 Width: 805
 GlyphClass: 2
@@ -7107,11 +7071,10 @@ LayerCount: 2
 Fore
 Refer: 122 184 N 1 0 0 1 267 6 2
 Refer: 87 116 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: Tcaron
-Encoding: 356 356 294
+Encoding: 294 356 294
 GlifName: T_caron
 Width: 1238
 GlyphClass: 2
@@ -7122,11 +7085,10 @@ LayerCount: 2
 Fore
 Refer: 328 711 N 1 0 0 1 207 431 2
 Refer: 55 84 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: tcaron
-Encoding: 357 357 295
+Encoding: 295 357 295
 GlifName: tcaron
 Width: 1190
 GlyphClass: 2
@@ -7137,11 +7099,10 @@ LayerCount: 2
 Fore
 Refer: 336 789 N 1 0 0 1 818 -170 2
 Refer: 87 116 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: Tbar
-Encoding: 358 358 296
+Encoding: 296 358 296
 GlifName: T_bar
 Width: 1238
 GlyphClass: 2
@@ -7173,7 +7134,7 @@ Validated: 1
 EndChar
 
 StartChar: tbar
-Encoding: 359 359 297
+Encoding: 297 359 297
 GlifName: tbar
 Width: 866
 GlyphClass: 2
@@ -7213,7 +7174,7 @@ Validated: 1
 EndChar
 
 StartChar: Utilde
-Encoding: 360 360 298
+Encoding: 298 360 298
 GlifName: U_tilde
 Width: 1438
 GlyphClass: 2
@@ -7228,7 +7189,7 @@ Validated: 1
 EndChar
 
 StartChar: utilde
-Encoding: 361 361 299
+Encoding: 299 361 299
 GlifName: utilde
 Width: 1192
 GlyphClass: 2
@@ -7243,7 +7204,7 @@ Validated: 1
 EndChar
 
 StartChar: Umacron
-Encoding: 362 362 300
+Encoding: 300 362 300
 GlifName: U_macron
 Width: 1438
 GlyphClass: 2
@@ -7258,7 +7219,7 @@ Validated: 1
 EndChar
 
 StartChar: umacron
-Encoding: 363 363 301
+Encoding: 301 363 301
 GlifName: umacron
 Width: 1192
 GlyphClass: 2
@@ -7273,7 +7234,7 @@ Validated: 1
 EndChar
 
 StartChar: Ubreve
-Encoding: 364 364 302
+Encoding: 302 364 302
 GlifName: U_breve
 Width: 1438
 GlyphClass: 2
@@ -7288,7 +7249,7 @@ Validated: 1
 EndChar
 
 StartChar: ubreve
-Encoding: 365 365 303
+Encoding: 303 365 303
 GlifName: ubreve
 Width: 1192
 GlyphClass: 2
@@ -7303,7 +7264,7 @@ Validated: 1
 EndChar
 
 StartChar: Uring
-Encoding: 366 366 304
+Encoding: 304 366 304
 GlifName: U_ring
 Width: 1438
 GlyphClass: 2
@@ -7318,7 +7279,7 @@ Validated: 1
 EndChar
 
 StartChar: uring
-Encoding: 367 367 305
+Encoding: 305 367 305
 GlifName: uring
 Width: 1192
 GlyphClass: 2
@@ -7333,7 +7294,7 @@ Validated: 1
 EndChar
 
 StartChar: Uhungarumlaut
-Encoding: 368 368 306
+Encoding: 306 368 306
 GlifName: U_hungarumlaut
 Width: 1438
 GlyphClass: 2
@@ -7348,7 +7309,7 @@ Validated: 1
 EndChar
 
 StartChar: uhungarumlaut
-Encoding: 369 369 307
+Encoding: 307 369 307
 GlifName: uhungarumlaut
 Width: 1192
 GlyphClass: 2
@@ -7363,7 +7324,7 @@ Validated: 1
 EndChar
 
 StartChar: Uogonek
-Encoding: 370 370 308
+Encoding: 308 370 308
 GlifName: U_ogonek
 Width: 1438
 GlyphClass: 2
@@ -7378,7 +7339,7 @@ Validated: 5
 EndChar
 
 StartChar: uogonek
-Encoding: 371 371 309
+Encoding: 309 371 309
 GlifName: uogonek
 Width: 1192
 GlyphClass: 2
@@ -7393,7 +7354,7 @@ Validated: 5
 EndChar
 
 StartChar: Wcircumflex
-Encoding: 372 372 310
+Encoding: 310 372 310
 GlifName: W_circumflex
 Width: 1646
 GlyphClass: 2
@@ -7408,7 +7369,7 @@ Validated: 1
 EndChar
 
 StartChar: wcircumflex
-Encoding: 373 373 311
+Encoding: 311 373 311
 GlifName: wcircumflex
 Width: 1492
 GlyphClass: 2
@@ -7423,7 +7384,7 @@ Validated: 1
 EndChar
 
 StartChar: Ycircumflex
-Encoding: 374 374 312
+Encoding: 312 374 312
 GlifName: Y_circumflex
 Width: 1371
 GlyphClass: 2
@@ -7438,7 +7399,7 @@ Validated: 1
 EndChar
 
 StartChar: ycircumflex
-Encoding: 375 375 313
+Encoding: 313 375 313
 GlifName: ycircumflex
 Width: 1121
 GlyphClass: 2
@@ -7453,7 +7414,7 @@ Validated: 1
 EndChar
 
 StartChar: Ydieresis
-Encoding: 376 376 314
+Encoding: 314 376 314
 GlifName: Y_dieresis
 Width: 1371
 GlyphClass: 2
@@ -7468,7 +7429,7 @@ Validated: 1
 EndChar
 
 StartChar: Zacute
-Encoding: 377 377 315
+Encoding: 315 377 315
 GlifName: Z_acute
 Width: 1347
 GlyphClass: 2
@@ -7483,7 +7444,7 @@ Validated: 1
 EndChar
 
 StartChar: zacute
-Encoding: 378 378 316
+Encoding: 316 378 316
 GlifName: zacute
 Width: 1175
 GlyphClass: 2
@@ -7498,7 +7459,7 @@ Validated: 1
 EndChar
 
 StartChar: Zdotaccent
-Encoding: 379 379 317
+Encoding: 317 379 317
 GlifName: Z_dotaccent
 Width: 1347
 GlyphClass: 2
@@ -7513,7 +7474,7 @@ Validated: 1
 EndChar
 
 StartChar: zdotaccent
-Encoding: 380 380 318
+Encoding: 318 380 318
 GlifName: zdotaccent
 Width: 1175
 GlyphClass: 2
@@ -7528,7 +7489,7 @@ Validated: 1
 EndChar
 
 StartChar: Zcaron
-Encoding: 381 381 319
+Encoding: 319 381 319
 GlifName: Z_caron
 Width: 1347
 GlyphClass: 2
@@ -7539,11 +7500,10 @@ LayerCount: 2
 Fore
 Refer: 328 711 N 1 0 0 1 262 431 2
 Refer: 61 90 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: zcaron
-Encoding: 382 382 320
+Encoding: 320 382 320
 GlifName: zcaron
 Width: 1175
 GlyphClass: 2
@@ -7554,11 +7514,10 @@ LayerCount: 2
 Fore
 Refer: 328 711 N 1 0 0 1 175 45 2
 Refer: 93 122 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: florin
-Encoding: 402 402 321
+Encoding: 321 402 321
 GlifName: florin
 Width: 787
 GlyphClass: 2
@@ -7590,7 +7549,7 @@ Validated: 1
 EndChar
 
 StartChar: AEacute
-Encoding: 508 508 322
+Encoding: 322 508 322
 GlifName: A_E_acute
 Width: 2044
 GlyphClass: 2
@@ -7605,7 +7564,7 @@ Validated: 1
 EndChar
 
 StartChar: aeacute
-Encoding: 509 509 323
+Encoding: 323 509 323
 GlifName: aeacute
 Width: 1913
 GlyphClass: 2
@@ -7620,7 +7579,7 @@ Validated: 1
 EndChar
 
 StartChar: Oslashacute
-Encoding: 510 510 324
+Encoding: 324 510 324
 GlifName: O_slashacute
 Width: 1462
 GlyphClass: 2
@@ -7635,7 +7594,7 @@ Validated: 1
 EndChar
 
 StartChar: oslashacute
-Encoding: 511 511 325
+Encoding: 325 511 325
 GlifName: oslashacute
 Width: 1194
 GlyphClass: 2
@@ -7650,7 +7609,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0237
-Encoding: 567 567 326
+Encoding: 326 567 326
 GlifName: uni0237
 Width: 530
 GlyphClass: 2
@@ -7673,7 +7632,7 @@ Validated: 1
 EndChar
 
 StartChar: circumflex
-Encoding: 710 710 327
+Encoding: 327 710 327
 GlifName: circumflex
 Width: 823
 GlyphClass: 2
@@ -7697,7 +7656,7 @@ Validated: 1
 EndChar
 
 StartChar: caron
-Encoding: 711 711 328
+Encoding: 328 711 328
 GlifName: caron
 Width: 823
 GlyphClass: 2
@@ -7717,11 +7676,10 @@ SplineSet
  334 1113 l 1
  100 1422 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: breve
-Encoding: 728 728 329
+Encoding: 329 728 329
 GlifName: breve
 Width: 796
 GlyphClass: 2
@@ -7732,19 +7690,19 @@ AnchorPoint: "top" 398 1122 mark 0
 LayerCount: 2
 Fore
 SplineSet
-100 1420 m 1
- 234 1420 l 1
- 234 1330 308 1256 398 1256 c 0
- 488 1256 562 1330 562 1420 c 1
- 696 1420 l 1
- 696 1256 562 1122 398 1122 c 0
- 234 1122 100 1256 100 1420 c 1
+100 1420 m 5
+ 234 1420 l 5
+ 234 1330 308 1256 398 1256 c 4
+ 488 1256 562 1330 562 1420 c 5
+ 696 1420 l 5
+ 696 1256 562 1122 398 1122 c 4
+ 234 1122 100 1256 100 1420 c 5
 EndSplineSet
 Validated: 1
 EndChar
 
 StartChar: dotaccent
-Encoding: 729 729 330
+Encoding: 330 729 330
 GlifName: dotaccent
 Width: 411
 GlyphClass: 2
@@ -7755,17 +7713,17 @@ AnchorPoint: "top" 206 1212 mark 0
 LayerCount: 2
 Fore
 SplineSet
-95 1322 m 0
- 95 1384 144 1433 206 1433 c 0
- 267 1433 316 1384 316 1322 c 0
- 316 1261 267 1212 206 1212 c 0
- 145 1212 95 1261 95 1322 c 0
+95 1322 m 4
+ 95 1384 144 1433 206 1433 c 4
+ 267 1433 316 1384 316 1322 c 4
+ 316 1261 267 1212 206 1212 c 4
+ 145 1212 95 1261 95 1322 c 4
 EndSplineSet
 Validated: 1
 EndChar
 
 StartChar: ring
-Encoding: 730 730 331
+Encoding: 331 730 331
 GlifName: ring
 Width: 580
 GlyphClass: 2
@@ -7799,7 +7757,7 @@ Validated: 1
 EndChar
 
 StartChar: ogonek
-Encoding: 731 731 332
+Encoding: 332 731 332
 GlifName: ogonek
 Width: 490
 GlyphClass: 2
@@ -7824,7 +7782,7 @@ Validated: 1
 EndChar
 
 StartChar: tilde
-Encoding: 732 732 333
+Encoding: 333 732 333
 GlifName: tilde
 Width: 898
 GlyphClass: 2
@@ -7851,7 +7809,7 @@ Validated: 1
 EndChar
 
 StartChar: hungarumlaut
-Encoding: 733 733 334
+Encoding: 334 733 334
 GlifName: hungarumlaut
 Width: 814
 GlyphClass: 2
@@ -7877,7 +7835,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0312
-Encoding: 786 786 335
+Encoding: 335 786 335
 GlifName: uni0312
 Width: 512
 GlyphClass: 2
@@ -7897,7 +7855,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0315
-Encoding: 789 789 336
+Encoding: 336 789 336
 GlifName: uni0315
 Width: 512
 GlyphClass: 2
@@ -7917,14 +7875,14 @@ Validated: 1
 EndChar
 
 StartChar: uni0326
-Encoding: 806 806 337
+Encoding: 337 806 337
 GlifName: uni0326
 Width: 487
 GlyphClass: 2
 Flags: W
 HStem: -202 414<175 258>
 VStem: 100 287
-AnchorPoint: "botton" 244 212 mark 0
+AnchorPoint: "botton" 281 212 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7934,11 +7892,10 @@ SplineSet
  258 -202 l 1
  100 -202 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Wgrave
-Encoding: 7808 7808 338
+Encoding: 338 7808 338
 GlifName: W_grave
 Width: 1646
 GlyphClass: 2
@@ -7949,11 +7906,10 @@ LayerCount: 2
 Fore
 Refer: 67 96 N 1 0 0 1 525 374 2
 Refer: 58 87 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: wgrave
-Encoding: 7809 7809 339
+Encoding: 339 7809 339
 GlifName: wgrave
 Width: 1492
 GlyphClass: 2
@@ -7964,11 +7920,10 @@ LayerCount: 2
 Fore
 Refer: 67 96 N 1 0 0 1 448 -12 2
 Refer: 90 119 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Wacute
-Encoding: 7810 7810 340
+Encoding: 340 7810 340
 GlifName: W_acute
 Width: 1646
 GlyphClass: 2
@@ -7983,7 +7938,7 @@ Validated: 1
 EndChar
 
 StartChar: wacute
-Encoding: 7811 7811 341
+Encoding: 341 7811 341
 GlifName: wacute
 Width: 1492
 GlyphClass: 2
@@ -7998,7 +7953,7 @@ Validated: 1
 EndChar
 
 StartChar: Wdieresis
-Encoding: 7812 7812 342
+Encoding: 342 7812 342
 GlifName: W_dieresis
 Width: 1646
 GlyphClass: 2
@@ -8013,7 +7968,7 @@ Validated: 1
 EndChar
 
 StartChar: wdieresis
-Encoding: 7813 7813 343
+Encoding: 343 7813 343
 GlifName: wdieresis
 Width: 1492
 GlyphClass: 2
@@ -8028,7 +7983,7 @@ Validated: 1
 EndChar
 
 StartChar: Ygrave
-Encoding: 7922 7922 344
+Encoding: 344 7922 344
 GlifName: Y_grave
 Width: 1371
 GlyphClass: 2
@@ -8039,11 +7994,10 @@ LayerCount: 2
 Fore
 Refer: 67 96 N 1 0 0 1 388 374 2
 Refer: 60 89 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: ygrave
-Encoding: 7923 7923 345
+Encoding: 345 7923 345
 GlifName: ygrave
 Width: 1121
 GlyphClass: 2
@@ -8054,11 +8008,10 @@ LayerCount: 2
 Fore
 Refer: 67 96 N 1 0 0 1 262 -12 2
 Refer: 92 121 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: endash
-Encoding: 8211 8211 346
+Encoding: 346 8211 346
 GlifName: endash
 Width: 1024
 GlyphClass: 2
@@ -8077,7 +8030,7 @@ Validated: 1
 EndChar
 
 StartChar: emdash
-Encoding: 8212 8212 347
+Encoding: 347 8212 347
 GlifName: emdash
 Width: 2048
 GlyphClass: 2
@@ -8096,7 +8049,7 @@ Validated: 1
 EndChar
 
 StartChar: quoteleft
-Encoding: 8216 8216 348
+Encoding: 348 8216 348
 GlifName: quoteleft
 Width: 512
 GlyphClass: 2
@@ -8116,7 +8069,7 @@ Validated: 1
 EndChar
 
 StartChar: quoteright
-Encoding: 8217 8217 349
+Encoding: 349 8217 349
 GlifName: quoteright
 Width: 512
 GlyphClass: 2
@@ -8137,7 +8090,7 @@ Validated: 1
 EndChar
 
 StartChar: quotesinglbase
-Encoding: 8218 8218 350
+Encoding: 350 8218 350
 GlifName: quotesinglbase
 Width: 487
 GlyphClass: 2
@@ -8158,7 +8111,7 @@ Validated: 1
 EndChar
 
 StartChar: quotedblleft
-Encoding: 8220 8220 351
+Encoding: 351 8220 351
 GlifName: quotedblleft
 Width: 837
 GlyphClass: 2
@@ -8183,7 +8136,7 @@ Validated: 1
 EndChar
 
 StartChar: quotedblright
-Encoding: 8221 8221 352
+Encoding: 352 8221 352
 GlifName: quotedblright
 Width: 837
 GlyphClass: 2
@@ -8208,7 +8161,7 @@ Validated: 1
 EndChar
 
 StartChar: quotedblbase
-Encoding: 8222 8222 353
+Encoding: 353 8222 353
 GlifName: quotedblbase
 Width: 837
 GlyphClass: 2
@@ -8233,7 +8186,7 @@ Validated: 1
 EndChar
 
 StartChar: dagger
-Encoding: 8224 8224 354
+Encoding: 354 8224 354
 GlifName: dagger
 Width: 1219
 GlyphClass: 2
@@ -8261,7 +8214,7 @@ Validated: 1
 EndChar
 
 StartChar: daggerdbl
-Encoding: 8225 8225 355
+Encoding: 355 8225 355
 GlifName: daggerdbl
 Width: 1219
 GlyphClass: 2
@@ -8297,7 +8250,7 @@ Validated: 1
 EndChar
 
 StartChar: bullet
-Encoding: 8226 8226 356
+Encoding: 356 8226 356
 GlifName: bullet
 Width: 700
 GlyphClass: 2
@@ -8317,7 +8270,7 @@ Validated: 1
 EndChar
 
 StartChar: ellipsis
-Encoding: 8230 8230 357
+Encoding: 357 8230 357
 GlifName: ellipsis
 Width: 1272
 GlyphClass: 2
@@ -8348,7 +8301,7 @@ Validated: 1
 EndChar
 
 StartChar: perthousand
-Encoding: 8240 8240 358
+Encoding: 358 8240 358
 GlifName: perthousand
 Width: 2917
 GlyphClass: 2
@@ -8424,7 +8377,7 @@ Ligature2: "Ligaturen Substitution Nachschlagetabelle 2 Subtabelle" zero slash z
 EndChar
 
 StartChar: guilsinglleft
-Encoding: 8249 8249 359
+Encoding: 359 8249 359
 GlifName: guilsinglleft
 Width: 1230
 GlyphClass: 2
@@ -8445,7 +8398,7 @@ Validated: 1
 EndChar
 
 StartChar: guilsinglright
-Encoding: 8250 8250 360
+Encoding: 360 8250 360
 GlifName: guilsinglright
 Width: 1230
 GlyphClass: 2
@@ -8466,7 +8419,7 @@ Validated: 1
 EndChar
 
 StartChar: fraction
-Encoding: 8260 8260 361
+Encoding: 361 8260 361
 GlifName: fraction
 Width: 876
 GlyphClass: 2
@@ -8485,7 +8438,7 @@ Validated: 1
 EndChar
 
 StartChar: Euro
-Encoding: 8364 8364 362
+Encoding: 362 8364 362
 GlifName: E_uro
 Width: 1381
 GlyphClass: 2
@@ -8529,7 +8482,7 @@ Validated: 1
 EndChar
 
 StartChar: trademark
-Encoding: 8482 8482 363
+Encoding: 363 8482 363
 GlifName: trademark
 Width: 1433
 GlyphClass: 2
@@ -8567,7 +8520,7 @@ Validated: 1
 EndChar
 
 StartChar: partialdiff
-Encoding: 8706 8706 364
+Encoding: 364 8706 364
 GlifName: partialdiff
 Width: 1182
 GlyphClass: 2
@@ -8602,7 +8555,7 @@ Validated: 1
 EndChar
 
 StartChar: minus
-Encoding: 8722 8722 365
+Encoding: 365 8722 365
 GlifName: minus
 Width: 847
 GlyphClass: 2
@@ -8622,7 +8575,7 @@ Validated: 1
 EndChar
 
 StartChar: approxequal
-Encoding: 8776 8776 366
+Encoding: 366 8776 366
 GlifName: approxequal
 Width: 1275
 GlyphClass: 2
@@ -8659,7 +8612,7 @@ Validated: 1
 EndChar
 
 StartChar: fi
-Encoding: 64257 64257 367
+Encoding: 367 64257 367
 GlifName: fi
 Width: 1175
 GlyphClass: 3
@@ -8695,7 +8648,7 @@ Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 5 Subtabe
 EndChar
 
 StartChar: fl
-Encoding: 64258 64258 368
+Encoding: 368 64258 368
 GlifName: fl
 Width: 1170
 GlyphClass: 3
@@ -8723,6 +8676,504 @@ SplineSet
 EndSplineSet
 Validated: 1
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 5 Subtabelle" f l
+EndChar
+
+StartChar: Scommaaccent
+Encoding: 369 536 369
+Width: 1399
+HStem: -408 414<594 677> 0 211<121 1030.96> 635 210<368.012 1030.96> 1212 210<376.347 1209>
+VStem: 120 211<880.71 1172.18> 519 287 1068 211<250.742 594.258>
+LayerCount: 2
+Fore
+Refer: 337 806 N 1 0 0 1 419 -206 2
+Refer: 54 83 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni0219
+Encoding: 370 537 370
+Width: 1193
+HStem: -408 414<490 573> 0 211<157 860.215> 428 210<333.719 860.215> 825 211<333.719 1016>
+VStem: 110 211<654.139 810.807> 415 287 873 210<226.139 411.861>
+LayerCount: 2
+Fore
+Refer: 337 806 N 1 0 0 1 315 -206 2
+Refer: 86 115 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni021B
+Encoding: 371 539 371
+Width: 805
+HStem: -408 414<448 531> 0 211<428.719 735> 825 211<70 205 416 735> 1402 20G<205 416>
+VStem: 205 211<226.773 825 1036 1422> 373 287
+LayerCount: 2
+Fore
+Refer: 337 806 N 1 0 0 1 273 -206 2
+Refer: 87 116 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1E1E
+Encoding: 372 7710 372
+Width: 1212
+HStem: 0 21G<140 351> 635 210<471 1092> 1212 210<351 1092> 1544 221<517.141 694.22>
+VStem: 140 211<0 1212> 495 221<1565.78 1743.15>
+LayerCount: 2
+Fore
+Refer: 330 729 N 1 0 0 1 400 332 2
+Refer: 41 70 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1E1F
+Encoding: 373 7711 373
+Width: 719
+HStem: 0 21G<120 331> 826 210<331 653> 1212 210<343.719 649> 1544 221<271.141 448.22>
+VStem: 120 211<0 826 1036 1199.22> 249 221<1565.78 1743.15>
+LayerCount: 2
+Fore
+Refer: 330 729 N 1 0 0 1 154 332 2
+Refer: 73 102 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1E02
+Encoding: 374 7682 374
+Width: 1408
+HStem: 0 211<351 1050.52> 639 210<471 995.406> 1212 210<351 986.439> 1544 221<615.141 792.22>
+VStem: 140 211<211 1212> 593 221<1565.78 1743.15> 1033 210<885.871 1168.42> 1088 210<249.253 601.406>
+LayerCount: 2
+Fore
+Refer: 330 729 N 1 0 0 1 498 332 2
+Refer: 37 66 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: bdotaccent
+Encoding: 375 7683 375
+Width: 1182
+HStem: 0 211<321 799.01> 825 211<441 797.589> 1402 20G<110 321> 1544 221<502.141 679.22>
+VStem: 110 211<211 1422> 480 221<1565.78 1743.15> 851 211<261.548 773.01>
+LayerCount: 2
+Fore
+Refer: 330 729 N 1 0 0 1 385 332 2
+Refer: 69 98 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Ddotaccent
+Encoding: 376 7690 376
+Width: 1418
+HStem: 0 211<351 1015.54> 1212 210<351 1015.54> 1544 221<620.141 797.22>
+VStem: 140 211<211 1212> 598 221<1565.78 1743.15> 1088 210<279.344 1140.98>
+LayerCount: 2
+Fore
+Refer: 330 729 N 1 0 0 1 503 332 2
+Refer: 39 68 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Mdotaccent
+Encoding: 377 7744 377
+Width: 1584
+HStem: 0 21G<140 351 1233 1444> 1402 20G<140 349.364 1234.64 1444> 1544 221<703.641 880.72>
+VStem: 140 211<0 1063> 681.5 221<1565.78 1743.15> 1233 211<0 1063>
+CounterMasks: 1 1c
+LayerCount: 2
+Fore
+Refer: 330 729 N 1 0 0 1 586.5 332 2
+Refer: 48 77 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: mdotaccent
+Encoding: 378 7745 378
+Width: 1718
+HStem: 0 21G<120 331 751 962 1388 1598> 826 210<331 733.246 978.586 1334.44> 1158 221<772.141 949.22>
+VStem: 120 211<0 826> 750 221<1179.78 1357.15> 751 211<0 808.681> 1388 210<0 771.742>
+LayerCount: 2
+Fore
+Refer: 330 729 N 1 0 0 1 655 -54 2
+Refer: 80 109 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ddotaccent
+Encoding: 379 7691 379
+Width: 1182
+HStem: 0 211<372.99 851> 825 211<374.411 731> 1402 20G<851 1062> 1544 221<502.141 679.22>
+VStem: 110 211<261.548 773.01> 480 221<1565.78 1743.15> 851 211<211 1422>
+LayerCount: 2
+Fore
+Refer: 330 729 N 1 0 0 1 385 332 2
+Refer: 71 100 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Pdotaccent
+Encoding: 380 7766 380
+Width: 1348
+HStem: 0 21G<140 351> 585 210<471 996.416> 1212 210<351 988.143> 1544 221<585.141 762.22>
+VStem: 140 211<0 1212> 563 221<1565.78 1743.15> 1033 210<835.389 1167.71>
+LayerCount: 2
+Fore
+Refer: 330 729 N 1 0 0 1 468 332 2
+Refer: 51 80 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: pdotaccent
+Encoding: 381 7767 381
+Width: 1182
+Flags: W
+HStem: 0 211<441 797.589> 825 211<321 799.01> 1158 221<503.141 680.22>
+VStem: 110 211<-386 825> 481 221<1179.78 1357.15> 851 211<262.99 774.452>
+LayerCount: 2
+Fore
+Refer: 330 729 N 1 0 0 1 386 -54 2
+Refer: 83 112 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Sdotaccent
+Encoding: 382 7776 382
+Width: 1399
+HStem: 0 211<121 1030.96> 635 210<368.012 1030.96> 1212 210<376.347 1209> 1544 221<611.141 788.22>
+VStem: 120 211<880.71 1172.18> 589 221<1565.78 1743.15> 1068 211<250.742 594.258>
+CounterMasks: 1 0e
+LayerCount: 2
+Fore
+Refer: 330 729 N 1 0 0 1 494 332 2
+Refer: 54 83 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: sdotaccent
+Encoding: 383 7777 383
+Width: 1193
+HStem: 0 211<157 860.215> 428 210<333.719 860.215> 825 211<333.719 1016> 1158 221<507.141 684.22>
+VStem: 110 211<654.139 810.807> 485 221<1179.78 1357.15> 873 210<226.139 411.861>
+LayerCount: 2
+Fore
+Refer: 330 729 N 1 0 0 1 390 -54 2
+Refer: 86 115 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: tdotaccent
+Encoding: 384 7787 384
+Width: 805
+HStem: 0 211<428.719 735> 825 211<70 205 416 735> 1402 20G<205 416> 1544 221<222.141 399.22>
+VStem: 200 221<1565.78 1743.15> 205 211<226.773 825 1036 1422>
+LayerCount: 2
+Fore
+Refer: 330 729 N 1 0 0 1 105 332 2
+Refer: 87 116 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Tdotaccent
+Encoding: 385 7786 385
+Width: 1238
+HStem: 0 21G<513 725> 1212 210<40 513 725 1198> 1544 221<530.141 707.22>
+VStem: 508 221<1565.78 1743.15> 513 212<0 1212>
+LayerCount: 2
+Fore
+Refer: 330 729 N 1 0 0 1 413 332 2
+Refer: 55 84 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: acutecomb
+Encoding: 386 769 386
+Width: 512
+HStem: 1170 422
+VStem: 100 312
+LayerCount: 2
+Fore
+Refer: 118 180 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: brevecomb
+Encoding: 387 774 387
+Width: 796
+Flags: W
+HStem: 1122 134<288.464 507.536>
+VStem: 100 134<1310.97 1420> 562 134<1310.97 1420>
+AnchorPoint: "top" 398 1122 mark 0
+LayerCount: 2
+Fore
+SplineSet
+100 1420 m 5
+ 234 1420 l 5
+ 234 1330 308 1256 398 1256 c 4
+ 488 1256 562 1330 562 1420 c 5
+ 696 1420 l 5
+ 696 1256 562 1122 398 1122 c 4
+ 234 1122 100 1256 100 1420 c 5
+EndSplineSet
+EndChar
+
+StartChar: caroncomb
+Encoding: 388 780 388
+Width: 823
+Flags: W
+HStem: 1113 309
+VStem: 100 623
+AnchorPoint: "top" 412 1113 mark 0
+LayerCount: 2
+Fore
+SplineSet
+100 1422 m 1
+ 241 1422 l 1
+ 411 1250 l 1
+ 582 1422 l 1
+ 723 1422 l 1
+ 489 1113 l 1
+ 334 1113 l 1
+ 100 1422 l 1
+EndSplineSet
+EndChar
+
+StartChar: caroncomb.alt
+Encoding: 389 -1 389
+Width: 823
+Flags: W
+HStem: 1113 309
+VStem: 100 623
+AnchorPoint: "top" 412 1113 mark 0
+LayerCount: 2
+Fore
+SplineSet
+100 1422 m 1
+ 241 1422 l 1
+ 411 1250 l 1
+ 582 1422 l 1
+ 723 1422 l 1
+ 489 1113 l 1
+ 334 1113 l 1
+ 100 1422 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni030A
+Encoding: 390 778 390
+Width: 580
+Flags: W
+HStem: 1041 118<219.406 360.594> 1304 118<219.406 360.594>
+VStem: 100 118<1159.59 1303.41> 362 118<1159.59 1303.41>
+LayerCount: 2
+Fore
+SplineSet
+100 1210 m 2
+ 100 1253 l 2
+ 100 1347 176 1422 270 1422 c 2
+ 310 1422 l 2
+ 404 1422 480 1347 480 1253 c 2
+ 480 1210 l 2
+ 480 1116 404 1041 310 1041 c 2
+ 270 1041 l 2
+ 176 1041 100 1116 100 1210 c 2
+218 1210 m 2
+ 218 1182 241 1159 270 1159 c 2
+ 310 1159 l 2
+ 339 1159 362 1182 362 1210 c 2
+ 362 1253 l 2
+ 362 1281 339 1304 310 1304 c 2
+ 270 1304 l 2
+ 241 1304 218 1281 218 1253 c 2
+ 218 1210 l 2
+EndSplineSet
+EndChar
+
+StartChar: circumflexcomb
+Encoding: 391 770 391
+Width: 823
+Flags: W
+HStem: 1113 309
+VStem: 100 623
+LayerCount: 2
+Fore
+SplineSet
+100 1113 m 1
+ 334 1422 l 1
+ 489 1422 l 1
+ 723 1113 l 1
+ 582 1113 l 1
+ 411 1285 l 1
+ 241 1113 l 1
+ 100 1113 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni030B
+Encoding: 392 779 392
+Width: 814
+Flags: W
+HStem: 1151 271<240 246 537 543>
+VStem: 100 614
+LayerCount: 2
+Fore
+SplineSet
+100 1151 m 1
+ 240 1422 l 1
+ 417 1422 l 1
+ 246 1151 l 1
+ 100 1151 l 1
+397 1151 m 1
+ 537 1422 l 1
+ 714 1422 l 1
+ 543 1151 l 1
+ 397 1151 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni0308
+Encoding: 393 776 393
+Width: 801
+HStem: 1201 221<141.78 319.153 481.78 659.153>
+VStem: 120 221<1222.78 1400.15> 460 221<1222.78 1400.15>
+LayerCount: 2
+Fore
+Refer: 106 168 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: gravecomb
+Encoding: 394 768 394
+Width: 512
+Flags: W
+HStem: 1170 422
+VStem: 100 312
+AnchorPoint: "top" 298 1170 mark 0
+LayerCount: 2
+Fore
+SplineSet
+100 1504 m 1
+ 283 1592 l 1
+ 412 1223 l 1
+ 298 1170 l 1
+ 100 1504 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni0327
+Encoding: 395 807 395
+Width: 502
+HStem: -313 150<103.937 302.496>
+VStem: 251 151<-227.5 -3.81457>
+LayerCount: 2
+Fore
+Refer: 122 184 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni0328
+Encoding: 396 808 396
+Width: 490
+Flags: W
+HStem: -313 150<227.504 426.063>
+VStem: 128 151<-227.5 -3.81457>
+LayerCount: 2
+Fore
+SplineSet
+128 -183 m 4
+ 128 -136 142 -75 170 0 c 5
+ 318 0 l 5
+ 286 -89 279 -112 279 -132 c 4
+ 279 -154 290 -163 320 -163 c 4
+ 337 -163 348 -162 430 -149 c 5
+ 430 -297 l 5
+ 342 -310 313 -313 280 -313 c 4
+ 176 -313 128 -272 128 -183 c 4
+EndSplineSet
+EndChar
+
+StartChar: macroncomb
+Encoding: 397 772 397
+Width: 837
+Flags: W
+HStem: 1275 147<120 717>
+VStem: 120 597<1275 1422>
+AnchorPoint: "top" 419 1275 mark 0
+LayerCount: 2
+Fore
+SplineSet
+120 1275 m 1
+ 120 1422 l 1
+ 717 1422 l 1
+ 717 1275 l 1
+ 120 1275 l 1
+EndSplineSet
+EndChar
+
+StartChar: tildecomb
+Encoding: 398 771 398
+Width: 898
+Flags: W
+HStem: 1198 154<442.301 617.352> 1279 148<277.734 460.372>
+VStem: 120 155<1206 1273.93> 621 157<1355.28 1422>
+AnchorPoint: "top" 450 1198 mark 0
+LayerCount: 2
+Fore
+SplineSet
+120 1206 m 1x70
+ 121 1334 202 1427 314 1427 c 0x70
+ 345 1427 377 1418 445 1390 c 0
+ 518 1360 545 1352 576 1352 c 0
+ 607 1352 621 1374 621 1422 c 1
+ 778 1422 l 1
+ 778 1298 693 1198 586 1198 c 0xb0
+ 555 1198 523 1208 453 1238 c 0
+ 378 1270 351 1279 320 1279 c 0
+ 289 1279 275 1256 275 1206 c 1
+ 120 1206 l 1x70
+EndSplineSet
+EndChar
+
+StartChar: periodcentered.loclCAT.case
+Encoding: 399 -1 399
+Width: 461
+Flags: W
+HStem: 775 221<141.78 319.153>
+VStem: 120 221<797.141 974.22>
+LayerCount: 2
+Fore
+SplineSet
+120 886 m 0
+ 120 947 169 996 230 996 c 0
+ 292 996 341 947 341 886 c 0
+ 341 824 292 775 230 775 c 0
+ 169 775 120 825 120 886 c 0
+EndSplineSet
+EndChar
+
+StartChar: periodcentered.loclCAT
+Encoding: 400 -1 400
+Width: 461
+Flags: W
+HStem: 775 221<141.78 319.153>
+VStem: 120 221<797.141 974.22>
+LayerCount: 2
+Fore
+SplineSet
+120 886 m 0
+ 120 947 169 996 230 996 c 0
+ 292 996 341 947 341 886 c 0
+ 341 824 292 775 230 775 c 0
+ 169 775 120 825 120 886 c 0
+EndSplineSet
+EndChar
+
+StartChar: uni021A
+Encoding: 401 538 401
+Width: 1238
+HStem: -408 414<513 596> 0 21G<513 725> 1212 210<40 513 725 1198>
+VStem: 438 287 513 212<0 1212>
+LayerCount: 2
+Fore
+Refer: 337 806 N 1 0 0 1 338 -206 2
+Refer: 55 84 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: dotaccentcomb
+Encoding: 402 775 402
+Width: 411
+Flags: W
+HStem: 1212 221<117.141 294.22>
+VStem: 95 221<1233.78 1411.15>
+AnchorPoint: "top" 206 1212 mark 0
+LayerCount: 2
+Fore
+SplineSet
+95 1322 m 4
+ 95 1384 144 1433 206 1433 c 4
+ 267 1433 316 1384 316 1322 c 4
+ 316 1261 267 1212 206 1212 c 4
+ 145 1212 95 1261 95 1322 c 4
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
