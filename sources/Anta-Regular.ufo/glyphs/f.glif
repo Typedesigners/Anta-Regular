@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="f" format="2">
-  <advance width="719"/>
+  <advance width="723"/>
   <unicode hex="0066"/>
+  <anchor x="360" y="1544" name="top"/>
   <outline>
     <contour>
       <point x="120" y="0" type="line"/>
@@ -23,40 +24,26 @@
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>a7496fad76d56eba3e62f9508d262892ab7be57ce8fe6c9cd9ed74d192aa50461e04898ec157bb87aa44de1f41cdf91d2162b181ab7e30d1ccca67ea86518582</string>
+    <key>hintSetList</key>
+    <array>
       <dict>
-        <key>hhints</key>
+        <key>stems</key>
         <array>
-          <dict>
-            <key>position</key>
-            <integer>0</integer>
-            <key>width</key>
-            <integer>21</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>826</integer>
-            <key>width</key>
-            <integer>210</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>1212</integer>
-            <key>width</key>
-            <integer>210</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>120</integer>
-            <key>width</key>
-            <integer>211</integer>
-          </dict>
+          <string>hstem 0 21</string>
+          <string>hstem 826 210</string>
+          <string>hstem 1212 210</string>
+          <string>vstem 120 211</string>
         </array>
       </dict>
-    </dict>
+    </array>
+  </dict>
+  </dict>
   </lib>
 </glyph>
