@@ -65,6 +65,11 @@ Lookup: 1 0 0 "'sups' Hochgestellt in Lateinisch Nachschlagetabelle 4" { "'sups'
 Lookup: 4 0 1 "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 5" { "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 5 Subtabelle"  } ['liga' ('latn' <'dflt' > ) ]
 Lookup: 6 0 0 "'ordn' Ordnungszahlen in Lateinisch Nachschlagetabelle 6" { "'ordn' Ordnungszahlen in Lateinisch Nachschlagetabelle 6 Subtabelle"  } ['ordn' ('latn' <'dflt' > ) ]
 Lookup: 6 0 0 "'frac' Diagonale Br+APwA-che in Lateinisch Nachschlagetabelle 7" { "'frac' Diagonale Br+APwA-che in Lateinisch Nachschlagetabelle 7 kontextuelle 0"  "'frac' Diagonale Br+APwA-che in Lateinisch Nachschlagetabelle 7 kontextuelle 1"  "'frac' Diagonale Br+APwA-che in Lateinisch Nachschlagetabelle 7 kontextuelle 2"  "'frac' Diagonale Br+APwA-che in Lateinisch Nachschlagetabelle 7 kontextuelle 3"  "'frac' Diagonale Br+APwA-che in Lateinisch Nachschlagetabelle 7 kontextuelle 4"  "'frac' Diagonale Br+APwA-che in Lateinisch Nachschlagetabelle 7 kontextuelle 5"  "'frac' Diagonale Br+APwA-che in Lateinisch Nachschlagetabelle 7 kontextuelle 6"  "'frac' Diagonale Br+APwA-che in Lateinisch Nachschlagetabelle 7 kontextuelle 7"  "'frac' Diagonale Br+APwA-che in Lateinisch Nachschlagetabelle 7 kontextuelle 8"  } ['frac' ('latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'locl' Lokalisierte Formen in Lateinisch Nachschlagetabelle 8" { "'locl' Lokalisierte Formen in Lateinisch Nachschlagetabelle 8 Subtabelle"  } ['locl' ('latn' <'CAT ' > ) ]
+Lookup: 1 0 0 "'locl' Lokalisierte Formen in Lateinisch Nachschlagetabelle 9" { "'locl' Lokalisierte Formen in Lateinisch Nachschlagetabelle 9 Subtabelle"  } ['locl' ('latn' <'MOL ' > ) ]
+Lookup: 1 0 0 "'locl' Lokalisierte Formen in Lateinisch Nachschlagetabelle 10" { "'locl' Lokalisierte Formen in Lateinisch Nachschlagetabelle 10 Subtabelle"  } ['locl' ('latn' <'ROM ' > ) ]
+Lookup: 3 0 0 "'salt' Stilistische Alternativformen in Lateinisch Nachschlagetabelle 11" { "'salt' Stilistische Alternativformen in Lateinisch Nachschlagetabelle 11 Subtabelle"  } ['salt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'case' Formen abh+AOQA-ngig von Gro+AN8A--/Kleinschreibung in Lateinisch Nachschlagetabelle 12" { "'case' Formen abh+AOQA-ngig von Gro+AN8A--/Kleinschreibung in Lateinisch Nachschlagetabelle 12 Subtabelle"  } ['case' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Akzent-Positionierung in Lateinisch Nachschlagetabelle 1" { "'mark' Akzent-Positionierung in Lateinisch Nachschlagetabelle 1-1"  } ['mark' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontale Unterschneidung in Lateinisch Nachschlagetabelle 0" { "'kern' Horizontale Unterschneidung in Lateinisch Nachschlagetabelle 0 Glyphen-Daten 0" [307,30,0] "'kern' Horizontale Unterschneidung in Lateinisch Nachschlagetabelle 0 Unterschneidungs-Klasse 1" [307,0,0] } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
@@ -208,6 +213,7 @@ ChainSub2: coverage "'ordn' Ordnungszahlen in Lateinisch Nachschlagetabelle 6 Su
 EndFPST
 LangName: 1033 "" "" "" "Version 1.0;Anta-Regular;2023" "" "Version 1.0" "" "" "Sergej Lebedev" "Sergej Lebedev" "" "https://typedesigner.de" "https://typedesigner.de" "This Font Software is licensed under the SIL Open Font License,+AAoA-Version 1.1. This license is available with a FAQ at:+AAoA-http://scripts.sil.org/OFL" "http://scripts.sil.org/OFL"
 Encoding: Custom
+Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -48
@@ -1347,6 +1353,7 @@ SplineSet
  351 1212 l 1
  351 211 l 1
 EndSplineSet
+Validated: 1048577
 EndChar
 
 StartChar: C
@@ -1406,7 +1413,7 @@ SplineSet
  351 1212 l 1
  351 211 l 1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: E
@@ -1465,6 +1472,7 @@ SplineSet
  1092 635 l 1
  471 635 l 1
 EndSplineSet
+Validated: 1048577
 EndChar
 
 StartChar: G
@@ -1529,7 +1537,7 @@ SplineSet
  351 0 l 1
  140 0 l 1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: I
@@ -1576,6 +1584,7 @@ SplineSet
  695 177 515 0 294 0 c 2
  40 0 l 1
 EndSplineSet
+Validated: 1048577
 EndChar
 
 StartChar: K
@@ -1605,7 +1614,7 @@ SplineSet
  351 0 l 1
  140 0 l 1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Kerns2: 86 -60 "'kern' Horizontale Unterschneidung in Lateinisch Nachschlagetabelle 0 Glyphen-Daten 0"
 EndChar
 
@@ -1723,7 +1732,7 @@ SplineSet
  446 1212 351 1127 351 1023 c 2
  351 399 l 2
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: P
@@ -1754,6 +1763,7 @@ SplineSet
  351 0 l 1
  140 0 l 1
 EndSplineSet
+Validated: 1048577
 EndChar
 
 StartChar: Q
@@ -1969,7 +1979,7 @@ SplineSet
  317 0 l 1
  70 1422 l 1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: X
@@ -2022,7 +2032,7 @@ SplineSet
  579 679 l 1
  40 1422 l 1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: Z
@@ -2178,6 +2188,7 @@ SplineSet
  298 1170 l 1
  100 1504 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: a
@@ -2243,6 +2254,7 @@ SplineSet
  321 0 l 2
  205 0 110 95 110 211 c 2
 EndSplineSet
+Validated: 1048577
 EndChar
 
 StartChar: c
@@ -2304,6 +2316,7 @@ SplineSet
  484 0 l 2
  278 0 110 167 110 372 c 2
 EndSplineSet
+Validated: 1048577
 EndChar
 
 StartChar: e
@@ -2369,6 +2382,7 @@ SplineSet
  331 0 l 1
  120 0 l 1
 EndSplineSet
+Validated: 1048577
 EndChar
 
 StartChar: g
@@ -2404,7 +2418,7 @@ SplineSet
  484 0 l 2
  278 0 110 167 110 373 c 2
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: h
@@ -2433,7 +2447,7 @@ SplineSet
  331 0 l 1
  120 0 l 1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: i
@@ -2459,7 +2473,7 @@ SplineSet
  332 0 l 1
  120 0 l 1xe8
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: j
@@ -2516,7 +2530,7 @@ SplineSet
  331 0 l 1
  120 0 l 1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Kerns2: 86 -20 "'kern' Horizontale Unterschneidung in Lateinisch Nachschlagetabelle 0 Glyphen-Daten 0"
 EndChar
 
@@ -2576,6 +2590,7 @@ SplineSet
  331 0 l 1
  120 0 l 1
 EndSplineSet
+Validated: 1048577
 EndChar
 
 StartChar: n
@@ -2638,7 +2653,7 @@ SplineSet
  394 825 321 751 321 660 c 2
  321 376 l 2
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Substitution2: "Einzelne Substitution Nachschlagetabelle 1 Subtabelle" ordmasculine
 Substitution2: "'aalt' Zugriff auf alle Alternativen in Lateinisch Nachschlagetabelle 0 Subtabelle" ordmasculine
 EndChar
@@ -2672,6 +2687,7 @@ SplineSet
  321 -386 l 1
  110 -386 l 1
 EndSplineSet
+Validated: 1048577
 EndChar
 
 StartChar: q
@@ -2800,6 +2816,7 @@ SplineSet
  205 825 l 1
  70 825 l 1
 EndSplineSet
+Validated: 1
 Kerns2: 87 -20 "'kern' Horizontale Unterschneidung in Lateinisch Nachschlagetabelle 0 Glyphen-Daten 0" 86 -20 "'kern' Horizontale Unterschneidung in Lateinisch Nachschlagetabelle 0 Glyphen-Daten 0"
 EndChar
 
@@ -2880,7 +2897,7 @@ SplineSet
  240 0 l 1
  60 1036 l 1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: x
@@ -2931,7 +2948,7 @@ SplineSet
  441 34 l 1
  60 1036 l 1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: z
@@ -2957,7 +2974,7 @@ SplineSet
  1065 0 l 1
  110 0 l 1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: braceleft
@@ -3814,6 +3831,7 @@ SplineSet
  169 775 120 825 120 886 c 0
 EndSplineSet
 Validated: 1
+Substitution2: "'locl' Lokalisierte Formen in Lateinisch Nachschlagetabelle 8 Subtabelle" periodcentered.loclCAT
 EndChar
 
 StartChar: cedilla
@@ -4129,6 +4147,7 @@ LayerCount: 2
 Fore
 Refer: 67 96 N 1 0 0 1 383 374 2
 Refer: 36 65 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Aacute
@@ -4241,7 +4260,7 @@ SplineSet
  1923 635 l 1
  1151 635 l 1xb8
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: Ccedilla
@@ -4271,6 +4290,7 @@ LayerCount: 2
 Fore
 Refer: 67 96 N 1 0 0 1 380 374 2
 Refer: 40 69 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Eacute
@@ -4330,6 +4350,7 @@ LayerCount: 2
 Fore
 Refer: 67 96 N 1 0 0 1 -53 374 2
 Refer: 44 73 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Iacute
@@ -4441,6 +4462,7 @@ LayerCount: 2
 Fore
 Refer: 67 96 N 1 0 0 1 433 374 2
 Refer: 50 79 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Oacute
@@ -4573,7 +4595,7 @@ SplineSet
  1113 1048 1109 1070 1100 1089 c 1
  493 222 l 1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: Ugrave
@@ -4588,6 +4610,7 @@ LayerCount: 2
 Fore
 Refer: 67 96 N 1 0 0 1 420 374 2
 Refer: 56 85 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Uacute
@@ -4740,6 +4763,7 @@ LayerCount: 2
 Fore
 Refer: 67 96 N 1 0 0 1 293 -12 2
 Refer: 68 97 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: aacute
@@ -4861,7 +4885,7 @@ SplineSet
  484 0 l 2
  278 0 110 168 110 374 c 2
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: ccedilla
@@ -4891,6 +4915,7 @@ LayerCount: 2
 Fore
 Refer: 67 96 N 1 0 0 1 293 -12 2
 Refer: 72 101 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: eacute
@@ -4950,6 +4975,7 @@ LayerCount: 2
 Fore
 Refer: 67 96 N 1 0 0 1 -66 -12 2
 Refer: 243 305 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: iacute
@@ -5063,6 +5089,7 @@ LayerCount: 2
 Fore
 Refer: 67 96 N 1 0 0 1 299 -12 2
 Refer: 82 111 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: oacute
@@ -5197,7 +5224,7 @@ SplineSet
  873 686 868 710 857 732 c 1
  492 211 l 1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: ugrave
@@ -5212,6 +5239,7 @@ LayerCount: 2
 Fore
 Refer: 67 96 N 1 0 0 1 298 -12 2
 Refer: 88 117 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uacute
@@ -5518,6 +5546,7 @@ LayerCount: 2
 Fore
 Refer: 328 711 N 1 0 0 1 278 431 2
 Refer: 38 67 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: ccaron
@@ -5532,6 +5561,7 @@ LayerCount: 2
 Fore
 Refer: 328 711 N 1 0 0 1 236 45 2
 Refer: 70 99 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Dcaron
@@ -5546,6 +5576,7 @@ LayerCount: 2
 Fore
 Refer: 328 711 N 1 0 0 1 297 431 2
 Refer: 39 68 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: dcaron
@@ -5560,6 +5591,7 @@ LayerCount: 2
 Fore
 Refer: 336 789 N 1 0 0 1 1145 -170 2
 Refer: 71 100 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: Dcroat
@@ -5770,6 +5802,7 @@ LayerCount: 2
 Fore
 Refer: 328 711 N 1 0 0 1 266 431 2
 Refer: 40 69 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: ecaron
@@ -5784,6 +5817,7 @@ LayerCount: 2
 Fore
 Refer: 328 711 N 1 0 0 1 179 45 2
 Refer: 72 101 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Gcircumflex
@@ -5889,6 +5923,7 @@ LayerCount: 2
 Fore
 Refer: 337 806 N 1 0 0 1 466 -332 2
 Refer: 42 71 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni0123
@@ -6177,7 +6212,7 @@ SplineSet
  338 0 l 1
  127 0 l 1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: IJ
@@ -6192,6 +6227,7 @@ LayerCount: 2
 Fore
 Refer: 45 74 N 1 0 0 1 471 0 2
 Refer: 44 73 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: ij
@@ -6221,6 +6257,7 @@ LayerCount: 2
 Fore
 Refer: 327 710 N 1 0 0 1 179 430 2
 Refer: 45 74 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: jcircumflex
@@ -6250,6 +6287,7 @@ LayerCount: 2
 Fore
 Refer: 337 806 N 1 0 0 1 416 -332 2
 Refer: 46 75 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni0137
@@ -6264,6 +6302,7 @@ LayerCount: 2
 Fore
 Refer: 337 806 N 1 0 0 1 281 -332 2
 Refer: 78 107 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: kgreenlandic
@@ -6337,6 +6376,7 @@ LayerCount: 2
 Fore
 Refer: 337 806 N 1 0 0 1 397 -332 2
 Refer: 47 76 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni013C
@@ -6351,6 +6391,7 @@ LayerCount: 2
 Fore
 Refer: 337 806 N 1 0 0 1 -19 -332 2
 Refer: 79 108 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Lcaron
@@ -6515,6 +6556,7 @@ LayerCount: 2
 Fore
 Refer: 337 806 N 1 0 0 1 448 -332 2
 Refer: 49 78 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni0146
@@ -6529,6 +6571,7 @@ LayerCount: 2
 Fore
 Refer: 337 806 N 1 0 0 1 352 -332 2
 Refer: 81 110 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Ncaron
@@ -6543,6 +6586,7 @@ LayerCount: 2
 Fore
 Refer: 328 711 N 1 0 0 1 280 431 2
 Refer: 49 78 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: ncaron
@@ -6557,6 +6601,7 @@ LayerCount: 2
 Fore
 Refer: 328 711 N 1 0 0 1 184 45 2
 Refer: 81 110 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: napostrophe
@@ -6785,7 +6830,7 @@ SplineSet
  2213 635 l 1
  1441 635 l 1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: oe
@@ -6836,7 +6881,7 @@ SplineSet
  407 826 321 753 321 663 c 2
  321 373 l 2
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: Racute
@@ -6881,6 +6926,7 @@ LayerCount: 2
 Fore
 Refer: 337 806 N 1 0 0 1 443 -332 2
 Refer: 53 82 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni0157
@@ -6895,6 +6941,7 @@ LayerCount: 2
 Fore
 Refer: 337 806 N 1 0 0 1 -18 -332 2
 Refer: 85 114 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Rcaron
@@ -6909,6 +6956,7 @@ LayerCount: 2
 Fore
 Refer: 328 711 N 1 0 0 1 275 431 2
 Refer: 53 82 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: rcaron
@@ -6923,6 +6971,7 @@ LayerCount: 2
 Fore
 Refer: 328 711 N 1 0 0 1 -52 45 2
 Refer: 85 114 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Sacute
@@ -6998,6 +7047,8 @@ Fore
 Refer: 122 184 N 1 0 0 1 413 6 2
 Refer: 54 83 N 1 0 0 1 0 0 3
 Validated: 5
+Substitution2: "'locl' Lokalisierte Formen in Lateinisch Nachschlagetabelle 10 Subtabelle" uni0218
+Substitution2: "'locl' Lokalisierte Formen in Lateinisch Nachschlagetabelle 9 Subtabelle" uni0218
 EndChar
 
 StartChar: scedilla
@@ -7013,6 +7064,8 @@ Fore
 Refer: 122 184 N 1 0 0 1 309 6 2
 Refer: 86 115 N 1 0 0 1 0 0 3
 Validated: 5
+Substitution2: "'locl' Lokalisierte Formen in Lateinisch Nachschlagetabelle 10 Subtabelle" uni0219
+Substitution2: "'locl' Lokalisierte Formen in Lateinisch Nachschlagetabelle 9 Subtabelle" uni0219
 EndChar
 
 StartChar: Scaron
@@ -7028,6 +7081,7 @@ LayerCount: 2
 Fore
 Refer: 328 711 N 1 0 0 1 288 431 2
 Refer: 54 83 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: scaron
@@ -7042,6 +7096,7 @@ LayerCount: 2
 Fore
 Refer: 328 711 N 1 0 0 1 184 45 2
 Refer: 86 115 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni0162
@@ -7057,6 +7112,8 @@ Fore
 Refer: 122 184 N 1 0 0 1 332 6 2
 Refer: 55 84 N 1 0 0 1 0 0 3
 Validated: 5
+Substitution2: "'locl' Lokalisierte Formen in Lateinisch Nachschlagetabelle 10 Subtabelle" uni021A
+Substitution2: "'locl' Lokalisierte Formen in Lateinisch Nachschlagetabelle 9 Subtabelle" uni021A
 EndChar
 
 StartChar: uni0163
@@ -7071,6 +7128,9 @@ LayerCount: 2
 Fore
 Refer: 122 184 N 1 0 0 1 267 6 2
 Refer: 87 116 N 1 0 0 1 0 0 3
+Validated: 5
+Substitution2: "'locl' Lokalisierte Formen in Lateinisch Nachschlagetabelle 10 Subtabelle" uni021B
+Substitution2: "'locl' Lokalisierte Formen in Lateinisch Nachschlagetabelle 9 Subtabelle" uni021B
 EndChar
 
 StartChar: Tcaron
@@ -7085,6 +7145,7 @@ LayerCount: 2
 Fore
 Refer: 328 711 N 1 0 0 1 207 431 2
 Refer: 55 84 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: tcaron
@@ -7099,6 +7160,7 @@ LayerCount: 2
 Fore
 Refer: 336 789 N 1 0 0 1 818 -170 2
 Refer: 87 116 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: Tbar
@@ -7500,6 +7562,7 @@ LayerCount: 2
 Fore
 Refer: 328 711 N 1 0 0 1 262 431 2
 Refer: 61 90 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: zcaron
@@ -7514,6 +7577,7 @@ LayerCount: 2
 Fore
 Refer: 328 711 N 1 0 0 1 175 45 2
 Refer: 93 122 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: florin
@@ -7628,7 +7692,7 @@ SplineSet
  410 -313.085143998 322.904843744 -391 40 -391 c 1
  40 -180 l 1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: circumflex
@@ -7676,6 +7740,7 @@ SplineSet
  334 1113 l 1
  100 1422 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: breve
@@ -7892,6 +7957,7 @@ SplineSet
  258 -202 l 1
  100 -202 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Wgrave
@@ -7906,6 +7972,7 @@ LayerCount: 2
 Fore
 Refer: 67 96 N 1 0 0 1 525 374 2
 Refer: 58 87 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: wgrave
@@ -7920,6 +7987,7 @@ LayerCount: 2
 Fore
 Refer: 67 96 N 1 0 0 1 448 -12 2
 Refer: 90 119 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Wacute
@@ -7994,6 +8062,7 @@ LayerCount: 2
 Fore
 Refer: 67 96 N 1 0 0 1 388 374 2
 Refer: 60 89 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: ygrave
@@ -8008,6 +8077,7 @@ LayerCount: 2
 Fore
 Refer: 67 96 N 1 0 0 1 262 -12 2
 Refer: 92 121 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: endash
@@ -8107,7 +8177,7 @@ SplineSet
  258 -202 l 1
  100 -202 l 1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: quotedblleft
@@ -8687,6 +8757,7 @@ LayerCount: 2
 Fore
 Refer: 337 806 N 1 0 0 1 419 -206 2
 Refer: 54 83 N 1 0 0 1 0 0 3
+Validated: 5
 EndChar
 
 StartChar: uni0219
@@ -8698,6 +8769,7 @@ LayerCount: 2
 Fore
 Refer: 337 806 N 1 0 0 1 315 -206 2
 Refer: 86 115 N 1 0 0 1 0 0 3
+Validated: 5
 EndChar
 
 StartChar: uni021B
@@ -8709,6 +8781,7 @@ LayerCount: 2
 Fore
 Refer: 337 806 N 1 0 0 1 273 -206 2
 Refer: 87 116 N 1 0 0 1 0 0 3
+Validated: 5
 EndChar
 
 StartChar: uni1E1E
@@ -8720,18 +8793,20 @@ LayerCount: 2
 Fore
 Refer: 330 729 N 1 0 0 1 400 332 2
 Refer: 41 70 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni1E1F
 Encoding: 373 7711 373
 Width: 723
-Flags: HW
+Flags: W
 HStem: 0 21G<120 331> 826 210<331 653> 1212 210<343.719 649> 1544 221<271.141 448.22>
 VStem: 120 211<0 826 1036 1199.22> 249 221<1565.78 1743.15>
 LayerCount: 2
 Fore
 Refer: 330 729 N 1 0 0 1 154 332 2
 Refer: 73 102 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni1E02
@@ -8743,6 +8818,7 @@ LayerCount: 2
 Fore
 Refer: 330 729 N 1 0 0 1 498 332 2
 Refer: 37 66 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: bdotaccent
@@ -8754,6 +8830,7 @@ LayerCount: 2
 Fore
 Refer: 330 729 N 1 0 0 1 386 -54 2
 Refer: 69 98 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Ddotaccent
@@ -8765,6 +8842,7 @@ LayerCount: 2
 Fore
 Refer: 330 729 N 1 0 0 1 503 332 2
 Refer: 39 68 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Mdotaccent
@@ -8777,6 +8855,7 @@ LayerCount: 2
 Fore
 Refer: 330 729 N 1 0 0 1 586.5 332 2
 Refer: 48 77 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: mdotaccent
@@ -8788,6 +8867,7 @@ LayerCount: 2
 Fore
 Refer: 330 729 N 1 0 0 1 655 -54 2
 Refer: 80 109 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: ddotaccent
@@ -8799,6 +8879,7 @@ LayerCount: 2
 Fore
 Refer: 330 729 S 1 0 0 1 386 -54 2
 Refer: 71 100 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Pdotaccent
@@ -8810,6 +8891,7 @@ LayerCount: 2
 Fore
 Refer: 330 729 N 1 0 0 1 468 332 2
 Refer: 51 80 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: pdotaccent
@@ -8822,6 +8904,7 @@ LayerCount: 2
 Fore
 Refer: 330 729 S 1 0 0 1 386 -54 2
 Refer: 83 112 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Sdotaccent
@@ -8834,6 +8917,7 @@ LayerCount: 2
 Fore
 Refer: 330 729 N 1 0 0 1 494 332 2
 Refer: 54 83 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: sdotaccent
@@ -8845,6 +8929,7 @@ LayerCount: 2
 Fore
 Refer: 330 729 N 1 0 0 1 390 -54 2
 Refer: 86 115 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: tdotaccent
@@ -8856,6 +8941,7 @@ LayerCount: 2
 Fore
 Refer: 330 729 N 1 0 0 1 105 332 2
 Refer: 87 116 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Tdotaccent
@@ -8867,6 +8953,7 @@ LayerCount: 2
 Fore
 Refer: 330 729 N 1 0 0 1 413 332 2
 Refer: 55 84 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: acutecomb
@@ -8877,6 +8964,7 @@ VStem: 100 312
 LayerCount: 2
 Fore
 Refer: 118 180 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: brevecomb
@@ -8897,6 +8985,7 @@ SplineSet
  696 1256 562 1122 398 1122 c 4
  234 1122 100 1256 100 1420 c 5
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: caroncomb
@@ -8918,6 +9007,8 @@ SplineSet
  334 1113 l 1
  100 1422 l 1
 EndSplineSet
+Validated: 1
+AlternateSubs2: "'salt' Stilistische Alternativformen in Lateinisch Nachschlagetabelle 11 Subtabelle" caroncomb.alt
 EndChar
 
 StartChar: caroncomb.alt
@@ -8939,6 +9030,7 @@ SplineSet
  334 1113 l 1
  100 1422 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uni030A
@@ -8969,6 +9061,7 @@ SplineSet
  241 1304 218 1281 218 1253 c 2
  218 1210 l 2
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: circumflexcomb
@@ -8989,6 +9082,7 @@ SplineSet
  241 1113 l 1
  100 1113 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uni030B
@@ -9011,6 +9105,7 @@ SplineSet
  543 1151 l 1
  397 1151 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uni0308
@@ -9021,6 +9116,7 @@ VStem: 120 221<1222.78 1400.15> 460 221<1222.78 1400.15>
 LayerCount: 2
 Fore
 Refer: 106 168 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: gravecomb
@@ -9039,6 +9135,7 @@ SplineSet
  298 1170 l 1
  100 1504 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uni0327
@@ -9049,6 +9146,7 @@ VStem: 251 151<-227.5 -3.81457>
 LayerCount: 2
 Fore
 Refer: 122 184 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni0328
@@ -9070,6 +9168,7 @@ SplineSet
  342 -310 313 -313 280 -313 c 4
  176 -313 128 -272 128 -183 c 4
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: macroncomb
@@ -9088,6 +9187,7 @@ SplineSet
  717 1275 l 1
  120 1275 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: tildecomb
@@ -9112,6 +9212,7 @@ SplineSet
  289 1279 275 1256 275 1206 c 1
  120 1206 l 1x70
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: periodcentered.loclCAT.case
@@ -9129,6 +9230,7 @@ SplineSet
  341 824 292 775 230 775 c 0
  169 775 120 825 120 886 c 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: periodcentered.loclCAT
@@ -9146,6 +9248,8 @@ SplineSet
  341 824 292 775 230 775 c 0
  169 775 120 825 120 886 c 0
 EndSplineSet
+Validated: 1
+Substitution2: "'case' Formen abh+AOQA-ngig von Gro+AN8A--/Kleinschreibung in Lateinisch Nachschlagetabelle 12 Subtabelle" periodcentered.loclCAT.case
 EndChar
 
 StartChar: uni021A
@@ -9157,6 +9261,7 @@ LayerCount: 2
 Fore
 Refer: 337 806 N 1 0 0 1 338 -206 2
 Refer: 55 84 N 1 0 0 1 0 0 3
+Validated: 5
 EndChar
 
 StartChar: dotaccentcomb
@@ -9175,6 +9280,7 @@ SplineSet
  316 1261 267 1212 206 1212 c 4
  145 1212 95 1261 95 1322 c 4
 EndSplineSet
+Validated: 1
 EndChar
 EndChars
 EndSplineFont
