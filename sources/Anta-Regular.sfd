@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1676747234
-ModificationTime: 1678360090
+ModificationTime: 1678624154
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -66,20 +66,20 @@ Lookup: 4 0 1 "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 5" { "
 Lookup: 6 0 0 "'ordn' Ordnungszahlen in Lateinisch Nachschlagetabelle 6" { "'ordn' Ordnungszahlen in Lateinisch Nachschlagetabelle 6 Subtabelle"  } ['ordn' ('latn' <'dflt' > ) ]
 Lookup: 6 0 0 "'frac' Diagonale Br+APwA-che in Lateinisch Nachschlagetabelle 7" { "'frac' Diagonale Br+APwA-che in Lateinisch Nachschlagetabelle 7 kontextuelle 0"  "'frac' Diagonale Br+APwA-che in Lateinisch Nachschlagetabelle 7 kontextuelle 1"  "'frac' Diagonale Br+APwA-che in Lateinisch Nachschlagetabelle 7 kontextuelle 2"  "'frac' Diagonale Br+APwA-che in Lateinisch Nachschlagetabelle 7 kontextuelle 3"  "'frac' Diagonale Br+APwA-che in Lateinisch Nachschlagetabelle 7 kontextuelle 4"  "'frac' Diagonale Br+APwA-che in Lateinisch Nachschlagetabelle 7 kontextuelle 5"  "'frac' Diagonale Br+APwA-che in Lateinisch Nachschlagetabelle 7 kontextuelle 6"  "'frac' Diagonale Br+APwA-che in Lateinisch Nachschlagetabelle 7 kontextuelle 7"  "'frac' Diagonale Br+APwA-che in Lateinisch Nachschlagetabelle 7 kontextuelle 8"  } ['frac' ('latn' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Akzent-Positionierung in Lateinisch Nachschlagetabelle 1" { "'mark' Akzent-Positionierung in Lateinisch Nachschlagetabelle 1-1"  } ['mark' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 258 0 0 "'kern' Horizontale Unterschneidung in Lateinisch Nachschlagetabelle 0" { "'kern' Horizontale Unterschneidung in Lateinisch Nachschlagetabelle 0 Glyphen-Daten 0"  "'kern' Horizontale Unterschneidung in Lateinisch Nachschlagetabelle 0 Unterschneidungs-Klasse 1"  } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 258 0 0 "'kern' Horizontale Unterschneidung in Lateinisch Nachschlagetabelle 0" { "'kern' Horizontale Unterschneidung in Lateinisch Nachschlagetabelle 0 Glyphen-Daten 0" [307,30,0] "'kern' Horizontale Unterschneidung in Lateinisch Nachschlagetabelle 0 Unterschneidungs-Klasse 1" [307,0,0] } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 KernClass2: 34 23 "'kern' Horizontale Unterschneidung in Lateinisch Nachschlagetabelle 0 Unterschneidungs-Klasse 1"
  1 P
- 1 F
+ 9 F uni1E1E
  1 K
  1 V
- 8 T Tcaron
+ 40 T uni0162 Tcaron Tbar Tdotaccent uni021A
  5 seven
  1 k
- 1 f
+ 16 f florin uni1E1F
  7 six G S
- 13 L Lacute Ldot
+ 28 L Lacute uni013B Ldot Lslash
  8 R Rcaron
  10 v y ygrave
  20 dcaron Lcaron tcaron
@@ -99,7 +99,7 @@ KernClass2: 34 23 "'kern' Horizontale Unterschneidung in Lateinisch Nachschlaget
  8 r racute
  1 X
  91 J U d Ugrave Uacute Ucircumflex Udieresis Utilde Umacron Ubreve Uring Uhungarumlaut Uogonek
- 37 W Wcircumflex Wgrave Wacute Wdieresis
+ 25 W Wgrave Wacute Wdieresis
  26 z zacute zdotaccent zcaron
  47 C Ccedilla Cacute Ccircumflex Cdotaccent Ccaron
  116 g m n q u ntilde ugrave uacute ucircumflex udieresis nacute ncaron utilde umacron ubreve uring uhungarumlaut uogonek
@@ -125,7 +125,7 @@ KernClass2: 34 23 "'kern' Horizontale Unterschneidung in Lateinisch Nachschlaget
  37 W Wcircumflex Wgrave Wacute Wdieresis
  74 B D E F H I K L M N P R h i k l Egrave Ecircumflex Edieresis Iacute Ntilde
  1824 .notdef space quotedbl numbersign dollar percent ampersand quotesingle parenleft parenright asterisk plus comma hyphen period slash colon semicolon less equal greater question at bracketleft backslash bracketright asciicircum underscore grave braceleft bar braceright asciitilde uni00A0 exclamdown cent sterling currency brokenbar section dieresis copyright ordfeminine guillemotleft logicalnot uni00AD registered macron degree plusminus twosuperior threesuperior acute uni00B5 paragraph periodcentered cedilla onesuperior ordmasculine guillemotright onequarter onehalf threequarters questiondown AE Ccedilla Eacute Eth multiply Thorn ae ccedilla igrave iacute icircumflex idieresis eth divide yacute thorn ydieresis Cacute cacute Ccircumflex ccircumflex Cdotaccent cdotaccent Ccaron ccaron Dcaron dcaron Dcroat dcroat Emacron Ebreve Edotaccent Eogonek Ecaron Gcircumflex gcircumflex Gbreve gbreve Gdotaccent gdotaccent uni0122 uni0123 Hcircumflex hcircumflex Hbar hbar Itilde itilde Imacron imacron Ibreve ibreve Iogonek iogonek Idotaccent dotlessi IJ ij jcircumflex uni0136 uni0137 kgreenlandic Lacute lacute uni013B uni013C Lcaron lcaron Ldot ldot Lslash lslash Nacute nacute uni0145 uni0146 Ncaron ncaron napostrophe Eng eng Omacron Obreve Ohungarumlaut OE oe Racute uni0156 uni0157 Rcaron Sacute sacute Scircumflex scircumflex Scedilla scedilla Scaron scaron uni0162 uni0163 tcaron Tbar tbar Utilde utilde Umacron umacron Ubreve ubreve Uring uring Uhungarumlaut uhungarumlaut Uogonek uogonek florin Oslashacute circumflex caron breve dotaccent ring ogonek tilde hungarumlaut uni0312 uni0315 uni0326 Ygrave endash emdash quoteleft quoteright quotesinglbase quotedblleft quotedblright quotedblbase dagger daggerdbl bullet ellipsis perthousand guilsinglleft guilsinglright fraction Euro partialdiff minus approxequal fi fl
- 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -220 {} -60 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -100 {} 0 {} -20 {} 0 {} -40 {} 0 {} 0 {} 0 {} 0 {} -180 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} -100 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} -80 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} -180 {} -60 {} -50 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -70 {} -190 {} -40 {} -80 {} 0 {} -100 {} 0 {} 0 {} -80 {} 0 {} -180 {} 0 {} -100 {} 0 {} 0 {} 0 {} -100 {} 0 {} 0 {} -100 {} -60 {} 0 {} 0 {} -100 {} -160 {} 0 {} -140 {} 0 {} -160 {} 0 {} 0 {} 0 {} 0 {} -180 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -100 {} 0 {} -100 {} 0 {} -40 {} -60 {} 0 {} 0 {} -60 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} -40 {} 0 {} -60 {} 0 {} 0 {} 0 {} 0 {} 0 {} -100 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} -20 {} 0 {} 0 {} -80 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 20 {} 0 {} 0 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -160 {} 0 {} -80 {} -200 {} -240 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -20 {} -20 {} 0 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} -20 {} -120 {} 0 {} -30 {} 0 {} -30 {} 0 {} 0 {} -60 {} 0 {} -180 {} -60 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -100 {} 0 {} -100 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} -10 {} 0 {} -100 {} -140 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -220 {} 0 {} -140 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} -60 {} 0 {} 0 {} 0 {} -200 {} -200 {} -80 {} -120 {} 0 {} -160 {} 0 {} 0 {} -60 {} 0 {} 0 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -100 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} -100 {} -60 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -100 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} -100 {} 0 {} -30 {} -160 {} -160 {} 0 {} 0 {} -50 {} -60 {} 0 {} -20 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} -40 {} 0 {} -20 {} -140 {} -100 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} -20 {} 0 {} -50 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} -190 {} 0 {} -120 {} -160 {} -200 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} -140 {} 0 {} 0 {} 0 {} 0 {} -20 {} -10 {} 0 {} 0 {} 0 {} -20 {} -100 {} -120 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -60 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} -40 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -60 {} 0 {} 0 {} 0 {} 0 {} 0 {} -60 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -140 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} -60 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {}
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -220 {} -60 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -100 {} 0 {} -20 {} 0 {} -40 {} 0 {} 0 {} 0 {} 0 {} -180 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} -100 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} -80 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} -180 {} -60 {} -50 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -70 {} -190 {} -40 {} -80 {} 0 {} -100 {} 0 {} 0 {} -80 {} 0 {} -180 {} 0 {} -100 {} 0 {} 0 {} 0 {} -100 {} 0 {} 0 {} -100 {} -60 {} 0 {} 0 {} -100 {} -160 {} 0 {} -140 {} 0 {} -160 {} 0 {} 0 {} 0 {} 0 {} -180 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -100 {} 0 {} -100 {} 0 {} -40 {} -60 {} 0 {} 0 {} -60 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} -40 {} 0 {} -60 {} 0 {} 0 {} 0 {} 0 {} 0 {} -100 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} -20 {} 0 {} 0 {} -20 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 20 {} 0 {} 0 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -160 {} 0 {} -80 {} -200 {} -240 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -20 {} -20 {} 0 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} -20 {} -120 {} 0 {} -30 {} 0 {} -30 {} 0 {} 0 {} -60 {} 0 {} -180 {} -60 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -100 {} 0 {} -100 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} -10 {} 0 {} -100 {} -140 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -220 {} 0 {} -140 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} -60 {} 0 {} 0 {} 0 {} -200 {} -200 {} -80 {} -120 {} 0 {} -160 {} 0 {} 0 {} -60 {} 0 {} 0 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -100 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} -100 {} -60 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -100 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} -100 {} 0 {} -30 {} -160 {} -160 {} 0 {} 0 {} -50 {} -60 {} 0 {} -20 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} -40 {} 0 {} -20 {} -140 {} -100 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} -20 {} 0 {} -50 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} -190 {} 0 {} -120 {} -160 {} -200 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} -140 {} 0 {} 0 {} 0 {} 0 {} -20 {} -10 {} 0 {} 0 {} 0 {} -20 {} -100 {} -120 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -60 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} -40 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -60 {} 0 {} 0 {} 0 {} 0 {} 0 {} -60 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -140 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} -60 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {}
 ChainSub2: coverage "'frac' Diagonale Br+APwA-che in Lateinisch Nachschlagetabelle 7 kontextuelle 8" 0 0 0 1
  3 0 0
   Coverage: 13 threesuperior
@@ -2346,7 +2346,7 @@ EndChar
 StartChar: f
 Encoding: 73 102 73
 GlifName: f
-Width: 719
+Width: 723
 GlyphClass: 2
 Flags: W
 HStem: 0 21G<120 331> 826 210<331 653> 1212 210<343.719 649>
@@ -8724,7 +8724,8 @@ EndChar
 
 StartChar: uni1E1F
 Encoding: 373 7711 373
-Width: 719
+Width: 723
+Flags: HW
 HStem: 0 21G<120 331> 826 210<331 653> 1212 210<343.719 649> 1544 221<271.141 448.22>
 VStem: 120 211<0 826 1036 1199.22> 249 221<1565.78 1743.15>
 LayerCount: 2
@@ -8747,11 +8748,11 @@ EndChar
 StartChar: bdotaccent
 Encoding: 375 7683 375
 Width: 1182
-HStem: 0 211<321 799.01> 825 211<441 797.589> 1402 20G<110 321> 1544 221<502.141 679.22>
-VStem: 110 211<211 1422> 480 221<1565.78 1743.15> 851 211<261.548 773.01>
+HStem: 0 211<321 799.01> 825 211<441 797.589> 1158 221<503.141 680.22> 1402 20G<110 321>
+VStem: 110 211<211 1422> 481 221<1179.78 1357.15> 851 211<261.548 773.01>
 LayerCount: 2
 Fore
-Refer: 330 729 N 1 0 0 1 385 332 2
+Refer: 330 729 N 1 0 0 1 386 -54 2
 Refer: 69 98 N 1 0 0 1 0 0 3
 EndChar
 
@@ -8792,11 +8793,11 @@ EndChar
 StartChar: ddotaccent
 Encoding: 379 7691 379
 Width: 1182
-HStem: 0 211<372.99 851> 825 211<374.411 731> 1402 20G<851 1062> 1544 221<502.141 679.22>
-VStem: 110 211<261.548 773.01> 480 221<1565.78 1743.15> 851 211<211 1422>
+HStem: 0 211<372.99 851> 825 211<374.411 731> 1158 221<503.141 680.22> 1402 20G<851 1062>
+VStem: 110 211<261.548 773.01> 481 221<1179.78 1357.15> 851 211<211 1422>
 LayerCount: 2
 Fore
-Refer: 330 729 N 1 0 0 1 385 332 2
+Refer: 330 729 S 1 0 0 1 386 -54 2
 Refer: 71 100 N 1 0 0 1 0 0 3
 EndChar
 
@@ -8819,7 +8820,7 @@ HStem: 0 211<441 797.589> 825 211<321 799.01> 1158 221<503.141 680.22>
 VStem: 110 211<-386 825> 481 221<1179.78 1357.15> 851 211<262.99 774.452>
 LayerCount: 2
 Fore
-Refer: 330 729 N 1 0 0 1 386 -54 2
+Refer: 330 729 S 1 0 0 1 386 -54 2
 Refer: 83 112 N 1 0 0 1 0 0 3
 EndChar
 
