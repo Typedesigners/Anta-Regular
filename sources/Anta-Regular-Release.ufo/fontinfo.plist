@@ -183,31 +183,6 @@ http://scripts.sil.org/OFL</string>
     <key>postscriptBlueShift</key>
     <integer>0</integer>
     <key>guidelines</key>
-    <array>
-      <dict>
-        <key>x</key>
-        <real>1029</real>
-        <key>y</key>
-        <real>-120</real>
-        <key>angle</key>
-        <real>0</real>
-      </dict>
-      <dict>
-        <key>x</key>
-        <real>1024</real>
-        <key>y</key>
-        <real>1158</real>
-        <key>angle</key>
-        <real>0</real>
-      </dict>
-      <dict>
-        <key>x</key>
-        <real>1024</real>
-        <key>y</key>
-        <real>1544</real>
-        <key>angle</key>
-        <real>0</real>
-      </dict>
-    </array>
+    <array/>
   </dict>
 </plist>
