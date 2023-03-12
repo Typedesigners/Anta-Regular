@@ -2,109 +2,41 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-  <key>F</key>
-  <dict>
-    <key>public.kern2.A2</key>
-    <integer>-80</integer>
-    <key>public.kern2.J2</key>
-    <integer>-180</integer>
-    <key>public.kern2.c2</key>
-    <integer>-10</integer>
-  </dict>
   <key>K</key>
   <dict>
     <key>s</key>
     <integer>-60</integer>
-    <key>public.kern2.a2</key>
-    <integer>-80</integer>
     <key>public.kern2.c2</key>
-    <integer>-80</integer>
-    <key>public.kern2.e2</key>
-    <integer>-80</integer>
-    <key>public.kern2.j</key>
-    <integer>-100</integer>
+    <integer>-60</integer>
   </dict>
   <key>P</key>
   <dict>
-    <key>public.kern2.A2</key>
-    <integer>-100</integer>
-    <key>public.kern2.J2</key>
-    <integer>-220</integer>
-    <key>public.kern2.a2</key>
-    <integer>-20</integer>
     <key>public.kern2.c2</key>
-    <integer>-40</integer>
-    <key>public.kern2.j</key>
     <integer>-60</integer>
   </dict>
   <key>V</key>
   <dict>
-    <key>s</key>
-    <integer>-50</integer>
-    <key>public.kern2.A2</key>
-    <integer>-190</integer>
-    <key>public.kern2.C2</key>
-    <integer>-40</integer>
-    <key>public.kern2.J2</key>
-    <integer>-180</integer>
-    <key>public.kern2.a2</key>
-    <integer>-80</integer>
-    <key>public.kern2.at</key>
-    <integer>-80</integer>
     <key>public.kern2.c2</key>
-    <integer>-100</integer>
-    <key>public.kern2.e2</key>
-    <integer>-70</integer>
-    <key>public.kern2.j</key>
     <integer>-60</integer>
-    <key>public.kern2.v2</key>
-    <integer>-40</integer>
   </dict>
   <key>X</key>
   <dict>
     <key>public.kern2.c2</key>
     <integer>-60</integer>
   </dict>
-  <key>f</key>
-  <dict>
-    <key>public.kern2.a2</key>
-    <integer>-80</integer>
-    <key>public.kern2.c2</key>
-    <integer>-80</integer>
-    <key>public.kern2.e2</key>
-    <integer>-20</integer>
-    <key>public.kern2.j</key>
-    <integer>-100</integer>
-    <key>public.kern2.m</key>
-    <integer>-40</integer>
-  </dict>
   <key>k</key>
   <dict>
     <key>s</key>
     <integer>-20</integer>
-    <key>public.kern2.a2</key>
-    <integer>-40</integer>
     <key>public.kern2.c2</key>
-    <integer>-60</integer>
-    <key>public.kern2.e2</key>
-    <integer>-40</integer>
-    <key>public.kern2.j</key>
     <integer>-60</integer>
   </dict>
   <key>seven</key>
   <dict>
     <key>eight</key>
     <integer>-60</integer>
-    <key>public.kern2.B2</key>
-    <integer>-40</integer>
-    <key>public.kern2.J2</key>
-    <integer>-180</integer>
-    <key>public.kern2.a2</key>
-    <integer>-100</integer>
-    <key>public.kern2.at</key>
-    <integer>-60</integer>
     <key>public.kern2.c2</key>
-    <integer>-100</integer>
+    <integer>-60</integer>
   </dict>
   <key>t</key>
   <dict>
@@ -115,17 +47,11 @@
   </dict>
   <key>x</key>
   <dict>
-    <key>public.kern2.a2</key>
-    <integer>-20</integer>
     <key>public.kern2.c2</key>
-    <integer>-50</integer>
-    <key>public.kern2.e2</key>
-    <integer>-10</integer>
+    <integer>-60</integer>
   </dict>
   <key>public.kern1.A</key>
   <dict>
-    <key>V</key>
-    <integer>-190</integer>
     <key>public.kern2.T2</key>
     <integer>-160</integer>
     <key>public.kern2.W2</key>
@@ -153,19 +79,22 @@
   </dict>
   <key>public.kern1.D</key>
   <dict>
-    <key>V</key>
-    <integer>-40</integer>
     <key>public.kern2.W2</key>
     <integer>-20</integer>
     <key>public.kern2.Y2</key>
     <integer>-80</integer>
   </dict>
+  <key>public.kern1.F</key>
+  <dict>
+    <key>public.kern2.A2</key>
+    <integer>-80</integer>
+    <key>public.kern2.J2</key>
+    <integer>-180</integer>
+    <key>public.kern2.c2</key>
+    <integer>-10</integer>
+  </dict>
   <key>public.kern1.G</key>
   <dict>
-    <key>seven</key>
-    <integer>-40</integer>
-    <key>t</key>
-    <integer>20</integer>
     <key>public.kern2.Y2</key>
     <integer>-40</integer>
   </dict>
@@ -181,8 +110,6 @@
   </dict>
   <key>public.kern1.L</key>
   <dict>
-    <key>V</key>
-    <integer>-160</integer>
     <key>public.kern2.C2</key>
     <integer>-40</integer>
     <key>public.kern2.T2</key>
@@ -201,8 +128,6 @@
   </dict>
   <key>public.kern1.T</key>
   <dict>
-    <key>s</key>
-    <integer>-100</integer>
     <key>public.kern2.A2</key>
     <integer>-160</integer>
     <key>public.kern2.J2</key>
@@ -229,8 +154,6 @@
   </dict>
   <key>public.kern1.Y</key>
   <dict>
-    <key>s</key>
-    <integer>-140</integer>
     <key>public.kern2.A2</key>
     <integer>-200</integer>
     <key>public.kern2.C2</key>
@@ -252,10 +175,6 @@
   </dict>
   <key>public.kern1.a</key>
   <dict>
-    <key>V</key>
-    <integer>-40</integer>
-    <key>x</key>
-    <integer>-20</integer>
     <key>public.kern2.T2</key>
     <integer>-140</integer>
     <key>public.kern2.Y2</key>
@@ -283,10 +202,6 @@
   </dict>
   <key>public.kern1.e</key>
   <dict>
-    <key>s</key>
-    <integer>-10</integer>
-    <key>x</key>
-    <integer>-10</integer>
     <key>public.kern2.T2</key>
     <integer>-100</integer>
     <key>public.kern2.Y2</key>
@@ -297,6 +212,19 @@
     <integer>-20</integer>
     <key>public.kern2.v2</key>
     <integer>-20</integer>
+  </dict>
+  <key>public.kern1.f</key>
+  <dict>
+    <key>public.kern2.a2</key>
+    <integer>-20</integer>
+    <key>public.kern2.c2</key>
+    <integer>-80</integer>
+    <key>public.kern2.e2</key>
+    <integer>-20</integer>
+    <key>public.kern2.j</key>
+    <integer>-100</integer>
+    <key>public.kern2.m</key>
+    <integer>-40</integer>
   </dict>
   <key>public.kern1.g</key>
   <dict>
@@ -312,11 +240,17 @@
   <key>public.kern1.o</key>
   <dict>
     <key>V</key>
-    <integer>-100</integer>
+    <integer>-60</integer>
     <key>X</key>
     <integer>-60</integer>
+    <key>s</key>
+    <integer>-60</integer>
+    <key>seven</key>
+    <integer>-60</integer>
+    <key>t</key>
+    <integer>-60</integer>
     <key>x</key>
-    <integer>-50</integer>
+    <integer>-60</integer>
     <key>public.kern2.A2</key>
     <integer>-20</integer>
     <key>public.kern2.T2</key>
@@ -348,10 +282,6 @@
   </dict>
   <key>public.kern1.s</key>
   <dict>
-    <key>s</key>
-    <integer>-10</integer>
-    <key>t</key>
-    <integer>-10</integer>
     <key>public.kern2.T2</key>
     <integer>-100</integer>
     <key>public.kern2.Y2</key>
@@ -359,10 +289,6 @@
   </dict>
   <key>public.kern1.v</key>
   <dict>
-    <key>V</key>
-    <integer>-40</integer>
-    <key>s</key>
-    <integer>-20</integer>
     <key>public.kern2.A2</key>
     <integer>-120</integer>
     <key>public.kern2.J2</key>
