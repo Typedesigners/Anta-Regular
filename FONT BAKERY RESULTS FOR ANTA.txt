@@ -3,40 +3,8 @@ Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
 
 Installieren Sie die neueste PowerShell für neue Funktionen und Verbesserungen! https://aka.ms/PSWindows
 
-PS C:\Users\hello> fontbakery check-adobefonts -n "C:\Users\hello\Desktop\Anta-Regular.ttf"
+PS C:\WINDOWS\system32> fontbakery check-adobefonts -n "C:\Users\hello\Desktop\Anta-Regular.ttf"
 Start ... running 79 individual check executions.
- >> com.google.fonts/check/family/win_ascent_and_descent:adobefonts
-    Checking OS/2 usWinAscent & usWinDescent. (derived from com.google.fonts/check/family/win_ascent_and_descent)
-    with C:\Users\hello\Desktop\Anta-Regular.ttf
-
-      Rationale:
-
-      A font's winAscent and winDescent values should be greater than or equal
-      to the head table's yMax, abs(yMin) values. If they are less than these
-      values, clipping can occur on Windows platforms
-      (https://github.com/RedHatBrand/Overpass/issues/33).
-
-      If the font includes tall/deep writing systems such as Arabic or
-      Devanagari, the winAscent and winDescent can be greater than the yMax and
-      abs(yMin) to accommodate vowel marks.
-
-      When the win Metrics are significantly greater than the upm, the
-      linespacing can appear too loose. To counteract this, enabling the OS/2
-      fsSelection bit 7 (Use_Typo_Metrics), will force Windows to use the OS/2
-      typo values instead. This means the font developer can control the
-      linespacing with the typo values, whilst avoiding clipping by setting the
-      win values to values greater than the yMax and abs(yMin).
-
-
-     WARN OS/2.usWinAscent value should be equal or greater
-          than 1966, but got 1849 instead [code: ascent]
-
-     WARN OS/2.usWinDescent value should be equal or greater
-          than 534, but got 426 instead. [code: descent]
-
-
-    Result: WARN
-
  >> com.google.fonts/check/required_tables
     Font contains all required tables?
     with C:\Users\hello\Desktop\Anta-Regular.ttf
@@ -96,10 +64,10 @@ Total:
 
     ERROR: 0
     FAIL: 0
-    WARN: 1
+    WARN: 0
     INFO: 1
     SKIP: 29
-    PASS: 48
+    PASS: 49
 
 
 
@@ -147,4 +115,4 @@ DONE!
     (but other kinds of bug reports and/or
      feature requests are also always welcome, of course!)
 
-PS C:\Users\hello> fontbakery check-adobefonts -n "C:\Users\hello\Desktop\Anta-Regular.ttf"
+PS C:\WINDOWS\system32>
