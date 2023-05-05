@@ -4,14 +4,14 @@ FullName: Anta
 FamilyName: Anta
 Weight: Regular
 Copyright: Copyright (c) 2023 by Sergej Lebedev (info@typedesigner.de).
-Version: Version 1.0
+Version: Version 1.000
 ItalicAngle: 0
 UnderlinePosition: -540
 UnderlineWidth: 150
 Ascent: 1638
 Descent: 410
 InvalidEm: 0
-sfntRevision: 0x00000000
+sfntRevision: 0x00010000
 LayerCount: 2
 Layer: 0 0 "Hinten" 1
 Layer: 1 0 "Vorne" 0
@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1676747234
-ModificationTime: 1678624154
+ModificationTime: 1683290446
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -1353,7 +1353,7 @@ SplineSet
  351 1212 l 1
  351 211 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: C
@@ -1413,7 +1413,7 @@ SplineSet
  351 1212 l 1
  351 211 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: E
@@ -1472,7 +1472,7 @@ SplineSet
  1092 635 l 1
  471 635 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: G
@@ -1537,7 +1537,7 @@ SplineSet
  351 0 l 1
  140 0 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: I
@@ -1584,7 +1584,7 @@ SplineSet
  695 177 515 0 294 0 c 2
  40 0 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: K
@@ -1614,7 +1614,7 @@ SplineSet
  351 0 l 1
  140 0 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Kerns2: 86 -60 "'kern' Horizontale Unterschneidung in Lateinisch Nachschlagetabelle 0 Glyphen-Daten 0"
 EndChar
 
@@ -1732,7 +1732,7 @@ SplineSet
  446 1212 351 1127 351 1023 c 2
  351 399 l 2
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: P
@@ -1763,7 +1763,7 @@ SplineSet
  351 0 l 1
  140 0 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: Q
@@ -1979,7 +1979,7 @@ SplineSet
  317 0 l 1
  70 1422 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: X
@@ -2032,7 +2032,7 @@ SplineSet
  579 679 l 1
  40 1422 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: Z
@@ -2254,7 +2254,7 @@ SplineSet
  321 0 l 2
  205 0 110 95 110 211 c 2
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: c
@@ -2316,7 +2316,7 @@ SplineSet
  484 0 l 2
  278 0 110 167 110 372 c 2
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: e
@@ -2382,7 +2382,7 @@ SplineSet
  331 0 l 1
  120 0 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: g
@@ -2391,34 +2391,34 @@ GlifName: g
 Width: 1182
 GlyphClass: 2
 Flags: W
-HStem: -388 206<177 798.285> 0 210<374.411 731> 824 211<372.99 851>
-VStem: 110 211<262.082 773.452> 851 211<-125.01 824>
+HStem: -386 211<177 799.01> 0 211<374.411 731> 825 211<372.99 851>
+VStem: 110 211<262.082 774.452> 851 211<-121.836 825>
 AnchorPoint: "top" 591 1158 basechar 0
 LayerCount: 2
 Fore
 SplineSet
 110 373 m 2
- 110 663 l 2
- 110 868 278 1035 484 1035 c 2
- 851 1035 l 2
- 967 1035 1062 940 1062 824 c 2
- 1062 -14 l 2
- 1062 -220 894 -388 688 -388 c 2
- 177 -388 l 1
- 177 -182 l 1
- 690 -182 l 2
- 779 -182 851 -107 851 -15 c 2
- 851 824 l 1
- 484 824 l 2
- 394 824 321 751 321 661 c 2
+ 110 664 l 2
+ 110 869 278 1036 484 1036 c 2
+ 851 1036 l 2
+ 967 1036 1062 941 1062 825 c 2
+ 1062 -12 l 2
+ 1062 -218 894 -386 688 -386 c 2
+ 177 -386 l 1
+ 177 -175 l 1
+ 685 -175 l 2
+ 776.763975155 -175 851 -102.245508982 851 -13 c 2
+ 851 825 l 1
+ 484 825 l 2
+ 394 825 321 752 321 662 c 2
  321 375 l 2
- 321 284 394 210 484 210 c 2
- 731 210 l 1
+ 321 284.551515152 394 211 484 211 c 2
+ 731 211 l 1
  731 0 l 1
  484 0 l 2
  278 0 110 167 110 373 c 2
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: h
@@ -2447,7 +2447,7 @@ SplineSet
  331 0 l 1
  120 0 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: i
@@ -2473,7 +2473,7 @@ SplineSet
  332 0 l 1
  120 0 l 1xe8
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: j
@@ -2487,13 +2487,13 @@ VStem: 171 260<1221.25 1413.85> 199 211<-166.146 1036>
 LayerCount: 2
 Fore
 SplineSet
-40 -180 m 5xe8
- 187 -180 199 -171 199 -60 c 6
- 199 1036 l 5
- 410 1036 l 5
- 410 -60 l 6
- 410 -313 323 -391 40 -391 c 5
- 40 -180 l 5xe8
+40 -180 m 1xe8
+ 187 -180 199 -171 199 -60 c 2
+ 199 1036 l 1
+ 410 1036 l 1
+ 410 -60 l 2
+ 410 -313 323 -391 40 -391 c 1
+ 40 -180 l 1xe8
 171 1317 m 0xf0
  171 1389 230 1448 302 1448 c 0
  373 1448 431 1390 431 1317 c 0
@@ -2530,7 +2530,7 @@ SplineSet
  331 0 l 1
  120 0 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Kerns2: 86 -20 "'kern' Horizontale Unterschneidung in Lateinisch Nachschlagetabelle 0 Glyphen-Daten 0"
 EndChar
 
@@ -2590,7 +2590,7 @@ SplineSet
  331 0 l 1
  120 0 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: n
@@ -2653,7 +2653,7 @@ SplineSet
  394 825 321 751 321 660 c 2
  321 376 l 2
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Substitution2: "Einzelne Substitution Nachschlagetabelle 1 Subtabelle" ordmasculine
 Substitution2: "'aalt' Zugriff auf alle Alternativen in Lateinisch Nachschlagetabelle 0 Subtabelle" ordmasculine
 EndChar
@@ -2687,7 +2687,7 @@ SplineSet
  321 -386 l 1
  110 -386 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: q
@@ -2897,7 +2897,7 @@ SplineSet
  240 0 l 1
  60 1036 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: x
@@ -2948,7 +2948,7 @@ SplineSet
  441 34 l 1
  60 1036 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: z
@@ -2974,7 +2974,7 @@ SplineSet
  1065 0 l 1
  110 0 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: braceleft
@@ -3087,7 +3087,7 @@ EndChar
 StartChar: uni00A0
 Encoding: 98 160 98
 GlifName: uni00A_0
-Width: 750
+Width: 600
 GlyphClass: 2
 Flags: W
 LayerCount: 2
@@ -3386,42 +3386,42 @@ GlifName: copyright
 Width: 1277
 GlyphClass: 2
 Flags: W
-HStem: 366 127<318.044 958.956> 578 127<518.227 872> 1089 127<523.452 872> 1297 127<318.044 958.956>
-VStem: 140 127<544.044 1246.82> 373 128<722.366 1071.54> 1010 127<544.044 1246.82>
+HStem: 364 127<318.044 958.956> 576 127<518.227 872> 1087 127<523.452 872> 1295 127<318.044 958.956>
+VStem: 140 127<542.044 1244.82> 373 128<720.366 1069.54> 1010 127<542.044 1244.82>
 LayerCount: 2
 Fore
 SplineSet
-140 647 m 2
- 140 1144 l 2
- 140 1299 266 1424 421 1424 c 2
- 856 1424 l 2
- 1011 1424 1137 1299 1137 1144 c 2
- 1137 647 l 2
- 1137 492 1011 366 856 366 c 2
- 421 366 l 2
- 266 366 140 492 140 647 c 2
-267 647 m 2
- 267 562 336 493 421 493 c 2
- 856 493 l 2
- 941 493 1010 562 1010 647 c 2
- 1010 1144 l 2
- 1010 1228 941 1297 856 1297 c 2
- 421 1297 l 2
- 336 1297 267 1228 267 1144 c 2
- 267 647 l 2
-373 806 m 2
- 373 988 l 2
- 373 1114 476 1216 602 1216 c 2
- 872 1216 l 1
- 872 1089 l 1
- 602 1089 l 2
- 547 1089 501 1043 501 988 c 2
- 501 806 l 2
- 501 750 546 705 602 705 c 2
- 872 705 l 1
- 872 578 l 1
- 602 578 l 2
- 476 578 373 680 373 806 c 2
+140 645 m 2
+ 140 1142 l 2
+ 140 1297 266 1422 421 1422 c 2
+ 856 1422 l 2
+ 1011 1422 1137 1297 1137 1142 c 2
+ 1137 645 l 2
+ 1137 490 1011 364 856 364 c 2
+ 421 364 l 2
+ 266 364 140 490 140 645 c 2
+267 645 m 2
+ 267 560 336 491 421 491 c 2
+ 856 491 l 2
+ 941 491 1010 560 1010 645 c 2
+ 1010 1142 l 2
+ 1010 1226 941 1295 856 1295 c 2
+ 421 1295 l 2
+ 336 1295 267 1226 267 1142 c 2
+ 267 645 l 2
+373 804 m 2
+ 373 986 l 2
+ 373 1112 476 1214 602 1214 c 2
+ 872 1214 l 1
+ 872 1087 l 1
+ 602 1087 l 2
+ 547 1087 501 1041 501 986 c 2
+ 501 804 l 2
+ 501 748 546 703 602 703 c 2
+ 872 703 l 1
+ 872 576 l 1
+ 602 576 l 2
+ 476 576 373 678 373 804 c 2
 EndSplineSet
 Validated: 1
 EndChar
@@ -3532,48 +3532,48 @@ GlifName: registered
 Width: 1277
 GlyphClass: 2
 Flags: W
-HStem: 366 127<318.044 958.956> 825 127<515 576> 1092 124<515 744.966> 1297 127<318.044 958.956>
-VStem: 140 127<544.044 1246.82> 388 127<577 825 952 1092> 747 127<954.766 1090.74> 1010 127<544.044 1246.82>
+HStem: 364 127<318.044 958.956> 823 127<515 576> 1090 124<515 744.966> 1295 127<318.044 958.956>
+VStem: 140 127<542.044 1244.82> 388 127<575 823 950 1090> 747 127<952.766 1088.74> 1010 127<542.044 1244.82>
 LayerCount: 2
 Fore
 SplineSet
-140 647 m 2
- 140 1144 l 2
- 140 1299 266 1424 421 1424 c 2
- 856 1424 l 2
- 1011 1424 1137 1299 1137 1144 c 2
- 1137 647 l 2
- 1137 492 1011 366 856 366 c 2
- 421 366 l 2
- 266 366 140 492 140 647 c 2
-267 647 m 2
- 267 562 336 493 421 493 c 2
- 856 493 l 2
- 941 493 1010 562 1010 647 c 2
- 1010 1144 l 2
- 1010 1228 941 1297 856 1297 c 2
- 421 1297 l 2
- 336 1297 267 1228 267 1144 c 2
- 267 647 l 2
-388 577 m 1
- 388 1216 l 1
- 708 1216 l 2
- 798 1216 874 1138 874 1044 c 2
- 874 999 l 2
- 874 910 809 837 722 827 c 1
- 912 577 l 1
- 765 577 l 1
- 576 825 l 1
- 515 825 l 1
- 515 577 l 1
- 388 577 l 1
-515 952 m 1
- 708 952 l 2
- 729 952 747 973 747 999 c 2
- 747 1044 l 2
- 747 1070 729 1092 708 1092 c 2
- 515 1092 l 1
- 515 952 l 1
+140 645 m 2
+ 140 1142 l 2
+ 140 1297 266 1422 421 1422 c 2
+ 856 1422 l 2
+ 1011 1422 1137 1297 1137 1142 c 2
+ 1137 645 l 2
+ 1137 490 1011 364 856 364 c 2
+ 421 364 l 2
+ 266 364 140 490 140 645 c 2
+267 645 m 2
+ 267 560 336 491 421 491 c 2
+ 856 491 l 2
+ 941 491 1010 560 1010 645 c 2
+ 1010 1142 l 2
+ 1010 1226 941 1295 856 1295 c 2
+ 421 1295 l 2
+ 336 1295 267 1226 267 1142 c 2
+ 267 645 l 2
+388 575 m 1
+ 388 1214 l 1
+ 708 1214 l 2
+ 798 1214 874 1136 874 1042 c 2
+ 874 997 l 2
+ 874 908 809 835 722 825 c 1
+ 912 575 l 1
+ 765 575 l 1
+ 576 823 l 1
+ 515 823 l 1
+ 515 575 l 1
+ 388 575 l 1
+515 950 m 1
+ 708 950 l 2
+ 729 950 747 971 747 997 c 2
+ 747 1042 l 2
+ 747 1068 729 1090 708 1090 c 2
+ 515 1090 l 1
+ 515 950 l 1
 EndSplineSet
 Validated: 1
 EndChar
@@ -4094,6 +4094,7 @@ SplineSet
  1673 335 1581 427 1581 541 c 2
 EndSplineSet
 Validated: 1
+LCarets2: 2 0 0
 Ligature2: "Ligaturen Substitution Nachschlagetabelle 2 Subtabelle" threesuperior fraction four
 Ligature2: "Ligaturen Substitution Nachschlagetabelle 2 Subtabelle" threesuperior slash four
 Ligature2: "Ligaturen Substitution Nachschlagetabelle 2 Subtabelle" three fraction four
@@ -4260,7 +4261,7 @@ SplineSet
  1923 635 l 1
  1151 635 l 1xb8
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: Ccedilla
@@ -4595,7 +4596,7 @@ SplineSet
  1113 1048 1109 1070 1100 1089 c 1
  493 222 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: Ugrave
@@ -4885,7 +4886,7 @@ SplineSet
  484 0 l 2
  278 0 110 168 110 374 c 2
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: ccedilla
@@ -5029,8 +5030,8 @@ GlifName: eth
 Width: 1266
 GlyphClass: 2
 Flags: W
-HStem: 0 211<372.99 851> 825 211<374.411 731> 1217 206<321 796.991>
-VStem: 110 211<261.548 773.01> 851 211<211 1163.4>
+HStem: 0 211<372.99 851> 825 211<374.411 731> 1216 206<321 796.991>
+VStem: 110 211<261.548 773.01> 851 211<211 1162.4>
 LayerCount: 2
 Fore
 SplineSet
@@ -5044,16 +5045,16 @@ SplineSet
  321 374 l 2
  321 284 394 211 484 211 c 2
  851 211 l 1
- 851 1050 l 2
- 851 1142 779 1217 690 1217 c 2
- 321 1217 l 1
- 321 1423 l 1
- 688 1423 l 2
- 797 1423 899 1376 971 1293 c 1
- 1182 1415 l 1
- 1256 1288 l 1
- 1044 1165 l 1
- 1056 1131 1062 1091 1062 1049 c 2
+ 851 1049 l 2
+ 851 1141 779 1216 690 1216 c 2
+ 321 1216 l 1
+ 321 1422 l 1
+ 688 1422 l 2
+ 797 1422 899 1375 971 1292 c 1
+ 1182 1414 l 1
+ 1256 1287 l 1
+ 1044 1164 l 1
+ 1056 1130 1062 1090 1062 1048 c 2
  1062 211 l 2
  1062 95 967 0 851 0 c 2
  484 0 l 2
@@ -5224,7 +5225,7 @@ SplineSet
  873 686 868 710 857 732 c 1
  492 211 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: ugrave
@@ -5390,8 +5391,8 @@ GlifName: A_breve
 Width: 1361
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<40 272.26 1088.76 1321> 428 210<620 865> 1402 20G<541.841 819.159> 1544 134<571.464 790.536>
-VStem: 383 134<1732.97 1842> 845 134<1732.97 1842>
+HStem: 0 21G<40 272.26 1088.76 1321> 428 210<620 865> 1402 20G<541.841 819.159> 1546 134<571.464 790.536> 1824 20G<383 517 845 979>
+VStem: 383 134<1734.97 1844> 845 134<1734.97 1844>
 LayerCount: 2
 Fore
 Refer: 329 728 N 1 0 0 1 283 422 2
@@ -5405,8 +5406,8 @@ GlifName: abreve
 Width: 1182
 GlyphClass: 2
 Flags: W
-HStem: 0 211<374.411 731> 825 211<372.99 851> 1158 134<481.464 700.536>
-VStem: 110 211<262.99 774.452> 293 134<1346.97 1456> 755 134<1346.97 1456> 851 211<0 825>
+HStem: 0 211<374.411 731> 825 211<372.99 851> 1160 134<481.464 700.536> 1438 20G<293 427 755 889>
+VStem: 110 211<262.99 774.452> 293 134<1348.97 1458> 755 134<1348.97 1458> 851 211<0 825>
 LayerCount: 2
 Fore
 Refer: 329 728 N 1 0 0 1 193 36 2
@@ -5706,8 +5707,8 @@ GlifName: E_breve
 Width: 1363
 GlyphClass: 2
 Flags: W
-HStem: 0 211<351 1243> 635 210<471 1243> 1212 210<351 1243> 1544 134<568.464 787.536>
-VStem: 140 211<211 1212> 380 134<1732.97 1842> 842 134<1732.97 1842>
+HStem: 0 211<351 1243> 635 210<471 1243> 1212 210<351 1243> 1546 134<568.464 787.536> 1824 20G<380 514 842 976>
+VStem: 140 211<211 1212> 380 134<1734.97 1844> 842 134<1734.97 1844>
 LayerCount: 2
 Fore
 Refer: 329 728 N 1 0 0 1 280 422 2
@@ -5721,8 +5722,8 @@ GlifName: ebreve
 Width: 1182
 GlyphClass: 2
 Flags: W
-HStem: 0 211<344.558 999> 408 210<451 847.68> 825 211<335.298 847.68> 1158 134<481.464 700.536>
-VStem: 120 211<219.135 825> 293 134<1346.97 1456> 755 134<1346.97 1456> 862 210<631.719 810.145>
+HStem: 0 211<344.558 999> 408 210<451 847.68> 825 211<335.298 847.68> 1160 134<481.464 700.536> 1438 20G<293 427 755 889>
+VStem: 120 211<219.135 825> 293 134<1348.97 1458> 755 134<1348.97 1458> 862 210<631.719 810.145>
 LayerCount: 2
 Fore
 Refer: 329 728 N 1 0 0 1 193 36 2
@@ -5842,8 +5843,8 @@ GlifName: gcircumflex
 Width: 1182
 GlyphClass: 2
 Flags: W
-HStem: -388 206<177 798.285> 0 210<374.411 731> 824 211<372.99 851> 1157 309
-VStem: 110 211<262.082 773.452> 280 623 851 211<-125.01 824>
+HStem: -386 211<177 799.01> 0 211<374.411 731> 825 211<372.99 851> 1157 309
+VStem: 110 211<262.082 774.452> 280 623 851 211<-121.836 825>
 LayerCount: 2
 Fore
 Refer: 327 710 N 1 0 0 1 180 44 2
@@ -5857,8 +5858,8 @@ GlifName: G_breve
 Width: 1421
 GlyphClass: 2
 Flags: W
-HStem: 0 210<408.361 1012.64> 585 210<704 1090> 1212 210<408.361 1217> 1544 134<600.464 819.536>
-VStem: 120 211<290.465 1131.54> 412 134<1732.97 1842> 874 134<1732.97 1842> 1090 211<290.465 585>
+HStem: 0 210<408.361 1012.64> 585 210<704 1090> 1212 210<408.361 1217> 1546 134<600.464 819.536> 1824 20G<412 546 874 1008>
+VStem: 120 211<290.465 1131.54> 412 134<1734.97 1844> 874 134<1734.97 1844> 1090 211<290.465 585>
 LayerCount: 2
 Fore
 Refer: 329 728 N 1 0 0 1 312 422 2
@@ -5872,8 +5873,8 @@ GlifName: gbreve
 Width: 1182
 GlyphClass: 2
 Flags: W
-HStem: -388 206<177 798.285> 0 210<374.411 731> 824 211<372.99 851> 1158 134<481.464 700.536>
-VStem: 110 211<262.082 773.452> 293 134<1346.97 1456> 755 134<1346.97 1456> 851 211<-125.01 824>
+HStem: -386 211<177 799.01> 0 211<374.411 731> 825 211<372.99 851> 1160 134<481.464 700.536> 1438 20G<293 427 755 889>
+VStem: 110 211<262.082 774.452> 293 134<1348.97 1458> 755 134<1348.97 1458> 851 211<-121.836 825>
 LayerCount: 2
 Fore
 Refer: 329 728 N 1 0 0 1 193 36 2
@@ -5902,8 +5903,8 @@ GlifName: gdotaccent
 Width: 1182
 GlyphClass: 2
 Flags: W
-HStem: -388 206<177 798.285> 0 210<374.411 731> 824 211<372.99 851> 1158 221<502.141 679.22>
-VStem: 110 211<262.082 773.452> 480 221<1179.78 1357.15> 851 211<-125.01 824>
+HStem: -386 211<177 799.01> 0 211<374.411 731> 825 211<372.99 851> 1158 221<502.141 679.22>
+VStem: 110 211<262.082 774.452> 480 221<1179.78 1357.15> 851 211<-121.836 825>
 LayerCount: 2
 Fore
 Refer: 330 729 N 1 0 0 1 385 -54 2
@@ -5932,8 +5933,8 @@ GlifName: uni0123
 Width: 1182
 GlyphClass: 2
 Flags: W
-HStem: -388 206<177 798.285> 0 210<374.411 731> 824 211<372.99 851> 1158 422
-VStem: 110 211<262.082 773.452> 430 312 851 211<-125.01 824>
+HStem: -386 211<177 799.01> 0 211<374.411 731> 825 211<372.99 851> 1158 422
+VStem: 110 211<262.082 774.452> 430 312 851 211<-121.836 825>
 CounterMasks: 1 0e
 LayerCount: 2
 Fore
@@ -6089,7 +6090,7 @@ HStem: 0 21G<140 351> 1402 20G<140 351> 1544 147<-54 543>
 VStem: -54 597<1544 1691> 140 211<0 1422>
 LayerCount: 2
 Fore
-Refer: 113 175 N 1 0 0 1 -174 269 2
+Refer: 397 772 N 1 0 0 1 -174 269 2
 Refer: 44 73 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -6104,7 +6105,7 @@ HStem: 0 21G<127 338> 1016 20G<127 338> 1158 147<-67 530>
 VStem: -67 597<1158 1305> 127 211<0 1036>
 LayerCount: 2
 Fore
-Refer: 113 175 N 1 0 0 1 -187 -117 2
+Refer: 397 772 N 1 0 0 1 -187 -117 2
 Refer: 243 305 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -6115,11 +6116,11 @@ GlifName: I_breve
 Width: 491
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<140 351> 1402 20G<140 351> 1544 134<135.464 354.536>
+HStem: 0 21G<140 351> 1402 20G<140 351> 1544 134<135.464 354.536> 1822 20G<-53 81 409 543>
 VStem: -53 134<1732.97 1842> 140 211<0 1422> 409 134<1732.97 1842>
 LayerCount: 2
 Fore
-Refer: 329 728 N 1 0 0 1 -153 422 2
+Refer: 329 728 N 1 0 0 1 -153 420 2
 Refer: 44 73 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -6130,11 +6131,11 @@ GlifName: ibreve
 Width: 465
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<127 338> 1016 20G<127 338> 1158 134<122.464 341.536>
+HStem: 0 21G<127 338> 1016 20G<127 338> 1158 134<122.464 341.536> 1436 20G<-66 68 396 530>
 VStem: -66 134<1346.97 1456> 127 211<0 1036> 396 134<1346.97 1456>
 LayerCount: 2
 Fore
-Refer: 329 728 N 1 0 0 1 -166 36 2
+Refer: 329 728 N 1 0 0 1 -166 34 2
 Refer: 243 305 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -6212,7 +6213,7 @@ SplineSet
  338 0 l 1
  127 0 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: IJ
@@ -6311,14 +6312,14 @@ GlifName: kgreenlandic
 Width: 1123
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<120 331 778.607 1093> 1016 20G<758.108 1051>
-VStem: 120 211<0 428 639 1038>
+HStem: 0 21G<120 331 778.607 1093> 1016 20G<120 331 758.108 1051>
+VStem: 120 211<0 428 639 1036>
 LayerCount: 2
 Fore
 SplineSet
 120 0 m 1
- 120 1038 l 1
- 331 1038 l 1
+ 120 1036 l 1
+ 331 1036 l 1
  331 639 l 1
  402 639 l 1
  777 1036 l 1
@@ -6732,8 +6733,8 @@ GlifName: O_breve
 Width: 1461
 GlyphClass: 2
 Flags: W
-HStem: 0 210<428.361 1032.64> 1212 210<428.361 1032.64> 1544 134<621.464 840.536>
-VStem: 140 211<290.465 1131.54> 433 134<1732.97 1842> 895 134<1732.97 1842> 1110 211<290.465 1131.54>
+HStem: 0 210<428.361 1032.64> 1212 210<428.361 1032.64> 1546 134<621.464 840.536> 1824 20G<433 567 895 1029>
+VStem: 140 211<290.465 1131.54> 433 134<1734.97 1844> 895 134<1734.97 1844> 1110 211<290.465 1131.54>
 LayerCount: 2
 Fore
 Refer: 329 728 N 1 0 0 1 333 422 2
@@ -6747,8 +6748,8 @@ GlifName: obreve
 Width: 1194
 GlyphClass: 2
 Flags: W
-HStem: 0 211<374.411 819.589> 825 211<374.411 819.589> 1158 134<487.464 706.536>
-VStem: 110 211<262.99 773.01> 299 134<1346.97 1456> 761 134<1346.97 1456> 873 211<262.99 773.01>
+HStem: 0 211<374.411 819.589> 825 211<374.411 819.589> 1160 134<487.464 706.536> 1438 20G<299 433 761 895>
+VStem: 110 211<262.99 773.01> 299 134<1348.97 1458> 761 134<1348.97 1458> 873 211<262.99 773.01>
 LayerCount: 2
 Fore
 Refer: 329 728 N 1 0 0 1 199 36 2
@@ -6830,7 +6831,7 @@ SplineSet
  2213 635 l 1
  1441 635 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: oe
@@ -6881,7 +6882,7 @@ SplineSet
  407 826 321 753 321 663 c 2
  321 373 l 2
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: Racute
@@ -7047,8 +7048,8 @@ Fore
 Refer: 122 184 N 1 0 0 1 413 6 2
 Refer: 54 83 N 1 0 0 1 0 0 3
 Validated: 5
-Substitution2: "'locl' Lokalisierte Formen in Lateinisch Nachschlagetabelle 10 Subtabelle" uni0218
-Substitution2: "'locl' Lokalisierte Formen in Lateinisch Nachschlagetabelle 9 Subtabelle" uni0218
+Substitution2: "'locl' Lokalisierte Formen in Lateinisch Nachschlagetabelle 10 Subtabelle" Scommaaccent
+Substitution2: "'locl' Lokalisierte Formen in Lateinisch Nachschlagetabelle 9 Subtabelle" Scommaaccent
 EndChar
 
 StartChar: scedilla
@@ -7301,8 +7302,8 @@ GlifName: U_breve
 Width: 1438
 GlyphClass: 2
 Flags: W
-HStem: 0 211<424.445 1014.09> 1402 20G<140 351 1088 1298> 1544 134<608.464 827.536>
-VStem: 140 211<279.344 1422> 420 134<1732.97 1842> 882 134<1732.97 1842> 1088 210<279.344 1422>
+HStem: 0 211<424.445 1014.09> 1402 20G<140 351 1088 1298> 1546 134<608.464 827.536> 1824 20G<420 554 882 1016>
+VStem: 140 211<279.344 1422> 420 134<1734.97 1844> 882 134<1734.97 1844> 1088 210<279.344 1422>
 LayerCount: 2
 Fore
 Refer: 329 728 N 1 0 0 1 320 422 2
@@ -7316,8 +7317,8 @@ GlifName: ubreve
 Width: 1192
 GlyphClass: 2
 Flags: W
-HStem: 0 209<384.411 861> 1016 20G<120 331 861 1072> 1158 134<486.464 705.536>
-VStem: 120 211<262.99 1036> 298 134<1346.97 1456> 760 134<1346.97 1456> 861 211<209 1036>
+HStem: 0 209<384.411 861> 1016 20G<120 331 861 1072> 1160 134<486.464 705.536> 1438 20G<298 432 760 894>
+VStem: 120 211<262.99 1036> 298 134<1348.97 1458> 760 134<1348.97 1458> 861 211<209 1036>
 LayerCount: 2
 Fore
 Refer: 329 728 N 1 0 0 1 198 36 2
@@ -7692,7 +7693,7 @@ SplineSet
  410 -313.085143998 322.904843744 -391 40 -391 c 1
  40 -180 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: circumflex
@@ -7749,19 +7750,19 @@ GlifName: breve
 Width: 796
 GlyphClass: 2
 Flags: W
-HStem: 1122 134<288.464 507.536>
-VStem: 100 134<1310.97 1420> 562 134<1310.97 1420>
-AnchorPoint: "top" 398 1122 mark 0
+HStem: 1124 134<288.464 507.536> 1402 20G<100 234 562 696>
+VStem: 100 134<1312.97 1422> 562 134<1312.97 1422>
+AnchorPoint: "top" 398 1124 mark 0
 LayerCount: 2
 Fore
 SplineSet
-100 1420 m 5
- 234 1420 l 5
- 234 1330 308 1256 398 1256 c 4
- 488 1256 562 1330 562 1420 c 5
- 696 1420 l 5
- 696 1256 562 1122 398 1122 c 4
- 234 1122 100 1256 100 1420 c 5
+100 1422 m 1
+ 234 1422 l 1
+ 234 1332 308 1258 398 1258 c 0
+ 488 1258 562 1332 562 1422 c 1
+ 696 1422 l 1
+ 696 1258 562 1124 398 1124 c 0
+ 234 1124 100 1258 100 1422 c 1
 EndSplineSet
 Validated: 1
 EndChar
@@ -7778,11 +7779,11 @@ AnchorPoint: "top" 206 1212 mark 0
 LayerCount: 2
 Fore
 SplineSet
-95 1322 m 4
- 95 1384 144 1433 206 1433 c 4
- 267 1433 316 1384 316 1322 c 4
- 316 1261 267 1212 206 1212 c 4
- 145 1212 95 1261 95 1322 c 4
+95 1322 m 0
+ 95 1384 144 1433 206 1433 c 0
+ 267 1433 316 1384 316 1322 c 0
+ 316 1261 267 1212 206 1212 c 0
+ 145 1212 95 1261 95 1322 c 0
 EndSplineSet
 Validated: 1
 EndChar
@@ -8177,7 +8178,7 @@ SplineSet
  258 -202 l 1
  100 -202 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: quotedblleft
@@ -8595,8 +8596,8 @@ GlifName: partialdiff
 Width: 1182
 GlyphClass: 2
 Flags: W
-HStem: 0 211<372.99 851> 825 211<374.411 731> 1217 206<321 798.285>
-VStem: 110 211<261.548 773.01> 851 211<211 1160.01>
+HStem: 0 211<372.99 851> 825 211<374.411 731> 1210 212<321 799.01>
+VStem: 110 211<261.548 773.01> 851 211<211 1159.01>
 LayerCount: 2
 Fore
 SplineSet
@@ -8610,12 +8611,12 @@ SplineSet
  321 374 l 2
  321 284 394 211 484 211 c 2
  851 211 l 1
- 851 1050 l 2
- 851 1142 779 1217 690 1217 c 2
- 321 1217 l 1
- 321 1423 l 1
- 688 1423 l 2
- 894 1423 1062 1255 1062 1049 c 2
+ 851 1049 l 2
+ 851 1137.69461078 779 1210 690 1210 c 2
+ 321 1210 l 1
+ 321 1422 l 1
+ 688 1422 l 2
+ 894 1422 1062 1254 1062 1048 c 2
  1062 211 l 2
  1062 95 967 0 851 0 c 2
  484 0 l 2
@@ -8971,19 +8972,19 @@ StartChar: brevecomb
 Encoding: 387 774 387
 Width: 796
 Flags: W
-HStem: 1122 134<288.464 507.536>
-VStem: 100 134<1310.97 1420> 562 134<1310.97 1420>
-AnchorPoint: "top" 398 1122 mark 0
+HStem: 1124 134<288.464 507.536> 1402 20G<100 234 562 696>
+VStem: 100 134<1312.97 1422> 562 134<1312.97 1422>
+AnchorPoint: "top" 398 1124 mark 0
 LayerCount: 2
 Fore
 SplineSet
-100 1420 m 5
- 234 1420 l 5
- 234 1330 308 1256 398 1256 c 4
- 488 1256 562 1330 562 1420 c 5
- 696 1420 l 5
- 696 1256 562 1122 398 1122 c 4
- 234 1122 100 1256 100 1420 c 5
+100 1422 m 1
+ 234 1422 l 1
+ 234 1332 308 1258 398 1258 c 0
+ 488 1258 562 1332 562 1422 c 1
+ 696 1422 l 1
+ 696 1258 562 1124 398 1124 c 0
+ 234 1124 100 1258 100 1422 c 1
 EndSplineSet
 Validated: 1
 EndChar
@@ -9158,15 +9159,15 @@ VStem: 128 151<-227.5 -3.81457>
 LayerCount: 2
 Fore
 SplineSet
-128 -183 m 4
- 128 -136 142 -75 170 0 c 5
- 318 0 l 5
- 286 -89 279 -112 279 -132 c 4
- 279 -154 290 -163 320 -163 c 4
- 337 -163 348 -162 430 -149 c 5
- 430 -297 l 5
- 342 -310 313 -313 280 -313 c 4
- 176 -313 128 -272 128 -183 c 4
+128 -183 m 0
+ 128 -136 142 -75 170 0 c 1
+ 318 0 l 1
+ 286 -89 279 -112 279 -132 c 0
+ 279 -154 290 -163 320 -163 c 0
+ 337 -163 348 -162 430 -149 c 1
+ 430 -297 l 1
+ 342 -310 313 -313 280 -313 c 0
+ 176 -313 128 -272 128 -183 c 0
 EndSplineSet
 Validated: 1
 EndChar
@@ -9274,11 +9275,11 @@ AnchorPoint: "top" 206 1212 mark 0
 LayerCount: 2
 Fore
 SplineSet
-95 1322 m 4
- 95 1384 144 1433 206 1433 c 4
- 267 1433 316 1384 316 1322 c 4
- 316 1261 267 1212 206 1212 c 4
- 145 1212 95 1261 95 1322 c 4
+95 1322 m 0
+ 95 1384 144 1433 206 1433 c 0
+ 267 1433 316 1384 316 1322 c 0
+ 316 1261 267 1212 206 1212 c 0
+ 145 1212 95 1261 95 1322 c 0
 EndSplineSet
 Validated: 1
 EndChar
