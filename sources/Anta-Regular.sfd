@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1676747234
-ModificationTime: 1683305910
+ModificationTime: 1683718961
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -6763,11 +6763,11 @@ GlifName: O_hungarumlaut
 Width: 1461
 GlyphClass: 2
 Flags: W
-HStem: 0 210<428.361 1032.64> 1212 210<428.361 1032.64> 1544 271<650 656 947 953>
-VStem: 140 211<290.465 1131.54> 510 614 1110 211<290.465 1131.54>
+HStem: 0 210<428.361 1032.64> 1212 210<428.361 1032.64> 1544 422
+VStem: 140 211<290.465 1131.54> 1110 211<290.465 1131.54>
 LayerCount: 2
 Fore
-Refer: 334 733 N 1 0 0 1 410 393 2
+Refer: 392 779 N 1 0 0 1 326.5 374 2
 Refer: 50 79 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -6777,14 +6777,13 @@ Encoding: 275 337 275
 GlifName: ohungarumlaut
 Width: 1194
 GlyphClass: 2
-Flags: W
-HStem: 0 211<374.411 819.589> 825 211<374.411 819.589> 1158 271<516 522 813 819>
-VStem: 110 211<262.99 773.01> 376 614 873 211<262.99 773.01>
+Flags: HW
+HStem: 0 211<374.411 819.589> 825 211<374.411 819.589> 1158 422
+VStem: 110 211<262.99 773.01> 873 211<262.99 773.01>
 LayerCount: 2
 Fore
-Refer: 334 733 N 1 0 0 1 276 7 2
+Refer: 392 779 N 1 0 0 1 193 -12 2
 Refer: 82 111 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: OE
@@ -7362,11 +7361,11 @@ GlifName: U_hungarumlaut
 Width: 1438
 GlyphClass: 2
 Flags: W
-HStem: 0 211<424.445 1014.09> 1402 20G<140 351 1088 1298> 1544 271<637 643 934 940>
-VStem: 140 211<279.344 1422> 497 614 1088 210<279.344 1422>
+HStem: 0 211<424.445 1014.09> 1402 20G<140 351 1088 1298> 1544 422
+VStem: 140 211<279.344 1422> 1088 210<279.344 1422>
 LayerCount: 2
 Fore
-Refer: 334 733 N 1 0 0 1 397 393 2
+Refer: 392 779 N 1 0 0 1 315 374 2
 Refer: 56 85 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -7377,11 +7376,11 @@ GlifName: uhungarumlaut
 Width: 1192
 GlyphClass: 2
 Flags: W
-HStem: 0 209<384.411 861> 1016 20G<120 331 861 1072> 1158 271<515 521 812 818>
-VStem: 120 211<262.99 1036> 375 614 861 211<209 1036>
+HStem: 0 209<384.411 861> 1016 20G<120 331 861 1072> 1158 422
+VStem: 120 211<262.99 1036> 861 211<209 1036>
 LayerCount: 2
 Fore
-Refer: 334 733 N 1 0 0 1 275 7 2
+Refer: 392 779 N 1 0 0 1 192 -12 2
 Refer: 88 117 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -7877,25 +7876,24 @@ EndChar
 StartChar: hungarumlaut
 Encoding: 334 733 334
 GlifName: hungarumlaut
-Width: 814
+Width: 892
 GlyphClass: 2
 Flags: W
-HStem: 1151 271<240 246 537 543>
-VStem: 100 614
-AnchorPoint: "top" 321 1151 mark 0
+HStem: 1170 422
+AnchorPoint: "top" 446 1170 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-100 1151 m 1
- 240 1422 l 1
- 417 1422 l 1
- 246 1151 l 1
- 100 1151 l 1
-397 1151 m 1
- 537 1422 l 1
- 714 1422 l 1
- 543 1151 l 1
- 397 1151 l 1
+100 1223 m 1
+ 229 1592 l 1
+ 412 1504 l 1
+ 214 1170 l 1
+ 100 1223 l 1
+480 1223 m 1
+ 609 1592 l 1
+ 792 1504 l 1
+ 594 1170 l 1
+ 480 1223 l 1
 EndSplineSet
 Validated: 1
 EndChar
@@ -8752,13 +8750,13 @@ EndChar
 StartChar: Scommaaccent
 Encoding: 369 536 369
 Width: 1399
+Flags: H
 HStem: -408 414<594 677> 0 211<121 1030.96> 635 210<368.012 1030.96> 1212 210<376.347 1209>
 VStem: 120 211<880.71 1172.18> 519 287 1068 211<250.742 594.258>
 LayerCount: 2
 Fore
 Refer: 337 806 N 1 0 0 1 419 -206 2
 Refer: 54 83 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: uni0219
@@ -9088,23 +9086,23 @@ EndChar
 
 StartChar: uni030B
 Encoding: 392 779 392
-Width: 814
+Width: 892
 Flags: W
-HStem: 1151 271<240 246 537 543>
-VStem: 100 614
+HStem: 1170 422
+AnchorPoint: "top" 446 1170 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-100 1151 m 1
- 240 1422 l 1
- 417 1422 l 1
- 246 1151 l 1
- 100 1151 l 1
-397 1151 m 1
- 537 1422 l 1
- 714 1422 l 1
- 543 1151 l 1
- 397 1151 l 1
+100 1223 m 1
+ 229 1592 l 1
+ 412 1504 l 1
+ 214 1170 l 1
+ 100 1223 l 1
+480 1223 m 1
+ 609 1592 l 1
+ 792 1504 l 1
+ 594 1170 l 1
+ 480 1223 l 1
 EndSplineSet
 Validated: 1
 EndChar
