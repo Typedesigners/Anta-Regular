@@ -31,7 +31,7 @@ diffenator2==0.3.7
 docopt==0.6.2
 drawbot-skia==0.5.0
 font-v==2.1.0
--e git+ssh://git@github.com/m4rc1e/fontbakery.git@e8c7c12593fa15dff5923e42e2389c4c317e67ad#egg=fontbakery
+fontbakery==0.10.9
 fontFeatures==1.8.0
 fontmake==3.7.2
 fontMath==0.9.3
