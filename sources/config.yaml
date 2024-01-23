@@ -2,4 +2,4 @@ sources:
   - Anta-Regular.glyphs
 familyName: Anta
 buildVariable: False
-
+autohintOTF: False
